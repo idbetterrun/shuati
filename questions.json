@@ -1,0 +1,2484 @@
+[
+  {
+    "id": 0,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The balance of payments records:",
+    "options": [
+      {
+        "label": "A",
+        "text": "All value flows between residents of a country and non-residents during a period"
+      },
+      {
+        "label": "B",
+        "text": "Trade between a country’s government and foreign governments"
+      },
+      {
+        "label": "C",
+        "text": "Domestic financial transactions of a country"
+      },
+      {
+        "label": "D",
+        "text": "The quantity of imported and exported goods of a country"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "国际收支平衡表记录的是特定时期内，一国**居民**与**非居民**之间发生的所有经济价值流量。这是一个典型的**流量（Flow）**概念。"
+  },
+  {
+    "id": 1,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The goods and services balance is often called:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capital account balance"
+      },
+      {
+        "label": "B",
+        "text": "Trade balance"
+      },
+      {
+        "label": "C",
+        "text": "Official reserve balance"
+      },
+      {
+        "label": "D",
+        "text": "Financial account balance"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "货物与服务差额通常被通称为**贸易差额（Trade balance）**，是经常账户中最核心、最受关注的组成部分。"
+  },
+  {
+    "id": 2,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The international investment position is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A flow concept"
+      },
+      {
+        "label": "B",
+        "text": "A stock concept"
+      },
+      {
+        "label": "C",
+        "text": "Only records trade"
+      },
+      {
+        "label": "D",
+        "text": "Only records capital flows"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "**国际收支（BOP）** 记录的是一段时间内的交易，是**流量**；而**国际投资头寸（IIP）** 记录的是某一特定时点上一国对外资产负债的整体状况，属于**存量（Stock）**。"
+  },
+  {
+    "id": 3,
+    "source": "国际金融",
+    "type": "single",
+    "question": "In double-entry bookkeeping for the balance of payments, a credit item (+) represents:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Items for which the country makes payments abroad"
+      },
+      {
+        "label": "B",
+        "text": "Items for which the country receives payments from abroad"
+      },
+      {
+        "label": "C",
+        "text": "An increase in official reserves"
+      },
+      {
+        "label": "D",
+        "text": "Goods imports"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "在 BOP 记账中，**贷方（Credit, +）** 始终代表**资金流入**（本国收到来自境外的款项，例如出口、外资流入）。"
+  },
+  {
+    "id": 4,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The balance of payments uses double-entry bookkeeping, so the overall balance is always equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current account balance"
+      },
+      {
+        "label": "B",
+        "text": "Financial account balance"
+      },
+      {
+        "label": "C",
+        "text": "Zero"
+      },
+      {
+        "label": "D",
+        "text": "Changes in official reserves"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "因为每一笔交易都是等额的借贷双向记录（有借必有贷），在计入误差与遗漏项之后，BOP 账面的净整体平衡（Overall balance）在逻辑上永远**等于零（Zero）**。"
+  },
+  {
+    "id": 5,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Each transaction in the balance of payments corresponds to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only one credit entry"
+      },
+      {
+        "label": "B",
+        "text": "Only one debit entry"
+      },
+      {
+        "label": "C",
+        "text": "One equal debit and one equal credit entry"
+      },
+      {
+        "label": "D",
+        "text": "Only statistical amount"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "每一笔国际经济交易都必然对应**一个等额的借方分录和一个等额的贷方分录**。"
+  },
+  {
+    "id": 6,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which of the following belongs to the current account?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign direct investment"
+      },
+      {
+        "label": "B",
+        "text": "Portfolio investment"
+      },
+      {
+        "label": "C",
+        "text": "Tourism service receipts and payments"
+      },
+      {
+        "label": "D",
+        "text": "Changes in official foreign exchange reserves"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "**旅游服务收支（Tourism services）** 属于经常账户中的服务贸易。A、B属于金融账户，D属于官方储备。"
+  },
+  {
+    "id": 7,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which of the following belongs to the financial account (excluding official reserves)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dividend income from overseas investments"
+      },
+      {
+        "label": "B",
+        "text": "Unilateral foreign aid"
+      },
+      {
+        "label": "C",
+        "text": "Foreign direct investment in the home country"
+      },
+      {
+        "label": "D",
+        "text": "Goods exports"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "**外商直接投资（FDI）** 涉及跨境资本资产所有权的变更，属于金融账户。注意：A（股息）属于经常账户的初次收入。"
+  },
+  {
+    "id": 8,
+    "source": "国际金融",
+    "type": "single",
+    "question": "When a domestic resident buys foreign company stocks, it should be recorded in the balance of payments as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Credit, current account"
+      },
+      {
+        "label": "B",
+        "text": "Debit, current account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, financial account"
+      },
+      {
+        "label": "D",
+        "text": "Credit, financial account"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "购买外国股票是证券投资，属于**金融账户（Financial account）**；此交易导致本国资金外流，应记入**借方（Debit）**。"
+  },
+  {
+    "id": 9,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Foreign residents’ tourism spending in the home country belongs to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Debit, current account"
+      },
+      {
+        "label": "B",
+        "text": "Credit, current account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, financial account"
+      },
+      {
+        "label": "D",
+        "text": "An increase in official reserves"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "境外居民来华旅游消费属于我国的服务出口，归于**经常账户（Current account）**；由于带来外汇资金流入，记入**贷方（Credit）**。"
+  },
+  {
+    "id": 10,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Unilateral foreign aid provided by the home country should be recorded as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Debit, unilateral transfers, current account"
+      },
+      {
+        "label": "B",
+        "text": "Credit, unilateral transfers, current account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, financial account"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in official reserves"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "单方面无偿援助属于经常转移（二次收入），计入**经常账户（Current account）**；作为资源的净流出，记入**借方（Debit）**。"
+  },
+  {
+    "id": 11,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Investment income (dividends, interest) should be recorded in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current account"
+      },
+      {
+        "label": "B",
+        "text": "Financial account"
+      },
+      {
+        "label": "C",
+        "text": "Official reserves"
+      },
+      {
+        "label": "D",
+        "text": "Statistical discrepancy"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "核心易错点：虽然资本本金在金融账户，但由资本派生出来的**投资收益（股息、利息）**必须记录在**经常账户（Current account）**的初次收入中。"
+  },
+  {
+    "id": 12,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Foreign investors buying domestic government bonds belongs to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Credit, current account"
+      },
+      {
+        "label": "B",
+        "text": "Credit, financial account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, current account"
+      },
+      {
+        "label": "D",
+        "text": "An increase in official reserves"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "购买本国国债属于证券投资负债增加，计入**金融账户（Financial account）**；外资流入本国，记入**贷方（Credit）**。"
+  },
+  {
+    "id": 13,
+    "source": "国际金融",
+    "type": "single",
+    "question": "A current account deficit means the country is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A net international lender"
+      },
+      {
+        "label": "B",
+        "text": "A net international borrower"
+      },
+      {
+        "label": "C",
+        "text": "Increasing official reserves"
+      },
+      {
+        "label": "D",
+        "text": "Having exports greater than imports"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经常账户出现逆差（Deficit），意味着该国入不敷出，需要通过向海外借债或者出卖国内金融资产来平衡，因此它在国际上是**净借入者（Net international borrower）**。"
+  },
+  {
+    "id": 14,
+    "source": "国际金融",
+    "type": "single",
+    "question": "A current account surplus means the country:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases net foreign liabilities"
+      },
+      {
+        "label": "B",
+        "text": "Is a net international lender"
+      },
+      {
+        "label": "C",
+        "text": "Has imports greater than exports"
+      },
+      {
+        "label": "D",
+        "text": "Has domestic savings less than investment"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经常账户出现顺差（Surplus），说明贸易和收入获得净流入，有多余的资金向境外投资或放贷，因此是**净贷出者（Net international lender）**。"
+  },
+  {
+    "id": 15,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Official international reserve assets do NOT include:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gold"
+      },
+      {
+        "label": "B",
+        "text": "Freely convertible foreign currencies"
+      },
+      {
+        "label": "C",
+        "text": "Domestic currency"
+      },
+      {
+        "label": "D",
+        "text": "Special Drawing Rights (SDRs)"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "官方储备必须是中央银行持有的、可以直接用于国际清算和干预市场的**境外资产**。**本国货币（Domestic currency）**无法充当本国的国际储备。"
+  },
+  {
+    "id": 16,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which of the following is an official international reserve asset?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign currency deposits held by domestic enterprises"
+      },
+      {
+        "label": "B",
+        "text": "Gold held by the central bank"
+      },
+      {
+        "label": "C",
+        "text": "Foreign direct investment"
+      },
+      {
+        "label": "D",
+        "text": "Overseas portfolio investment"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "只有**中央银行持有的黄金（Monetary Gold）**或外汇才是官方储备。民间企业或个人的资产不能算作官方储备。"
+  },
+  {
+    "id": 17,
+    "source": "国际金融",
+    "type": "single",
+    "question": "An increase in official reserves should be recorded as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Credit"
+      },
+      {
+        "label": "B",
+        "text": "Debit"
+      },
+      {
+        "label": "C",
+        "text": "Not recorded"
+      },
+      {
+        "label": "D",
+        "text": "Statistical discrepancy"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "官方储备属于国家持有的金融资产。资产增加意味着资金的占用（买入外汇并存起来），根据会计原理，**资产的增加记在借方（Debit，用负号 \"-\" 表示）**。"
+  },
+  {
+    "id": 18,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The main cause of statistical discrepancy in the balance of payments is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transactions not occurring"
+      },
+      {
+        "label": "B",
+        "text": "Recording errors and omissions"
+      },
+      {
+        "label": "C",
+        "text": "Exchange rate fluctuations"
+      },
+      {
+        "label": "D",
+        "text": "Inflation"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "由于各项数据来自海关、银行、外汇局等不同的统计申报渠道，必然存在时滞、走私逃汇或漏报，因此导致了**记录错误与遗漏（Recording errors and omissions）**。"
+  },
+  {
+    "id": 19,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The overall balance (official settlements balance) equals:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current account + Financial account + Statistical discrepancy"
+      },
+      {
+        "label": "B",
+        "text": "Current account only"
+      },
+      {
+        "label": "C",
+        "text": "Financial account only"
+      },
+      {
+        "label": "D",
+        "text": "Changes in official reserves"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "**综合差额（Overall balance）** 涵盖了经常账户、非储备金融账户以及净误差与遗漏的代数和。这个差额对应的对冲项就是官方储备资产的变动。"
+  },
+  {
+    "id": 20,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Balance of payments:",
+    "options": [
+      {
+        "label": "A",
+        "text": "is defined as the statistical record of a country's international transactions over a certain period of time presented in the form of a double-entry bookkeeping"
+      },
+      {
+        "label": "B",
+        "text": "provides detailed information concerning the demand and supply of a country's currency"
+      },
+      {
+        "label": "C",
+        "text": "can be used to evaluate the performance of a country in international economic competition"
+      },
+      {
+        "label": "D",
+        "text": "all of the above"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "BOP 既是采用复式记账法记录的统计报表（A），又提供了本币在外汇市场供求关系的底层数据（B），同时也是评估一国国际竞争力的核心指标（C），因此全选。"
+  },
+  {
+    "id": 21,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Generally speaking, any transaction that results in a receipt from foreigners:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Will be recorded as a debit, with a negative sign, in the U.S. balance of payments"
+      },
+      {
+        "label": "B",
+        "text": "Will be recorded as a debit, with a positive sign, in the U.S. balance of payments"
+      },
+      {
+        "label": "C",
+        "text": "Will be recorded as a credit, with a negative sign, in the U.S. balance of payments"
+      },
+      {
+        "label": "D",
+        "text": "Will be recorded as a credit, with a positive sign, in the U.S. balance of payments"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "任何导致从外国人那里**获得收入（Receipt）**的交易，都代表资金流入，在 BOP 中记为**贷方（Credit）**，并带有**正号（+）**。"
+  },
+  {
+    "id": 22,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Generally speaking, any transaction that results in a payment to foreigners:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Will be recorded as a debit, With a negative sign, in the U.S. balance of payments"
+      },
+      {
+        "label": "B",
+        "text": "Will be recorded as a debit, With a positive sign, in the U.S. balance of payments"
+      },
+      {
+        "label": "C",
+        "text": "Will be recorded as a credit, With a negative sign, in the U.S. balance of payments"
+      },
+      {
+        "label": "D",
+        "text": "Will be recorded as a credit, With a positive sign, in the U.S. balance of payments"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "任何导致向外国人**支付款项（Payment）**的交易，都代表资金流出，在 BOP 中记为**借方（Debit）**，并带有**负号（-）**。"
+  },
+  {
+    "id": 23,
+    "source": "国际金融",
+    "type": "single",
+    "question": "A debit entry in the balance-of-payments account represents a transaction that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "a domestic resident receives a payment from abroad"
+      },
+      {
+        "label": "B",
+        "text": "a domestic resident makes a payment to a foreign resident"
+      },
+      {
+        "label": "C",
+        "text": "will improve the current account status"
+      },
+      {
+        "label": "D",
+        "text": "will have no affects on the nation's foreign exchange reserves"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "借方分录（Debit entry）本质上就代表本国居民向外国居民进行了**资金支付（Makes a payment）**。"
+  },
+  {
+    "id": 24,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Suppose the Mcdonalds Corporation imports 100 tons of Canadian beef, paying for it by transferring the funds to a New York bank account kept by the Canadian Beef Conglomerate:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Payment by Mcdonalds will be recorded as a debit"
+      },
+      {
+        "label": "B",
+        "text": "The deposit of the funds by the seller will be recorded as a debit"
+      },
+      {
+        "label": "C",
+        "text": "Payment by Mc Donalds will be recorded as a credit"
+      },
+      {
+        "label": "D",
+        "text": "The deposit of the funds by the buyer will be credit"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "麦当劳进口加拿大牛肉，属于商品进口，导致资金外流支付给外方，因此麦当劳的这笔**付款必须记在借方（Debit）**。"
+  },
+  {
+    "id": 25,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Since the balance of payments is presented as a system of double-entry bookkeeping:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Every credit in the account is balanced by a matching debit"
+      },
+      {
+        "label": "B",
+        "text": "Every debit in the account is balanced by a matching credit"
+      },
+      {
+        "label": "C",
+        "text": "a) and b) are both true"
+      },
+      {
+        "label": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "复式记账法遵循“有借必有贷，借贷必相等”，每一个贷方都有等额借方与之对应，反之亦然。"
+  },
+  {
+    "id": 26,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The current account is divided into four finer categories:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Merchandise trade, services, income, and statistical discrepancy."
+      },
+      {
+        "label": "B",
+        "text": "Merchandise trade, services, income, and unilateral transfers"
+      },
+      {
+        "label": "C",
+        "text": "Merchandise trade, services, portfolio investment, and unilateral transfers"
+      },
+      {
+        "label": "D",
+        "text": "Merchandise trade, services, factor income, and direct investment"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经常账户包含四大板块：**商品贸易（Merchandise trade）**、**服务贸易（Services）**、**要素要素/初次收入（Income）**以及**单方面转移/二次收入（Unilateral transfers）**。"
+  },
+  {
+    "id": 27,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Factor income:",
+    "options": [
+      {
+        "label": "A",
+        "text": "consists largely of interest, dividends, and other Income on foreign investments"
+      },
+      {
+        "label": "B",
+        "text": "is a theoretical construct of the factors of production, and, labor, capital and entrepreneurial ability"
+      },
+      {
+        "label": "C",
+        "text": "is generally a very minor part of national income accounting, smaller than the statistical discrepancy"
+      },
+      {
+        "label": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "**要素收入（Factor income）** 尽管名字叫要素，但在国际收支里，它主要表现为海外投资所带来的**利息（Interest）、股息（Dividends）和留存收益**等。"
+  },
+  {
+    "id": 28,
+    "source": "国际金融",
+    "type": "single",
+    "question": "When Honda, a Japanese auto maker, built a factory in Ohio:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It was engaged in foreign direct investment"
+      },
+      {
+        "label": "B",
+        "text": "It was engaged in portolio investment"
+      },
+      {
+        "label": "C",
+        "text": "It was engaged in a cross border acqusition"
+      },
+      {
+        "label": "D",
+        "text": "None of the above."
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "日本本田在欧海俄州“直接建厂”属于绿地投资，属于典型的**外商直接投资（FDI, Foreign Direct Investment）**，投资者对资产拥有实际控制权。"
+  },
+  {
+    "id": 29,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Currently, international reserve assets are comprised of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "gold, platinum, foreign exchanges, and special drawing rights (SDRS)"
+      },
+      {
+        "label": "B",
+        "text": "gold, foreign exchanges, special drawing rights(SDRS), and reserve positions in the International Monetary Fund (IMF)"
+      },
+      {
+        "label": "C",
+        "text": "gold, diamonds, foreign exchanges, and special drawing rights (SDRS)"
+      },
+      {
+        "label": "D",
+        "text": "reserve positions in the International Monetary Fund (IMF), only"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "现代官方国际储备资产四大支柱：**黄金（Gold）**、**外汇储备（Foreign exchanges）**、**特别提款权（SDRs）**以及在**IMF的储备头寸（Reserve positions in the IMF）**。白银、铂金、钻石均不算。"
+  },
+  {
+    "id": 30,
+    "source": "国际金融",
+    "type": "single",
+    "question": "International reserve assets include foreign exchanges. These are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Special Drawing Rights (SDRS) at the IMF"
+      },
+      {
+        "label": "B",
+        "text": "reserve positions in the International Monetary Fund (IMF)"
+      },
+      {
+        "label": "C",
+        "text": "Foreign currency held by a country's central bank"
+      },
+      {
+        "label": "D",
+        "text": "None of the above"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "国际储备中的“外汇（Foreign exchanges）”部分，特指一国**中央银行持有的外国货币资产**。"
+  },
+  {
+    "id": 31,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The most important international reserve asset, comprising 94 percent of the total reserve assets held by IMF member countries is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gold"
+      },
+      {
+        "label": "B",
+        "text": "Foreign exchanges"
+      },
+      {
+        "label": "C",
+        "text": "Special Drawing Rights (SDRS)"
+      },
+      {
+        "label": "D",
+        "text": "Reserve positions in the International Monetary Fund (IMF)"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "在所有官方储备资产中，**外汇储备（Foreign exchanges）** 占据了绝大多数的份额（高达94%左右），是流动性最强的干预手段。"
+  },
+  {
+    "id": 32,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The SDR is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The currency created by the European Economic and Monetary Union"
+      },
+      {
+        "label": "B",
+        "text": "The central currency of the European monetary system"
+      },
+      {
+        "label": "C",
+        "text": "Reserve assets and accounting unit created by IMF"
+      },
+      {
+        "label": "D",
+        "text": "A special right to use funds created by the World Bank"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "**特别提款权（SDR）** 是由**国际货币基金组织（IMF）** 创设的一种账面**储备资产和记账单位**，并非有形货币，也不是世界银行创设的。"
+  },
+  {
+    "id": 33,
+    "source": "国际金融",
+    "type": "single",
+    "question": "National income, or Gross National Product is given by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "GNP= Y= C+I+G+X+ M"
+      },
+      {
+        "label": "B",
+        "text": "GNP= Y=C+I+G+ X-M"
+      },
+      {
+        "label": "C",
+        "text": "GNP=I=C+Y+G+ X-M"
+      },
+      {
+        "label": "D",
+        "text": "GNP= Y=C+I+X+M-G"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经典的支出法 GNP 公式：$$GNP = C + I + G + (X - M)$$ 即：消费 + 投资 + 政府支出 + 净出口（出口 X 减 进口 M）。"
+  },
+  {
+    "id": 34,
+    "source": "国际金融",
+    "type": "single",
+    "question": "If a country's merchandise exports exceed its imports by \\$50 million, services trade balance is net \\$30 million and unilateral transfers made in excess of those received by \\$5 million, what is the country's current account balance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\$85 million"
+      },
+      {
+        "label": "B",
+        "text": "\\$75 million"
+      },
+      {
+        "label": "C",
+        "text": "\\$15 million"
+      },
+      {
+        "label": "D",
+        "text": "\\$25 million"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "$$\\text{Current Account} = \\text{Goods Balance} + \\text{Services Balance} + \\text{Net Transfers}$$ 本题中：商品顺差（+\\$50M）+ 服务顺差（+\\$30M）+ 单方面转移净流出（-\\$5M）= **+\\$75 million**。"
+  },
+  {
+    "id": 35,
+    "source": "国际金融",
+    "type": "single",
+    "question": "If the U.S. runs current account deficits, we can expect that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "it may act as a net debtor in the rest of the world"
+      },
+      {
+        "label": "B",
+        "text": "its domestic saving may less than its domestic investment"
+      },
+      {
+        "label": "C",
+        "text": "its domestic production is less than its domestic consumption"
+      },
+      {
+        "label": "D",
+        "text": "all of the above"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "经常账户逆差（CA Deficit）在宏观上意味着：① 它是全球的**净债务国（Net debtor）**；② 根据 $S - I = CA$，其**国内储蓄小于国内投资（S < I）**；③ 该国的**国内总产出小于总消费/总吸收（Production < Consumption）**。因此全选。"
+  },
+  {
+    "id": 36,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The trade deficit means that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "residents are importing more goods than they are exporting"
+      },
+      {
+        "label": "B",
+        "text": "residents are borrowing more funds than they are lending"
+      },
+      {
+        "label": "C",
+        "text": "residents are receiving more payments than they are making"
+      },
+      {
+        "label": "D",
+        "text": "residents are producing more goods than they are consuming"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "贸易逆差（Trade deficit）指最直观的商品层面：**进口商品额大于出口商品额（Imports > Exports）**。"
+  },
+  {
+    "id": 37,
+    "source": "国际金融",
+    "type": "single",
+    "question": "If a country's domestic saving is greater than domestic investment, the country probably has:",
+    "options": [
+      {
+        "label": "A",
+        "text": "a current account surplus"
+      },
+      {
+        "label": "B",
+        "text": "a net capital outflow"
+      },
+      {
+        "label": "C",
+        "text": "a current account deficit"
+      },
+      {
+        "label": "D",
+        "text": "Both A and B are possible."
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "根据开放经济宏观等式：$$S - I = CA = NCO$$（储蓄 - 投资 = 经常账户差额 = 净资本流出）。当 **S > I** 时，必然伴随着**经常账户顺差（CA Surplus）** 以及 **净资本外流（Net capital outflow）**，故 A、B 皆对。"
+  },
+  {
+    "id": 38,
+    "source": "国际金融",
+    "type": "single",
+    "question": "How does the appreciation of a country's currency affect its import and export payments?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exports increase and imports decrease"
+      },
+      {
+        "label": "B",
+        "text": "Exports decrease and imports increase"
+      },
+      {
+        "label": "C",
+        "text": "Exports increase and imports increase"
+      },
+      {
+        "label": "D",
+        "text": "Exports decrease and imports increase"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "本币升值（Appreciation）会导致本国商品在国际上变贵（**抑制出口，Exports decrease**），而外国商品换算成本币后变便宜（**促进进口，Imports increase**）。"
+  },
+  {
+    "id": 39,
+    "source": "国际金融",
+    "type": "single",
+    "question": "An increase in the current account deficit will place ( ) pressure on the home currency value, other things equal.",
+    "options": [
+      {
+        "label": "A",
+        "text": "upward"
+      },
+      {
+        "label": "B",
+        "text": "downward"
+      },
+      {
+        "label": "C",
+        "text": "no"
+      },
+      {
+        "label": "D",
+        "text": "upward or downward"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经常账户逆差增加（Deficit expansion）意味着外汇市场上对外国货币的需求增加，本国居民在抛售本币换外币，这会给本币带来**贬值压力（Downward pressure）**。"
+  },
+  {
+    "id": 40,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "The balance of payments only records international trade in goods and services, not financial asset transactions.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。BOP 不仅记录商品和服务贸易（经常账户），还详细记录跨国金融资产和负债的交易（金融账户）。"
+  },
+  {
+    "id": 41,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "The international investment position is a stock concept that reflects external assets and liabilities at a point in time.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。**国际投资头寸表（IIP）** 衡量的是某一特定时点上一国对外资产和负债的**存量（Stock）**；而 BOP 衡量的是特定时期内的**流量（Flow）**。"
+  },
+  {
+    "id": 42,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "A balance of payments surplus always means a better economic performance.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。国际收支顺差（Surplus）并不“总是”意味着经济表现更好。长期的巨额顺差可能引发本币过大升值压力、国内通货膨胀，或意味着国内消费与投资需求不足（钱花不出去）。"
+  },
+  {
+    "id": 43,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "The current account includes goods, services, income, and unilateral transfers.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。这是经常账户的标准四大构成要素。"
+  },
+  {
+    "id": 44,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Current account = net goods and services + net income + net unilateral transfers.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。经常账户总差额即为这几项净额（Net）的代数和。"
+  },
+  {
+    "id": 45,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Remittances and foreign aid are unilateral transfers.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。侨汇（Remittances，海外务工人员汇款回国）和单方面国际援助（Foreign aid）均属于无需回报的**单方面转移（Unilateral transfers）**。"
+  },
+  {
+    "id": 46,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Unilateral transfers only need to be recorded as debits without double-entry bookkeeping.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。BOP 中的**所有交易**都必须严格遵循复式记账法。虽然单方面转移没有对等的经济回报，但仍需通过在经常账户中设置“二次收入/经常转移”作为抵消分录，来实现借贷等额。"
+  },
+  {
+    "id": 47,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Investment income is recorded in the financial account.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。派生的投资收益（如股息、利息）由于属于要素报酬，必须记录在**经常账户（Current account）**的初次收入项中，不能记入金融账户。"
+  },
+  {
+    "id": 48,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Domestic residents buying foreign stocks belongs to the current account.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。购买外国公司股票是跨国资产交易（证券投资），属于**金融账户（Financial account）**。"
+  },
+  {
+    "id": 49,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Foreign investors buying domestic government bonds belongs to the current account.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。外国投资者购买本国债券属于本国金融负债的增加，应当记录在**金融账户（Financial account）**。"
+  },
+  {
+    "id": 50,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "The financial account records cross-border purchases and sales of financial assets.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。金融账户专门负责记录跨国界发生的金融资产与负债所有权的买卖和变更。"
+  },
+  {
+    "id": 51,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Goods imports are debit items in the balance of payments.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "* 商品**出口（Exports）** $\\rightarrow$ 资金流入 $\\rightarrow$ 记入**贷方（Credit, +）** * 商品**进口（Imports）** $\\rightarrow$ 资金流出 $\\rightarrow$ 记入**借方（Debit, -）**"
+  },
+  {
+    "id": 52,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Goods exports are recorded as credits, and goods imports as debits.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "* 商品**出口（Exports）** $\\rightarrow$ 资金流入 $\\rightarrow$ 记入**贷方（Credit, +）** * 商品**进口（Imports）** $\\rightarrow$ 资金流出 $\\rightarrow$ 记入**借方（Debit, -）**"
+  },
+  {
+    "id": 53,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Foreign tourists’ spending in the home country is a credit item in the home country’s balance of payments.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。外国游客在本国消费属于本国服务的出口，为本国带来外汇资金流入，因此记入本国的**贷方（Credit）**。"
+  },
+  {
+    "id": 54,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "An increase in official reserves is recorded as a credit in the balance of payments.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "官方储备属于金融**资产**。 * 储备资产**增加（Increase）** $\\rightarrow$ 资金被占用/买入外汇 $\\rightarrow$ 记入**借方（Debit, -）** * 储备资产**减少（Decrease）** $\\rightarrow$ 释放外汇储备变现/资金流出资产端 $\\rightarrow$ 记入**贷方（Credit, +）**"
+  },
+  {
+    "id": 55,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "A decrease in official reserves is recorded as a credit.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "官方储备属于金融**资产**。 * 储备资产**增加（Increase）** $\\rightarrow$ 资金被占用/买入外汇 $\\rightarrow$ 记入**借方（Debit, -）** * 储备资产**减少（Decrease）** $\\rightarrow$ 释放外汇储备变现/资金流出资产端 $\\rightarrow$ 记入**贷方（Credit, +）**"
+  },
+  {
+    "id": 56,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "An overall balance deficit is usually financed by a decrease in official reserve assets.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。当一国面临综合差额逆差（Overall deficit）时，意味着资金净流出，此时中央银行通常需要动用外汇储备进行干预（**减少官方储备资产**，在贷方记正号），来弥补和对冲这个缺口。"
+  },
+  {
+    "id": 57,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Current account surplus = positive net foreign investment.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。经常账户顺差意味着该国拥有净国民储蓄盈余，在宏观上必然等于其对外净投资额（Net Foreign Investment 或 Net Capital Outflow）。"
+  },
+  {
+    "id": 58,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "The sum of all items in the balance of payments is always zero.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。由于严格的复式记账和净误差与遗漏项的调节，BOP 平衡表上所有项目的借贷代数和在账面上**总是等于零**。"
+  },
+  {
+    "id": 59,
+    "source": "国际金融",
+    "type": "truefalse",
+    "question": "Statistical discrepancy is the net amount of omitted and misrecorded debit and credit items.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。**净误差与遗漏（Statistical discrepancy）** 就是一个由于跨部门统计误差、漏报、错报而产生的轧差平衡项，用于把账面总和强行平归为零。"
+  },
+  {
+    "id": 60,
+    "source": "国际金融",
+    "type": "single",
+    "question": "U.S. steel production met about what percentage of U.S. use of steel in 2017?",
+    "options": [
+      {
+        "label": "A",
+        "text": "25%"
+      },
+      {
+        "label": "B",
+        "text": "50%"
+      },
+      {
+        "label": "C",
+        "text": "75%"
+      },
+      {
+        "label": "D",
+        "text": "100%"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A (25%)",
+    "explanation": "2017年特朗普政府发起232调查时，数据显示美国本土粗钢产量仅能满足其国内总需求的 **25%** 左右，严重依赖进口。正是以此为由（认为威胁国家安全），美方才于2018年加征了钢铁关税。"
+  },
+  {
+    "id": 61,
+    "source": "国际金融",
+    "type": "single",
+    "question": "U.S. aluminum imports met about what percentage of U.S. use of aluminum in 2017?",
+    "options": [
+      {
+        "label": "A",
+        "text": "40%"
+      },
+      {
+        "label": "B",
+        "text": "60%"
+      },
+      {
+        "label": "C",
+        "text": "80%"
+      },
+      {
+        "label": "D",
+        "text": "100%"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B (60%)",
+    "explanation": "在2017年的统计中，美国铝材的进口量占其国内总消耗量的比例约为 **60%**。"
+  },
+  {
+    "id": 62,
+    "source": "国际金融",
+    "type": "single",
+    "question": "In the U.S., what fraction of foreign-born people are undocumented immigrants?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One-fifth"
+      },
+      {
+        "label": "B",
+        "text": "One-fourth"
+      },
+      {
+        "label": "C",
+        "text": "One-third"
+      },
+      {
+        "label": "D",
+        "text": "Half"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B (One-fourth, 四分之一)",
+    "explanation": "根据皮尤研究中心及美国官方的长期统计，在美国所有的外出生人口（Foreign-born）中，没有合法身份的移民（Undocumented immigrants）大约占 **1/4 (25%)** 左右，其余 3/4 均为合法移民、归化公民或合法长期居民。"
+  },
+  {
+    "id": 63,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Nations are sovereign, which means:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A central court can enforce its will on them globally"
+      },
+      {
+        "label": "B",
+        "text": "They can set barriers between residents and the outside world"
+      },
+      {
+        "label": "C",
+        "text": "They must compromise with other nations easily"
+      },
+      {
+        "label": "D",
+        "text": "They share the same currency with other countries"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "主权（Sovereign）意味着国家对内拥有最高权力，对外独立。在经济上，这意味着它们有权在其边境设立壁垒（条约、关税、配额），切断或限制本国居民与外界的联系。"
+  },
+  {
+    "id": 64,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which event contributed to making the Great Depression worse?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The 2018 trade war"
+      },
+      {
+        "label": "B",
+        "text": "The early 1930s trade war"
+      },
+      {
+        "label": "C",
+        "text": "NAFTA renegotiation"
+      },
+      {
+        "label": "D",
+        "text": "TPP withdrawal"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "1930年美国通过了《斯姆特-霍利关税法》，引发了全球范围内的报复性**贸易战（1930s trade war）**，使国际贸易几近瘫痪，极大地加剧了大萧条的严重程度。"
+  },
+  {
+    "id": 65,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Donald Trump railed against unfair trade with all of the following except:",
+    "options": [
+      {
+        "label": "A",
+        "text": "China"
+      },
+      {
+        "label": "B",
+        "text": "Mexico"
+      },
+      {
+        "label": "C",
+        "text": "Canada"
+      },
+      {
+        "label": "D",
+        "text": "Japan"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "特朗普政府当年主导了对华贸易战，并强行重新谈判了北美自由贸易协定（北美三方：美、墨、加）。相比之下，日本并不是其首要抨击和重组全面贸易协定的核心目标。"
+  },
+  {
+    "id": 66,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which free trade agreement did the U.S. withdraw from in 2017?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NAFTA"
+      },
+      {
+        "label": "B",
+        "text": "Trans-Pacific Partnership (TPP)"
+      },
+      {
+        "label": "C",
+        "text": "WTO"
+      },
+      {
+        "label": "D",
+        "text": "EU"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "特朗普在 2017 年上任第一周就正式签署行政令，宣布美国退出**跨太平洋伙伴关系协定（TPP）**。"
+  },
+  {
+    "id": 67,
+    "source": "国际金融",
+    "type": "recall",
+    "question": "In 2018, the U.S. imposed tariffs on imports of steel at what rate?",
+    "answerLabel": "C (25%)",
+    "explanation": "2018年3月，美国依据“232条款”对进口**钢铁加征 25%** 的关税，对进口**铝材加征 10%** 的关税。这两个数字属于高频政策考点。"
+  },
+  {
+    "id": 68,
+    "source": "国际金融",
+    "type": "recall",
+    "question": "In 2018, the U.S. imposed tariffs on imports of aluminum at what rate?",
+    "answerLabel": "A (10%)",
+    "explanation": "2018年3月，美国依据“232条款”对进口**钢铁加征 25%** 的关税，对进口**铝材加征 10%** 的关税。这两个数字属于高频政策考点。"
+  },
+  {
+    "id": 69,
+    "source": "国际金融",
+    "type": "single",
+    "question": "For a small country, the overall effect of imposing a tariff is generally:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Positive"
+      },
+      {
+        "label": "B",
+        "text": "Negative"
+      },
+      {
+        "label": "C",
+        "text": "Neutral"
+      },
+      {
+        "label": "D",
+        "text": "Uncertain"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经济学共识：**小国（Small country）** 是国际价格的接受者，无法通过加征关税影响国际贸易条件（Terms of Trade）。因此，小国征收关税只会带来国内市场的扭曲和净福利损失（**Negative**）。"
+  },
+  {
+    "id": 70,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Economic analysis concludes that trade is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A zero-sum activity"
+      },
+      {
+        "label": "B",
+        "text": "A positive-sum activity"
+      },
+      {
+        "label": "C",
+        "text": "A negative-sum activity"
+      },
+      {
+        "label": "D",
+        "text": "A zero-sum activity only for large countries"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "现代经济学证明，基于比较优势（Comparative Advantage）的国际贸易能够优化全球资源配置，让交易双方都能从中获益，因此它是一个**正和博弈/正和活动（Positive-sum activity）**，而非零和博弈。"
+  },
+  {
+    "id": 71,
+    "source": "国际金融",
+    "type": "single",
+    "question": "About what percentage of the world’s population lives outside their birth country?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1%"
+      },
+      {
+        "label": "B",
+        "text": "3%"
+      },
+      {
+        "label": "C",
+        "text": "10%"
+      },
+      {
+        "label": "D",
+        "text": "15%"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "尽管全球化程度很高，但真正生活在出生国以外的跨境移民占全球总人口的比例其实很低，长期维持在 **3%** 左右。"
+  },
+  {
+    "id": 72,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which country has the highest percentage of foreign-born population among the listed ones?",
+    "options": [
+      {
+        "label": "A",
+        "text": "United States"
+      },
+      {
+        "label": "B",
+        "text": "Canada"
+      },
+      {
+        "label": "C",
+        "text": "Australia"
+      },
+      {
+        "label": "D",
+        "text": "Switzerland"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "在上述发达国家中，**瑞士**的外国出生人口（或外籍人口）比例极高，通常在 25% 到 30% 以上，高于美国和加拿大。"
+  },
+  {
+    "id": 73,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The 2007 U.S. immigration reform bill was backed by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "President Obama"
+      },
+      {
+        "label": "B",
+        "text": "President Bush"
+      },
+      {
+        "label": "C",
+        "text": "President Clinton"
+      },
+      {
+        "label": "D",
+        "text": "President Reagan"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "2007年全面移民改革法案（Comprehensive Immigration Reform Act）是由小布什总统（**President Bush**）强力推动和支持的，尽管该法案最终在参议院未能通过。"
+  },
+  {
+    "id": 74,
+    "source": "国际金融",
+    "type": "single",
+    "question": "In the receiving country, the winners from immigration include:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Workers competing with immigrants"
+      },
+      {
+        "label": "B",
+        "text": "Firms that employ immigrants"
+      },
+      {
+        "label": "C",
+        "text": "Low-skilled workers in industrialized countries"
+      },
+      {
+        "label": "D",
+        "text": "Domestic producers of import-competing goods"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "移民流入增加了劳动力供给。对于**雇用移民的企业/资本家（Firms）** 来说，他们可以获得更廉价的劳动力，降低生产成本，因此是明确的“赢家”。"
+  },
+  {
+    "id": 75,
+    "source": "国际金融",
+    "type": "single",
+    "question": "In industrialized countries, the real wages of which group have been depressed by low-skilled immigrant influx?",
+    "options": [
+      {
+        "label": "A",
+        "text": "High-skilled workers"
+      },
+      {
+        "label": "B",
+        "text": "Low-skilled workers"
+      },
+      {
+        "label": "C",
+        "text": "Middle-skilled workers"
+      },
+      {
+        "label": "D",
+        "text": "All workers equally"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "根据供求原理，大量低技能移民的涌入会与本土的**低技能工人（Low-skilled workers）** 形成直接竞争，从而在客观上压低这一群体的实际工资。"
+  },
+  {
+    "id": 76,
+    "source": "国际金融",
+    "type": "single",
+    "question": "The net economic effect of immigration on the receiving country is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Positive"
+      },
+      {
+        "label": "B",
+        "text": "Negative"
+      },
+      {
+        "label": "C",
+        "text": "Neutral"
+      },
+      {
+        "label": "D",
+        "text": "Uncertain"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "尽管移民会对内部结构产生财富再分配效应（部分人受损、部分人获益），但从宏观总量来看，移民扩大了劳动力市场、促进了消费和创新，对流入国的整体经济经济福利净影响是**积极的（Positive）**。"
+  },
+  {
+    "id": 77,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Which anti-immigrant party became part of the Austrian coalition government in 2017?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Northern League"
+      },
+      {
+        "label": "B",
+        "text": "Freedom Party"
+      },
+      {
+        "label": "C",
+        "text": "National Front"
+      },
+      {
+        "label": "D",
+        "text": "Sweden Democrats"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "2017年底，奥地利右翼民粹主义和反移民倾向明确的**自由党（Freedom Party, FPÖ）** 成功与人民党组成了联合政府。"
+  },
+  {
+    "id": 78,
+    "source": "国际金融",
+    "type": "single",
+    "question": "Opponents of immigration claim all of the following except:",
+    "options": [
+      {
+        "label": "A",
+        "text": "General economic losses"
+      },
+      {
+        "label": "B",
+        "text": "Fiscal burden from government services"
+      },
+      {
+        "label": "C",
+        "text": "Cultural integration issues"
+      },
+      {
+        "label": "D",
+        "text": "Net economic benefits for the country"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "题干问的是“不包括（except）”。反移民阵营的论点通常包括造成本土经济损失、加重政府财政负担、引发文化融合冲突。而“国家能获得经济净收益”属于**亲移民/支持移民阵营**的观点。"
+  },
+  {
+    "id": 79,
+    "source": "国际金融",
+    "type": "single",
+    "question": "If legal immigration is severely restricted by national policies, some immigrants will:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Return home"
+      },
+      {
+        "label": "B",
+        "text": "Move illegally"
+      },
+      {
+        "label": "C",
+        "text": "Stop migrating entirely"
+      },
+      {
+        "label": "D",
+        "text": "Apply for refugee status"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "当国家政策严重压缩合法移民通道，但跨境经济要素的底层驱动力（如巨大的薪酬差距）依然存在时，一部分移民会被迫选择通过非正规渠道，即**非法迁移（Move illegally）**。"
+  },
+  {
+    "id": 80,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "The exchange rate acts as a “translator” between different currencies.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "汇率在本质上就是一种货币用另一种货币表示的“价格”，它充当了不同国家价格体系之间的“翻译官”。"
+  },
+  {
+    "id": 81,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Spot exchange rates apply to future currency exchanges.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "**即期汇率（Spot exchange rates）** 适用于“即期交易”，通常在交易达成后的两个营业日内办理交割。而未来的货币兑换使用的是**远期汇率（Forward exchange rates）**。"
+  },
+  {
+    "id": 82,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Most foreign exchange trading is done with demand deposits in banks.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "现代外汇市场的大部分交易并不是现金（纸币）的交割，而是通过银行之间的**活期存款（Demand deposits）**账户进行划拨和电子转账。"
+  },
+  {
+    "id": 83,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "The US dollar is commonly used as a vehicle currency.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "**载体货币（Vehicle currency）** 是指在国际贸易和投资中被广泛用作第三方结算和交易中介的货币。美元（USD）是目前全球外汇市场上最主要的载体货币。"
+  },
+  {
+    "id": 84,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Individual travelers make up a large share of total foreign exchange trading.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "个人零售游客在外汇市场的交易量占比极其微小。外汇市场的主要参与者是**跨国银行、中央银行、大型跨国公司和机构投资者（如对冲基金）**。"
+  },
+  {
+    "id": 85,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "The interbank market is where banks trade currencies with each other.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "**银行间市场（Interbank market）** 是外汇市场的核心，构成了全球最大的批发外汇交易网络，银行在此调整头寸和互相买卖外汇。"
+  },
+  {
+    "id": 86,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "The foreign exchange market is a single physical location.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "外汇市场**没有统一的物理交易场所**（不像某些股票交易所）。它是一个通过计算机网络、电话和电子交易平台连接全球的、24小时不间断的**场外交易市场（OTC Market）**。"
+  },
+  {
+    "id": 87,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Forward exchange rates are agreed now for future exchanges.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "**远期汇率（Forward exchange rates）** 指的是买卖双方**在当下**（Now）约定好交易汇率，但在**未来的某个特定日期**（Future）才进行实际资金交割的汇率制度，主要用于锁定汇率风险。"
+  },
+  {
+    "id": 88,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Competition is weak in most international financial markets.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "国际金融市场（尤其是外汇市场）由于信息传播极快、参与者众多、资金跨国流动的摩擦较小，属于**竞争非常充分、接近完美竞争**的市场。"
+  },
+  {
+    "id": 89,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Exports create demand for the exporting country’s currency.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "当一国出口商品时，外国买家需要购买该出口国的货币来支付货款，因此**出口创造了对本国货币的需求（Demand）**。"
+  },
+  {
+    "id": 90,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Imports create supply of the importing country’s currency.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "当一国进口商品时，需要用外汇来对外支付。本国进口商会在外汇市场上卖出本币以换取外币，因此**进口创造了本国货币的供给（Supply）**。"
+  },
+  {
+    "id": 91,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "A lower foreign currency price tends to increase the quantity demanded of that currency.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "当外币价格下跌（即外币贬值/本币升值），意味着用本币购买外国商品和资产变得更便宜。这会刺激本国居民对外国商品的需求，从而**增加对外币的需求量（Quantity demanded）**。这符合需求定理。"
+  },
+  {
+    "id": 92,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "International capital flows do not affect the supply and demand for foreign exchange.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。在现代金融体系中，**国际资本流动（如跨境股票、债券投资和FDI）对短期外汇供求关系和汇率的影响甚至远远超过了实体商品贸易**。"
+  },
+  {
+    "id": 93,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Floating exchange rates are set entirely by governments.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "**浮动汇率（Floating exchange rates）** 的价格主要由外汇市场上的**供求关系（Market forces）**决定，而不是由政府行政设定。"
+  },
+  {
+    "id": 94,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Under floating rates, depreciation means a currency becomes less valuable.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "在浮动汇率制度下，由于市场供求关系恶化导致货币价值下跌，称为 **Depreciation（贬值）**。"
+  },
+  {
+    "id": 95,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Devaluation refers to a market‑driven fall in a currency’s value.",
+    "answer": false,
+    "answerLabel": "错 (False)",
+    "explanation": "错。**Devaluation（法定贬值）** 指的是在**固定汇率制（Fixed rate system）**下，由**政府或货币当局官方宣布**调低本币法定的官方汇率，它不是市场驱动（Market-driven）的。"
+  },
+  {
+    "id": 96,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Revaluation is an official increase in a fixed exchange rate.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "对。在固定汇率制下，**官方（Official）** 调高本国货币的法定基准汇率，称为 **Revaluation（法定升值）**。"
+  },
+  {
+    "id": 97,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "In a fixed rate system, officials must intervene to keep the rate within a band.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "在固定汇率制或有管理的浮动汇率制下，当市场汇率触及政策红线时，中央银行**必须动用外汇储备进行买入或卖出干预**，以维持汇率在一个限定的波动区间（Band）内。"
+  },
+  {
+    "id": 98,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Arbitrage creates riskless profit by buying low and selling high simultaneously.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "**套利（Arbitrage）** 的核心特点在于**“同时（Simultaneously）”**、**“低买高卖”**以及**“无风险（Riskless）”**。它通过消除市场的价格不一致来获取确定的利润。"
+  },
+  {
+    "id": 99,
+    "source": "国际金融判断题三",
+    "type": "truefalse",
+    "question": "Triangular arbitrage keeps cross‑exchange rates consistent.",
+    "answer": true,
+    "answerLabel": "对 (True)",
+    "explanation": "**三角套利（Triangular arbitrage）** 涉及三种货币之间的相互转化。套利者的疯狂买卖会迅速抹平三个市场间的价格不对称，从而**迫使各种货币之间的交叉汇率（Cross-exchange rates）保持内在的一致性**。"
+  },
+  {
+    "id": 100,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "The balance of payments records:",
+    "options": [
+      {
+        "label": "A",
+        "text": "All value flows between residents of a country and non-residents during a period"
+      },
+      {
+        "label": "B",
+        "text": "Trade between a country’s government and foreign governments"
+      },
+      {
+        "label": "C",
+        "text": "Domestic financial transactions of a country"
+      },
+      {
+        "label": "D",
+        "text": "The quantity of imported and exported goods of a country"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "国际收支（BOP）记录的是在一个特定时期内，一国**居民（Residents）**与**非居民（Non-residents）**之间发生的所有经济价值流量（Value flows），它是一个**流量概念**。"
+  },
+  {
+    "id": 101,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "In double-entry bookkeeping for the balance of payments, a credit item (+) represents:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Items for which the country makes payments abroad"
+      },
+      {
+        "label": "B",
+        "text": "Items for which the country receives payments from abroad"
+      },
+      {
+        "label": "C",
+        "text": "An increase in official reserves"
+      },
+      {
+        "label": "D",
+        "text": "Goods imports"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "在 BOP 复式记账法中，**贷方（Credit, +）** 表示导致**资金流入（收到境外款项）**的资产减少或负债增加项目（如商品出口、外资流入）；**借方（Debit, -）** 表示导致**资金流出（向境外付款）**的项目（如商品进口、对外投资）。"
+  },
+  {
+    "id": 102,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Which of the following belongs to the current account?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign direct investment"
+      },
+      {
+        "label": "B",
+        "text": "Portfolio investment"
+      },
+      {
+        "label": "C",
+        "text": "Tourism service receipts and payments"
+      },
+      {
+        "label": "D",
+        "text": "Changes in official foreign exchange reserves"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "**经常账户（Current Account）** 包括货物、服务（如旅游、运输）、初次收入（投资收益、雇员报酬）和二次收入（经常转移）。A 和 B 属于金融账户，D 属于储备资产。"
+  },
+  {
+    "id": 103,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "The goods and services balance is often called:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capital account balance"
+      },
+      {
+        "label": "B",
+        "text": "Trade balance"
+      },
+      {
+        "label": "C",
+        "text": "Official reserve balance"
+      },
+      {
+        "label": "D",
+        "text": "Financial account balance"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "货物与服务差额（Goods and services balance）在广义上常被称为**贸易差额（Trade balance）**，反映了一国实质经济资源的国际净转移。"
+  },
+  {
+    "id": 104,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "The balance of payments uses double-entry bookkeeping, so the overall balance is always equal to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current account balance"
+      },
+      {
+        "label": "B",
+        "text": "Financial account balance"
+      },
+      {
+        "label": "C",
+        "text": "Zero"
+      },
+      {
+        "label": "D",
+        "text": "Changes in official reserves"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "由于 BOP 严格采用**“有借必有贷，借贷必相等”**的复式记账法，在理论上和包含误差与遗漏之后，所有项目的借贷总额必然相等，因此净整体平衡总是**等于零（Zero）**。"
+  },
+  {
+    "id": 105,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "A current account deficit means the country is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A net international lender"
+      },
+      {
+        "label": "B",
+        "text": "A net international borrower"
+      },
+      {
+        "label": "C",
+        "text": "Increasing official reserves"
+      },
+      {
+        "label": "D",
+        "text": "Having exports greater than imports"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经常账户逆差（Deficit）意味着该国向境外支付的资金大于收到的资金，必须通过资本流入（借债或出让资产）来弥补，因此该国在国际上是一个**净借入者（Net international borrower）**。"
+  },
+  {
+    "id": 106,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Which of the following belongs to the financial account (excluding official reserves)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dividend income from overseas investments"
+      },
+      {
+        "label": "B",
+        "text": "Unilateral foreign aid"
+      },
+      {
+        "label": "C",
+        "text": "Foreign direct investment in the home country"
+      },
+      {
+        "label": "D",
+        "text": "Goods exports"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "**金融账户（Financial Account）** 记录的是资产和负债所有权的变更。外商直接投资（FDI）属于典型的金融账户。A 属于经常账户中的初次收入，B 属于经常账户中的二次收入，D 属于货物贸易。"
+  },
+  {
+    "id": 107,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Official international reserve assets do NOT include:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gold"
+      },
+      {
+        "label": "B",
+        "text": "Freely convertible foreign currencies"
+      },
+      {
+        "label": "C",
+        "text": "Domestic currency"
+      },
+      {
+        "label": "D",
+        "text": "Special Drawing Rights (SDRs)"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "**官方储备（Official Reserves）** 必须是一国货币当局随时可用于干预外汇市场和平衡国际收支的**境外资产**。本国货币（Domestic currency）不是国际储备资产。"
+  },
+  {
+    "id": 108,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "The main cause of statistical discrepancy in the balance of payments is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transactions not occurring"
+      },
+      {
+        "label": "B",
+        "text": "Recording errors and omissions"
+      },
+      {
+        "label": "C",
+        "text": "Exchange rate fluctuations"
+      },
+      {
+        "label": "D",
+        "text": "Inflation"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "统计误差与遗漏（Statistical discrepancy）是一个人为设置的平衡项，其产生核心原因在于数据来源于不同的统计渠道，存在**记录错误、时滞以及走私、逃汇等遗漏（Errors and omissions）**。"
+  },
+  {
+    "id": 109,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "The overall balance (official settlements balance) equals:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current account + Financial account + Statistical discrepancy"
+      },
+      {
+        "label": "B",
+        "text": "Current account only"
+      },
+      {
+        "label": "C",
+        "text": "Financial account only"
+      },
+      {
+        "label": "D",
+        "text": "Changes in official reserves"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "综合差额（Overall balance）等于经常账户、金融账户（非储备）以及净误差与遗漏的代数和，该差额最终由官方储备资产的变动来对冲平衡。"
+  },
+  {
+    "id": 110,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "When a domestic resident buys foreign company stocks, it should be recorded in the balance of payments as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Credit, current account"
+      },
+      {
+        "label": "B",
+        "text": "Debit, current account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, financial account"
+      },
+      {
+        "label": "D",
+        "text": "Credit, financial account"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "购买外国股票属于**证券投资（Portfolio investment）**，计入金融账户（Financial account）。由于购买股票导致资金流出本国，因此记在**借方（Debit）**。"
+  },
+  {
+    "id": 111,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Which of the following is an official international reserve asset?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Foreign currency deposits held by domestic enterprises"
+      },
+      {
+        "label": "B",
+        "text": "Gold held by the central bank"
+      },
+      {
+        "label": "C",
+        "text": "Foreign direct investment"
+      },
+      {
+        "label": "D",
+        "text": "Overseas portfolio investment"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "只有由**中央银行或货币当局**持有的黄金（Monetary Gold）和外汇，才是合规的官方国际储备资产。企业持有的外汇或民间对外投资均不属于官方储备。"
+  },
+  {
+    "id": 112,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Each transaction in the balance of payments corresponds to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only one credit entry"
+      },
+      {
+        "label": "B",
+        "text": "Only one debit entry"
+      },
+      {
+        "label": "C",
+        "text": "One equal debit and one equal credit entry"
+      },
+      {
+        "label": "D",
+        "text": "Only statistical amount"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "复式记账的核心原则是：任何一笔交易都必须同时以**等额的借方（Debit）和贷方（Credit）**两条分录来进行记录。"
+  },
+  {
+    "id": 113,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Foreign residents’ tourism spending in the home country belongs to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Debit, current account"
+      },
+      {
+        "label": "B",
+        "text": "Credit, current account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, financial account"
+      },
+      {
+        "label": "D",
+        "text": "An increase in official reserves"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "外国居民在我国旅游消费，属于我国的**服务出口**，计入经常账户（Current account）；由于该交易为我国带来了外汇资金流入，应记入**贷方（Credit）**。"
+  },
+  {
+    "id": 114,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Unilateral foreign aid provided by the home country should be recorded as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Debit, unilateral transfers, current account"
+      },
+      {
+        "label": "B",
+        "text": "Credit, unilateral transfers, current account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, financial account"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in official reserves"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "本国向外提供无偿援助属于**单方面转移（二次收入）**，归于经常账户。由于援助导致了资源的价值流出本国，在复式记账法中应记入**借方（Debit）**。"
+  },
+  {
+    "id": 115,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Investment income (dividends, interest) should be recorded in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Current account"
+      },
+      {
+        "label": "B",
+        "text": "Financial account"
+      },
+      {
+        "label": "C",
+        "text": "Official reserves"
+      },
+      {
+        "label": "D",
+        "text": "Statistical discrepancy"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "特别注意：**投资本金**的跨国流动计入金融账户；但因资本产生的**投资收益（如股息 Dividends、利息 Interest）** 属于初次收入，必须计入**经常账户（Current account）**。"
+  },
+  {
+    "id": 116,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "Foreign investors buying domestic government bonds belongs to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Credit, current account"
+      },
+      {
+        "label": "B",
+        "text": "Credit, financial account"
+      },
+      {
+        "label": "C",
+        "text": "Debit, current account"
+      },
+      {
+        "label": "D",
+        "text": "An increase in official reserves"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "外国投资者购买我国债券，属于我国金融负债增加（外资流入），计入**金融账户（Financial account）**；由于此项交易带来了外部资金流入，应记入**贷方（Credit）**。"
+  },
+  {
+    "id": 117,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "The international investment position is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A flow concept"
+      },
+      {
+        "label": "B",
+        "text": "A stock concept"
+      },
+      {
+        "label": "C",
+        "text": "Only records trade"
+      },
+      {
+        "label": "D",
+        "text": "Only records capital flows"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "国际收支（BOP）是一个流量（Flow）概念；而**国际投资头寸（IIP）**反映的是在特定时点上，一国对海外金融资产和负债的净额，属于典型的**存量（Stock）**概念。"
+  },
+  {
+    "id": 118,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "An increase in official reserves should be recorded as:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Credit"
+      },
+      {
+        "label": "B",
+        "text": "Debit"
+      },
+      {
+        "label": "C",
+        "text": "Not recorded"
+      },
+      {
+        "label": "D",
+        "text": "Statistical discrepancy"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "官方储备资产（如外汇储备）属于国家的金融资产。根据复式记账原理，**资产的增加**代表着资金占用的发生（或可理解为外汇被央行“买入并储存”），必须记在**借方（Debit，用符号 “-” 表示）**。"
+  },
+  {
+    "id": 119,
+    "source": "国际金融选择题三",
+    "type": "single",
+    "question": "A current account surplus means the country:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases net foreign liabilities"
+      },
+      {
+        "label": "B",
+        "text": "Is a net international lender"
+      },
+      {
+        "label": "C",
+        "text": "Has imports greater than exports"
+      },
+      {
+        "label": "D",
+        "text": "Has domestic savings less than investment"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "经常账户顺差（Surplus）表明该国出口财富大于进口，通过国际贸易获得了净外汇收入。该国会将这些多余的资金用于购买境外资产或对外放贷，因此在国际上扮演**净贷出者（Net international lender）**的角色。"
+  }
+]

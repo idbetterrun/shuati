@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>国际金融 · 刷题</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- 设置页 -->
+  <section id="setup-screen" class="screen">
+    <h1>国际金融 刷题</h1>
+
+    <div class="setup-group">
+      <div class="setup-label">题库来源</div>
+      <div id="source-options" class="chip-group"></div>
+    </div>
+
+    <div class="setup-group">
+      <div class="setup-label">题型</div>
+      <div id="type-options" class="chip-group">
+        <label class="chip"><input type="checkbox" value="single" checked><span>单选题</span></label>
+        <label class="chip"><input type="checkbox" value="truefalse" checked><span>判断题</span></label>
+        <label class="chip"><input type="checkbox" value="recall" checked><span>速记题</span></label>
+      </div>
+    </div>
+
+    <div class="setup-group">
+      <div class="setup-label">顺序</div>
+      <div class="chip-group" id="order-options">
+        <label class="chip radio"><input type="radio" name="order" value="sequential" checked><span>顺序刷</span></label>
+        <label class="chip radio"><input type="radio" name="order" value="shuffled"><span>乱序刷</span></label>
+      </div>
+    </div>
+
+    <div class="setup-summary" id="setup-summary"></div>
+
+    <button id="start-btn" class="primary-btn">开始刷题</button>
+  </section>
+
+  <!-- 答题页 -->
+  <section id="quiz-screen" class="screen hidden">
+    <div class="quiz-header">
+      <button id="exit-btn" class="text-btn">‹ 退出</button>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+        <div id="progress-text" class="progress-text"></div>
+      </div>
+      <div id="score-text" class="score-text"></div>
+    </div>
+
+    <div class="quiz-body">
+      <div id="q-source" class="q-source"></div>
+      <div id="q-text" class="q-text"></div>
+      <div id="q-options" class="q-options"></div>
+
+      <div id="feedback" class="feedback hidden">
+        <div id="feedback-title" class="feedback-title"></div>
+        <div id="feedback-answer" class="feedback-answer"></div>
+        <div id="feedback-explanation" class="feedback-explanation"></div>
+      </div>
+    </div>
+
+    <div class="quiz-footer">
+      <button id="next-btn" class="primary-btn hidden">下一题 ›</button>
+    </div>
+  </section>
+
+  <!-- 结算页 -->
+  <section id="result-screen" class="screen hidden">
+    <h1>本轮完成 🎉</h1>
+    <div id="result-score" class="result-score"></div>
+    <div id="result-detail" class="result-detail"></div>
+    <div class="result-actions">
+      <button id="retry-wrong-btn" class="secondary-btn hidden">只复习错题</button>
+      <button id="restart-btn" class="primary-btn">重新设置</button>
+    </div>
+  </section>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

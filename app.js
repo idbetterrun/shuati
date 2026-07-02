@@ -1,0 +1,264 @@
+(() => {
+  const SOURCE_LABELS = {
+    "国际金融": "国际金融（综合）",
+    "国际金融判断题三": "外汇市场判断题",
+    "国际金融选择题三": "国际收支选择题",
+  };
+  const TYPE_LABELS = { single: "单选题", truefalse: "判断题", recall: "速记题" };
+
+  let ALL_QUESTIONS = [];
+  let queue = [];
+  let current = 0;
+  let score = 0;
+  let answered = 0;
+  let wrongIds = [];
+  let answeredThisQuestion = false;
+
+  const el = (id) => document.getElementById(id);
+  const setupScreen = el("setup-screen");
+  const quizScreen = el("quiz-screen");
+  const resultScreen = el("result-screen");
+
+  function show(screen) {
+    [setupScreen, quizScreen, resultScreen].forEach((s) => s.classList.add("hidden"));
+    screen.classList.remove("hidden");
+  }
+
+  function escapeHtml(str) {
+    return str.replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[c]));
+  }
+
+  function renderInline(text) {
+    // minimal markdown: **bold**
+    return escapeHtml(text).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  }
+
+  function buildSetupOptions() {
+    const sources = [...new Set(ALL_QUESTIONS.map((q) => q.source))];
+    const sourceWrap = el("source-options");
+    sourceWrap.innerHTML = sources.map((s, i) => `
+      <label class="chip">
+        <input type="checkbox" value="${s}" ${i === 0 ? "checked" : ""} checked>
+        <span>${SOURCE_LABELS[s] || s} (${ALL_QUESTIONS.filter((q) => q.source === s).length})</span>
+      </label>
+    `).join("");
+
+    [...document.querySelectorAll("#source-options input, #type-options input, #order-options input")]
+      .forEach((input) => input.addEventListener("change", updateSummary));
+
+    updateSummary();
+  }
+
+  function getSelectedSources() {
+    return [...document.querySelectorAll("#source-options input:checked")].map((i) => i.value);
+  }
+  function getSelectedTypes() {
+    return [...document.querySelectorAll("#type-options input:checked")].map((i) => i.value);
+  }
+  function getOrder() {
+    return document.querySelector('input[name="order"]:checked').value;
+  }
+
+  function filteredQuestions() {
+    const sources = getSelectedSources();
+    const types = getSelectedTypes();
+    return ALL_QUESTIONS.filter((q) => sources.includes(q.source) && types.includes(q.type));
+  }
+
+  function updateSummary() {
+    const n = filteredQuestions().length;
+    el("setup-summary").textContent = n > 0
+      ? `共 ${n} 道题符合条件`
+      : "没有符合条件的题目，请至少选择一个题库和题型";
+    el("start-btn").disabled = n === 0;
+  }
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function startQuiz(list) {
+    queue = list;
+    current = 0;
+    score = 0;
+    answered = 0;
+    wrongIds = [];
+    show(quizScreen);
+    renderQuestion();
+  }
+
+  function renderQuestion() {
+    if (current >= queue.length) {
+      showResult();
+      return;
+    }
+    answeredThisQuestion = false;
+    const q = queue[current];
+
+    el("progress-fill").style.width = `${(current / queue.length) * 100}%`;
+    el("progress-text").textContent = `第 ${current + 1} / ${queue.length} 题`;
+    el("score-text").textContent = `答对 ${score} / 已答 ${answered}`;
+
+    el("q-source").textContent = `${SOURCE_LABELS[q.source] || q.source} · ${TYPE_LABELS[q.type]}`;
+    el("q-text").innerHTML = renderInline(q.question);
+
+    const optionsWrap = el("q-options");
+    optionsWrap.innerHTML = "";
+    el("feedback").classList.add("hidden");
+    el("next-btn").classList.add("hidden");
+
+    if (q.type === "single") {
+      q.options.forEach((opt) => {
+        const div = document.createElement("div");
+        div.className = "option";
+        div.dataset.label = opt.label;
+        div.innerHTML = `<span class="option-label">${opt.label}</span><span>${renderInline(opt.text)}</span>`;
+        div.addEventListener("click", () => selectSingle(q, opt.label, div));
+        optionsWrap.appendChild(div);
+      });
+    } else if (q.type === "truefalse") {
+      [{ v: true, t: "对 (True)" }, { v: false, t: "错 (False)" }].forEach((opt) => {
+        const div = document.createElement("div");
+        div.className = "option";
+        div.dataset.value = String(opt.v);
+        div.innerHTML = `<span class="option-label">${opt.v ? "T" : "F"}</span><span>${opt.t}</span>`;
+        div.addEventListener("click", () => selectTrueFalse(q, opt.v, div));
+        optionsWrap.appendChild(div);
+      });
+    } else if (q.type === "recall") {
+      const div = document.createElement("div");
+      div.className = "recall-reveal";
+      div.textContent = "🤔 想好答案了吗？点击查看解析";
+      div.addEventListener("click", () => revealRecall(q, div));
+      optionsWrap.appendChild(div);
+    }
+  }
+
+  function lockOptions() {
+    document.querySelectorAll(".option").forEach((o) => o.classList.add("disabled"));
+  }
+
+  function selectSingle(q, label, div) {
+    if (answeredThisQuestion) return;
+    answeredThisQuestion = true;
+    answered++;
+    lockOptions();
+    const correct = label === q.answer;
+    if (correct) score++;
+    else wrongIds.push(q.id);
+
+    document.querySelectorAll(".option").forEach((o) => {
+      if (o.dataset.label === q.answer) o.classList.add("correct");
+      else if (o.dataset.label === label) o.classList.add("incorrect");
+      else o.classList.add("dim");
+    });
+
+    showFeedback(correct, q, `正确答案：${q.answer}. ${q.options.find((o) => o.label === q.answer).text}`);
+  }
+
+  function selectTrueFalse(q, value, div) {
+    if (answeredThisQuestion) return;
+    answeredThisQuestion = true;
+    answered++;
+    lockOptions();
+    const correct = value === q.answer;
+    if (correct) score++;
+    else wrongIds.push(q.id);
+
+    const opts = document.querySelectorAll(".option");
+    opts.forEach((o) => {
+      const optVal = o.dataset.value === "true";
+      if (optVal === q.answer) o.classList.add("correct");
+      else o.classList.add(optVal === value ? "incorrect" : "dim");
+    });
+
+    showFeedback(correct, q, `正确答案：${q.answer ? "对 (True)" : "错 (False)"}`);
+  }
+
+  function revealRecall(q, div) {
+    if (answeredThisQuestion) return;
+    answeredThisQuestion = true;
+    answered++;
+    div.classList.add("disabled");
+    div.style.cursor = "default";
+    div.textContent = "已查看解析 ↓";
+    showFeedback(null, q, `参考答案：${q.answerLabel}`);
+  }
+
+  function showFeedback(correct, q, answerLine) {
+    const fb = el("feedback");
+    fb.classList.remove("hidden", "is-correct", "is-wrong");
+    if (correct === true) {
+      fb.classList.add("is-correct");
+      el("feedback-title").textContent = "✅ 回答正确";
+    } else if (correct === false) {
+      fb.classList.add("is-wrong");
+      el("feedback-title").textContent = "❌ 回答错误";
+    } else {
+      el("feedback-title").textContent = "📖 解析";
+    }
+    el("feedback-answer").textContent = answerLine;
+    el("feedback-explanation").innerHTML = renderInline(q.explanation || "");
+    el("next-btn").classList.remove("hidden");
+    fb.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function showResult() {
+    show(resultScreen);
+    const gradable = answered - (queue.filter((q) => q.type === "recall").length);
+    el("result-score").textContent = gradable > 0 ? `${score} / ${gradable}` : "完成复习";
+    const wrongCount = wrongIds.length;
+    el("result-detail").textContent = wrongCount > 0
+      ? `共 ${queue.length} 题，答错 ${wrongCount} 题`
+      : `共 ${queue.length} 题，全部正确 ✨`;
+    const retryBtn = el("retry-wrong-btn");
+    if (wrongCount > 0) {
+      retryBtn.classList.remove("hidden");
+    } else {
+      retryBtn.classList.add("hidden");
+    }
+  }
+
+  function init() {
+    fetch("questions.json")
+      .then((r) => r.json())
+      .then((data) => {
+        ALL_QUESTIONS = data;
+        buildSetupOptions();
+      })
+      .catch((err) => {
+        el("setup-summary").textContent = "题库加载失败：" + err.message;
+      });
+
+    el("start-btn").addEventListener("click", () => {
+      let list = filteredQuestions();
+      if (getOrder() === "shuffled") list = shuffle(list);
+      startQuiz(list);
+    });
+
+    el("next-btn").addEventListener("click", () => {
+      current++;
+      renderQuestion();
+    });
+
+    el("exit-btn").addEventListener("click", () => {
+      if (confirm("确定退出本轮刷题吗？")) show(setupScreen);
+    });
+
+    el("restart-btn").addEventListener("click", () => show(setupScreen));
+
+    el("retry-wrong-btn").addEventListener("click", () => {
+      const wrongList = ALL_QUESTIONS.filter((q) => wrongIds.includes(q.id));
+      startQuiz(shuffle(wrongList));
+    });
+  }
+
+  init();
+})();
