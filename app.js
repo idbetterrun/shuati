@@ -15,6 +15,12 @@
   };
   const TYPE_LABELS = { single: "单选题", truefalse: "判断题", fill: "填空题", matching: "匹配题" };
   const TYPE_ORDER = ["single", "truefalse", "fill", "matching"];
+  const SUBJECT_ICONS = {
+    "国际金融": "💰",
+    "德语": "🇩🇪",
+    "英美文学": "📖",
+    "语言学": "🗣️",
+  };
 
   let ALL_QUESTIONS = [];
   let queue = [];
@@ -23,15 +29,26 @@
   let answered = 0;
   let wrongIds = [];
   let answeredThisQuestion = false;
+  let currentSubject = null;
 
   const el = (id) => document.getElementById(id);
-  const setupScreen = el("setup-screen");
+  const homeScreen = el("home-screen");
+  const subjectScreen = el("subject-screen");
   const quizScreen = el("quiz-screen");
   const resultScreen = el("result-screen");
 
   function show(screen) {
-    [setupScreen, quizScreen, resultScreen].forEach((s) => s.classList.add("hidden"));
+    [homeScreen, subjectScreen, quizScreen, resultScreen].forEach((s) => s.classList.add("hidden"));
     screen.classList.remove("hidden");
+    updateCrumb(screen);
+  }
+
+  function updateCrumb(screen) {
+    const crumb = el("crumb");
+    if (screen === homeScreen) crumb.textContent = "";
+    else if (screen === subjectScreen) crumb.textContent = currentSubject || "";
+    else if (screen === quizScreen) crumb.textContent = `${currentSubject || ""} · 答题中`;
+    else if (screen === resultScreen) crumb.textContent = `${currentSubject || ""} · 结算`;
   }
 
   function escapeHtml(str) {
@@ -46,8 +63,7 @@
   }
 
   function getSelectedSubject() {
-    const el = document.querySelector('input[name="subject"]:checked');
-    return el ? el.value : null;
+    return currentSubject;
   }
   function getSelectedSources() {
     return [...document.querySelectorAll("#source-options input:checked")].map((i) => i.value);
@@ -59,21 +75,35 @@
     return document.querySelector('input[name="order"]:checked').value;
   }
 
-  function buildSetupOptions() {
+  function buildHomeList() {
     const subjects = [...new Set(ALL_QUESTIONS.map((q) => q.subject))];
-    const subjectWrap = el("subject-options");
-    subjectWrap.innerHTML = subjects.map((s, i) => `
-      <label class="chip radio">
-        <input type="radio" name="subject" value="${s}" ${i === 0 ? "checked" : ""}>
-        <span>${s} (${ALL_QUESTIONS.filter((q) => q.subject === s).length})</span>
-      </label>
-    `).join("");
+    const listWrap = el("subject-list");
+    listWrap.innerHTML = subjects.map((s) => {
+      const count = ALL_QUESTIONS.filter((q) => q.subject === s).length;
+      return `
+        <button class="subject-item" role="listitem" data-subject="${s}">
+          <span class="subject-icon">${SUBJECT_ICONS[s] || "📚"}</span>
+          <span class="subject-info">
+            <span class="subject-name">${s}</span>
+            <span class="subject-meta">共 ${count} 题</span>
+          </span>
+          <span class="subject-chevron">›</span>
+        </button>
+      `;
+    }).join("");
 
-    subjectWrap.querySelectorAll("input").forEach((input) => {
-      input.addEventListener("change", buildDependentOptions);
+    listWrap.querySelectorAll(".subject-item").forEach((btn) => {
+      btn.addEventListener("click", () => openSubject(btn.dataset.subject));
     });
+  }
 
+  function openSubject(subject) {
+    currentSubject = subject;
+    const count = ALL_QUESTIONS.filter((q) => q.subject === subject).length;
+    el("subject-title").textContent = subject;
+    el("subject-count").textContent = `共 ${count} 题`;
     buildDependentOptions();
+    show(subjectScreen);
   }
 
   function buildDependentOptions() {
@@ -349,10 +379,10 @@
       .then((r) => r.json())
       .then((data) => {
         ALL_QUESTIONS = data;
-        buildSetupOptions();
+        buildHomeList();
       })
       .catch((err) => {
-        el("setup-summary").textContent = "题库加载失败：" + err.message;
+        el("subject-list").textContent = "题库加载失败：" + err.message;
       });
 
     el("start-btn").addEventListener("click", () => {
@@ -367,15 +397,19 @@
     });
 
     el("exit-btn").addEventListener("click", () => {
-      if (confirm("确定退出本轮刷题吗？")) show(setupScreen);
+      if (confirm("确定退出本轮刷题吗？")) show(subjectScreen);
     });
 
-    el("restart-btn").addEventListener("click", () => show(setupScreen));
+    el("restart-btn").addEventListener("click", () => show(subjectScreen));
 
     el("retry-wrong-btn").addEventListener("click", () => {
       const wrongList = ALL_QUESTIONS.filter((q) => wrongIds.includes(q.id));
       startQuiz(shuffle(wrongList));
     });
+
+    el("back-to-home-btn").addEventListener("click", () => show(homeScreen));
+
+    el("brand-home-link").addEventListener("click", () => show(homeScreen));
   }
 
   init();

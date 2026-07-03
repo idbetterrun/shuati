@@ -3,87 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>国际金融 · 刷题</title>
+<title>刷题 · 考研题库练习</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="paper-texture"></div>
 <div id="app">
 
-  <!-- 设置页 -->
-  <section id="setup-screen" class="screen">
-    <h1>国际金融 刷题</h1>
-
-    <div class="setup-group">
-      <div class="setup-label">科目</div>
-      <div id="subject-options" class="chip-group"></div>
+  <!-- 一级：应用外壳 -->
+  <header class="app-shell-header">
+    <div class="brand" id="brand-home-link">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="20" height="20">
+          <path d="M16 2 L19 13 L30 16 L19 19 L16 30 L13 19 L2 16 L13 13 Z" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-word">刷题</span>
     </div>
+    <div class="crumb" id="crumb"></div>
+  </header>
 
-    <div class="setup-group">
-      <div class="setup-label">题库来源</div>
-      <div id="source-options" class="chip-group"></div>
-    </div>
+  <main class="app-main">
 
-    <div class="setup-group">
-      <div class="setup-label">题型</div>
-      <div id="type-options" class="chip-group"></div>
-    </div>
-
-    <div class="setup-group">
-      <div class="setup-label">顺序</div>
-      <div class="chip-group" id="order-options">
-        <label class="chip radio"><input type="radio" name="order" value="sequential" checked><span>顺序刷</span></label>
-        <label class="chip radio"><input type="radio" name="order" value="shuffled"><span>乱序刷</span></label>
+    <!-- 二级菜单：选择科目 -->
+    <section id="home-screen" class="screen">
+      <div class="hero">
+        <h1>选一门科目<br>开始今天的练习</h1>
+        <p class="hero-sub">来自真实题库整理，覆盖单选、判断、填空与匹配题型。</p>
       </div>
-    </div>
+      <div id="subject-list" class="subject-list" role="list"></div>
+    </section>
 
-    <div class="setup-summary" id="setup-summary"></div>
+    <!-- 三级菜单：题库来源 / 题型 / 顺序 -->
+    <section id="subject-screen" class="screen hidden">
+      <button id="back-to-home-btn" class="back-link">‹ 返回科目</button>
+      <h2 id="subject-title" class="subject-title"></h2>
+      <p id="subject-count" class="subject-count"></p>
 
-    <button id="start-btn" class="primary-btn">开始刷题</button>
-  </section>
-
-  <!-- 答题页 -->
-  <section id="quiz-screen" class="screen hidden">
-    <div class="quiz-header">
-      <button id="exit-btn" class="text-btn">‹ 退出</button>
-      <div class="progress-wrap">
-        <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
-        <div id="progress-text" class="progress-text"></div>
+      <div class="setup-card">
+        <div class="setup-label">题库来源</div>
+        <div id="source-options" class="chip-group"></div>
       </div>
-      <div id="score-text" class="score-text"></div>
-    </div>
 
-    <div class="quiz-body">
-      <div id="q-source" class="q-source"></div>
-      <div id="q-text" class="q-text"></div>
-      <div id="q-options" class="q-options"></div>
-
-      <div id="feedback" class="feedback hidden">
-        <div id="feedback-title" class="feedback-title"></div>
-        <div id="feedback-answer" class="feedback-answer"></div>
-        <div id="feedback-explanation" class="feedback-explanation"></div>
+      <div class="setup-card">
+        <div class="setup-label">题型</div>
+        <div id="type-options" class="chip-group"></div>
       </div>
-    </div>
 
-    <div class="quiz-footer">
-      <button id="next-btn" class="primary-btn hidden">下一题 ›</button>
-    </div>
-  </section>
+      <div class="setup-card">
+        <div class="setup-label">顺序</div>
+        <div class="chip-group" id="order-options">
+          <label class="chip radio"><input type="radio" name="order" value="sequential" checked><span>顺序刷</span></label>
+          <label class="chip radio"><input type="radio" name="order" value="shuffled"><span>乱序刷</span></label>
+        </div>
+      </div>
 
-  <!-- 结算页 -->
-  <section id="result-screen" class="screen hidden">
-    <h1>本轮完成 🎉</h1>
-    <div id="result-score" class="result-score"></div>
-    <div id="result-detail" class="result-detail"></div>
-    <div class="result-actions">
-      <button id="retry-wrong-btn" class="secondary-btn hidden">只复习错题</button>
-      <button id="restart-btn" class="primary-btn">重新设置</button>
-    </div>
-  </section>
+      <div class="setup-summary" id="setup-summary"></div>
+
+      <button id="start-btn" class="primary-btn">开始刷题</button>
+    </section>
+
+    <!-- 答题页 -->
+    <section id="quiz-screen" class="screen hidden">
+      <div class="quiz-header">
+        <button id="exit-btn" class="text-btn">‹ 退出</button>
+        <div class="progress-wrap">
+          <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+          <div id="progress-text" class="progress-text"></div>
+        </div>
+        <div id="score-text" class="score-text"></div>
+      </div>
+
+      <div class="quiz-body">
+        <div id="q-source" class="q-source"></div>
+        <div id="q-text" class="q-text"></div>
+        <div id="q-options" class="q-options"></div>
+
+        <div id="feedback" class="feedback hidden">
+          <div id="feedback-title" class="feedback-title"></div>
+          <div id="feedback-answer" class="feedback-answer"></div>
+          <div id="feedback-explanation" class="feedback-explanation"></div>
+        </div>
+      </div>
+
+      <div class="quiz-footer">
+        <button id="next-btn" class="primary-btn hidden">下一题 ›</button>
+      </div>
+    </section>
+
+    <!-- 结算页 -->
+    <section id="result-screen" class="screen hidden">
+      <h1 class="result-heading">本轮完成</h1>
+      <div id="result-score" class="result-score"></div>
+      <div id="result-detail" class="result-detail"></div>
+      <div class="result-actions">
+        <button id="retry-wrong-btn" class="secondary-btn hidden">只复习错题</button>
+        <button id="restart-btn" class="primary-btn">重新设置</button>
+      </div>
+    </section>
+
+  </main>
 
   <footer class="app-footer">
     <p>作者：idbetterrun · <a href="https://tanqinghua.asia" target="_blank" rel="noopener">tanqinghua.asia</a></p>
     <p>© 2026 tanqinghua. 保留所有权利。<span class="warn">免费分享，禁止二次转卖盈利。</span></p>
-    <p class="disclaimer warn">题目仅供个人学习复习参考，不保证与实际考试内容一致，请以官方教材/考纲为准。</p>
+    <p class="disclaimer warn">题目仅供个人学习复习参考，不保证与实际考试内容一致，请以老师画的重点为准。</p>
   </footer>
 
 </div>
