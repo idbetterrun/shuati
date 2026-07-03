@@ -2603,6 +2603,1406 @@
   },
   {
     "type": "single",
+    "question": "Er sucht ein neues Haus, denn er mag(喜欢) __________ altes Haus, er möchte __________ neues Haus kaufen.",
+    "options": [
+      {
+        "label": "A",
+        "text": "kein, ein"
+      },
+      {
+        "label": "B",
+        "text": "nicht, einen"
+      },
+      {
+        "label": "C",
+        "text": "nicht, kein"
+      },
+      {
+        "label": "D",
+        "text": "keinen, kein"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "Haus 是中性名词（das Haus）。第一空：名词前用 kein 否定，mag 后面接第四格（Akkusativ），中性第四格是 kein；第二空：表示“想买一栋新房子”，möchte 后面接第四格，中性第四格是不定冠词 ein。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 120
+  },
+  {
+    "type": "single",
+    "question": "__________ Sie bitte pünktlich!",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sein"
+      },
+      {
+        "label": "B",
+        "text": "Sind"
+      },
+      {
+        "label": "C",
+        "text": "Seien"
+      },
+      {
+        "label": "D",
+        "text": "Ist"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "考查 Sie（您）的命令格。动词 sein 针对 Sie 的命令格固定形式为 **Seien Sie!**（请您...）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 121
+  },
+  {
+    "type": "single",
+    "question": "Der Zug __________ um 10 Uhr am Gleis 5 __________.",
+    "options": [
+      {
+        "label": "A",
+        "text": "kommt, an"
+      },
+      {
+        "label": "B",
+        "text": "ankommt, --"
+      },
+      {
+        "label": "C",
+        "text": "kommt, --"
+      },
+      {
+        "label": "D",
+        "text": "komme, an"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "考查可分动词 ankommen（到达）。在现在时的一般陈述句中，副词前缀 an 必须放到句尾，变位动词 kommt 放在第二位（主语是单数第三人称 Der Zug）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 122
+  },
+  {
+    "type": "single",
+    "question": "Der Arzt ist __________ das neue Medikament.",
+    "options": [
+      {
+        "label": "A",
+        "text": "mit"
+      },
+      {
+        "label": "B",
+        "text": "gegen"
+      },
+      {
+        "label": "C",
+        "text": "um"
+      },
+      {
+        "label": "D",
+        "text": "ohne"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "句意为“医生**反对**这种新药”。gegen 是介词，意为“反对/违背”，后面直接接第四格（das Medikament 的第四格还是 das）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 123
+  },
+  {
+    "type": "single",
+    "question": "Die Nachbarin hilft __________ Sohn bei den Hausaufgaben.",
+    "options": [
+      {
+        "label": "A",
+        "text": "meiner"
+      },
+      {
+        "label": "B",
+        "text": "meinen"
+      },
+      {
+        "label": "C",
+        "text": "meine"
+      },
+      {
+        "label": "D",
+        "text": "meinem"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "动词 helfen（帮助）后面必须接第三格（Dativ）。Sohn（儿子）是阳性名词（der Sohn），它的单数第三格物主代词词尾是 `-em`，故选 meinem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 124
+  },
+  {
+    "type": "single",
+    "question": "__________ du, wie spät es ist?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Weißt"
+      },
+      {
+        "label": "B",
+        "text": "Wisst"
+      },
+      {
+        "label": "C",
+        "text": "Weiß"
+      },
+      {
+        "label": "D",
+        "text": "Wissen"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "考查动词 wissen（知道）的变位。主语是 du，它的第二人称单数变位是 **weißt**（注意单数人称变位元音会由 i 变成 ei）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 125
+  },
+  {
+    "type": "single",
+    "question": "Ein Fremder gibt __________ Eltern Blumen.",
+    "options": [
+      {
+        "label": "A",
+        "text": "mein"
+      },
+      {
+        "label": "B",
+        "text": "meine"
+      },
+      {
+        "label": "C",
+        "text": "meinen"
+      },
+      {
+        "label": "D",
+        "text": "meinem"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "动词 geben 后面接双宾语（geben + 某人第三格 + 某物第四格）。Eltern（父母）是复数名词，复数第三格的物主代词词尾是 `-en`，故选 meinen。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 126
+  },
+  {
+    "type": "single",
+    "question": "Der __________ kommt aus Wien, und ich helfe dem __________ bei der Arbeit.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Herr, Herr"
+      },
+      {
+        "label": "B",
+        "text": "Herr, Herrn"
+      },
+      {
+        "label": "C",
+        "text": "Herrn, Herrn"
+      },
+      {
+        "label": "D",
+        "text": "Herrn, Herr"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "考查阳性弱变化名词 Herr（先生）。第一空作主语，用第一格原本形式 Herr；第二空在 dem 后面作第三格，Herr 作为弱变化名词必须加上词尾 `-n` 变成 **Herrn**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 127
+  },
+  {
+    "type": "single",
+    "question": "Er ist krank, __________ er geht zur Arbeit.",
+    "options": [
+      {
+        "label": "A",
+        "text": "aber"
+      },
+      {
+        "label": "B",
+        "text": "denn"
+      },
+      {
+        "label": "C",
+        "text": "oder"
+      },
+      {
+        "label": "D",
+        "text": "und"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "连词辨析。句意为：“他生病了，**但是**他去工作了。”表示转折用 aber。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 128
+  },
+  {
+    "type": "single",
+    "question": "Die Blumen gefallen __________ Tante gut, aber __________ nicht.",
+    "options": [
+      {
+        "label": "A",
+        "text": "seiner, ihn"
+      },
+      {
+        "label": "B",
+        "text": "seiner, ihm"
+      },
+      {
+        "label": "C",
+        "text": "seine, ihm"
+      },
+      {
+        "label": "D",
+        "text": "meinen, ihn"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "动词 gefallen（喜欢/讨人喜欢）后面必须接第三格。Tante（姨妈/姑姑）是阴性名词，阴性第三格词尾是 `-er` 变成 seiner；第二空“但是不讨**他**喜欢”，er（他）的第三格是 **ihm**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 129
+  },
+  {
+    "type": "single",
+    "question": "Seit __________ regnet es.",
+    "options": [
+      {
+        "label": "A",
+        "text": "einem Tag"
+      },
+      {
+        "label": "B",
+        "text": "einen Tag"
+      },
+      {
+        "label": "C",
+        "text": "eine Tag"
+      },
+      {
+        "label": "D",
+        "text": "ein Tag"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "介词 seit（自从）后面必须接第三格（Dativ）。Tag（天）是阳性名词（der Tag），阳性单数第三格的不定冠词是 **einem**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 130
+  },
+  {
+    "type": "single",
+    "question": "Morgen fliege ich __________ Hamburg, aber heute fahre ich __________ die Altstadt.",
+    "options": [
+      {
+        "label": "A",
+        "text": "nach, in"
+      },
+      {
+        "label": "B",
+        "text": "in, nach"
+      },
+      {
+        "label": "C",
+        "text": "zu, in"
+      },
+      {
+        "label": "D",
+        "text": "nach, zu"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "地点介词辨析。第一空：飞往某个城市/国家名（无冠词）用 **nach** Hamburg；第二空：去老城区，Altstadt 是阴性名词（die Altstadt），表示进入某个空间用介词 in + 第四格（方向），阴性第四格依然是 **in die**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 131
+  },
+  {
+    "type": "single",
+    "question": "In meinem Dorf __________ es __________ alten Zug.",
+    "options": [
+      {
+        "label": "A",
+        "text": "gibt, einen"
+      },
+      {
+        "label": "B",
+        "text": "gibt, eine"
+      },
+      {
+        "label": "C",
+        "text": "gibt, einer"
+      },
+      {
+        "label": "D",
+        "text": "gibt, einem"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "固定句型 **Es gibt + 第四格**（有...）。Zug（火车）是阳性名词（der Zug），阳性第四格的不定冠词是 **einen**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 132
+  },
+  {
+    "type": "single",
+    "question": "Er geht __________ seinen Regenschirm.",
+    "options": [
+      {
+        "label": "A",
+        "text": "seit"
+      },
+      {
+        "label": "B",
+        "text": "ohne"
+      },
+      {
+        "label": "C",
+        "text": "gegen"
+      },
+      {
+        "label": "D",
+        "text": "von"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "介词辨析。句意为：“他**没带**雨伞就出门了。”ohne 意为“没有/不带”，后面固定接第四格（seinen Regenschirm 正好是阳性第四格形式）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 133
+  },
+  {
+    "type": "single",
+    "question": "Er __________ den Text ohne Erklärung.",
+    "options": [
+      {
+        "label": "A",
+        "text": "versteht"
+      },
+      {
+        "label": "B",
+        "text": "steht ver"
+      },
+      {
+        "label": "C",
+        "text": "verstand"
+      },
+      {
+        "label": "D",
+        "text": "verstehtet"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "考查不可分动词 verstehen（理解）的现在时变位。主语是 Er（单三），直接在词尾加 `-t` 变成 versteht（ver- 是不可分前缀，绝对不能拆到句尾）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 134
+  },
+  {
+    "type": "single",
+    "question": "Wir __________ gern ein neues Auto kaufen, aber wir haben nicht genug Geld.",
+    "options": [
+      {
+        "label": "A",
+        "text": "möchtet"
+      },
+      {
+        "label": "B",
+        "text": "möchte"
+      },
+      {
+        "label": "C",
+        "text": "möchten"
+      },
+      {
+        "label": "D",
+        "text": "möchtest"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "考查情态动词 möchten 的变位。主语是 Wir（我们），第一人称复数对应的正确变位是 **möchten**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 135
+  },
+  {
+    "type": "single",
+    "question": "Der Arzt hilft __________ bei der Gesundheitsprüfung.",
+    "options": [
+      {
+        "label": "A",
+        "text": "einem Franzosen"
+      },
+      {
+        "label": "B",
+        "text": "einen Franzosen"
+      },
+      {
+        "label": "C",
+        "text": "einem Franzose"
+      },
+      {
+        "label": "D",
+        "text": "einen Franzos"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "动词 helfen 后面接第三格。Franzose（法国男人）是一个阳性弱变化名词，只要不是第一格，其他所有格都要加 `-n` 变成 Franzosen。加上阳性单数第三格不定冠词 einem，组合成 **einem Franzosen**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 136
+  },
+  {
+    "type": "single",
+    "question": "Der Professor zeigt __________ Studenten __________ neuen Plan.",
+    "options": [
+      {
+        "label": "A",
+        "text": "seinem, eine"
+      },
+      {
+        "label": "B",
+        "text": "seinen, einem"
+      },
+      {
+        "label": "C",
+        "text": "seine, einen"
+      },
+      {
+        "label": "D",
+        "text": "seinem, den"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "动词 zeigen 后面接双宾语（显示某人第三格 + 某物第四格）。Student（学生）是阳性弱变化名词，单数第三格不仅前面要用 seinem，词尾也要加 `-en`，变成 **seinem** Studenten；Plan（计划）也是阳性名词（der Plan），它的单数第四格定冠词是 **den**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 137
+  },
+  {
+    "type": "single",
+    "question": "__________ Sie bitte geduldig!",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sein"
+      },
+      {
+        "label": "B",
+        "text": "Sind"
+      },
+      {
+        "label": "C",
+        "text": "Seien"
+      },
+      {
+        "label": "D",
+        "text": "Ist"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "考查 Sie 的命令格（与第 2 题完全相同）。`Seien Sie bitte geduldig!` 意为“请您耐心一点！”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 138
+  },
+  {
+    "type": "single",
+    "question": "Mein Bruder __________ einen Hund. Er __________ klein.",
+    "options": [
+      {
+        "label": "A",
+        "text": "hat, ist"
+      },
+      {
+        "label": "B",
+        "text": "hat, bin"
+      },
+      {
+        "label": "C",
+        "text": "haben, ist"
+      },
+      {
+        "label": "D",
+        "text": "habt, ist"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "第一空：我的哥哥有一条狗，主语 Mein Bruder 是单数第三人称，haben 变位用 **hat**；第二空：它（狗）很小，der Hund 用代词 er 代替，er 对应的 sein 动词变位是 **ist**。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 139
+  },
+  {
+    "type": "single",
+    "question": "Deine Schwester kommt gerade ______ dem Zimmer.",
+    "options": [
+      {
+        "label": "A",
+        "text": "aus"
+      },
+      {
+        "label": "B",
+        "text": "für"
+      },
+      {
+        "label": "C",
+        "text": "um"
+      },
+      {
+        "label": "D",
+        "text": "mit"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "考查表示方向和位置的介词。`aus` + 第三格（Dativ）表示“从……（封闭的空间）里出来”。句意为：“你妹妹正从房间里出来。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 140
+  },
+  {
+    "type": "single",
+    "question": "Das ist das Foto ______ meiner Tante.",
+    "options": [
+      {
+        "label": "A",
+        "text": "zu"
+      },
+      {
+        "label": "B",
+        "text": "von"
+      },
+      {
+        "label": "C",
+        "text": "auf"
+      },
+      {
+        "label": "D",
+        "text": "in"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "`von` + 第三格（Dativ）可以用来表示所属关系，相当于英文中的 \"of\" 或汉语中的“的”。句意为：“这是我阿姨的照片。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 141
+  },
+  {
+    "type": "single",
+    "question": "Sie wohnt ______ ihrer Großmutter.",
+    "options": [
+      {
+        "label": "A",
+        "text": "an"
+      },
+      {
+        "label": "B",
+        "text": "nach"
+      },
+      {
+        "label": "C",
+        "text": "bei"
+      },
+      {
+        "label": "D",
+        "text": "vor"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "`bei` + 第三格（Dativ）常用于表示“住在某人那里”或“在某人家里”。句意为：“她和她的祖母住在一起。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 142
+  },
+  {
+    "type": "single",
+    "question": "Er schreibt ______ einem Kugelschreiber.",
+    "options": [
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "zu"
+      },
+      {
+        "label": "C",
+        "text": "bei"
+      },
+      {
+        "label": "D",
+        "text": "mit"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "`mit` + 第三格（Dativ）可以用来表示使用某种工具或手段。句意为：“他用圆珠笔写字。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 143
+  },
+  {
+    "type": "single",
+    "question": "Wir fahren morgen ______ München.",
+    "options": [
+      {
+        "label": "A",
+        "text": "auf"
+      },
+      {
+        "label": "B",
+        "text": "nach"
+      },
+      {
+        "label": "C",
+        "text": "aus"
+      },
+      {
+        "label": "D",
+        "text": "vor"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "表示前往某个城市、国家（无冠词）或大洲等地理名称时，介词使用 `nach`。句意为：“我们明天去慕尼黑。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 144
+  },
+  {
+    "type": "single",
+    "question": "Ich gehe gerne ______ dir ins Kino.",
+    "options": [
+      {
+        "label": "A",
+        "text": "für"
+      },
+      {
+        "label": "B",
+        "text": "um"
+      },
+      {
+        "label": "C",
+        "text": "mit"
+      },
+      {
+        "label": "D",
+        "text": "zu"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "`mit` + 第三格（Dativ）表示伴随，意为“和……一起”。`dir` 是 `du` 的第三格形式。句意为：“我喜欢和你一起去看电影。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 145
+  },
+  {
+    "type": "single",
+    "question": "______ dem Unterricht spielen wir Fußball.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Auf"
+      },
+      {
+        "label": "B",
+        "text": "Zu"
+      },
+      {
+        "label": "C",
+        "text": "Um"
+      },
+      {
+        "label": "D",
+        "text": "Nach"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "`nach` + 第三格（Dativ）在表示时间时，意为“在……之后”。句意为：“下课后我们去踢足球。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 146
+  },
+  {
+    "type": "single",
+    "question": "Herr Li kommt ______ Japan.",
+    "options": [
+      {
+        "label": "A",
+        "text": "von"
+      },
+      {
+        "label": "B",
+        "text": "zu"
+      },
+      {
+        "label": "C",
+        "text": "mit"
+      },
+      {
+        "label": "D",
+        "text": "aus"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "表示“从某个国家/地方来”（籍贯、出生地或出发地），固定搭配是 `kommen aus` + 第三格（Dativ）。句意为：“李先生来自日本。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 147
+  },
+  {
+    "type": "single",
+    "question": "Sie arbeitet ______ einer großen Firma.",
+    "options": [
+      {
+        "label": "A",
+        "text": "mit"
+      },
+      {
+        "label": "B",
+        "text": "nach"
+      },
+      {
+        "label": "C",
+        "text": "bei"
+      },
+      {
+        "label": "D",
+        "text": "von"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "表示“在某家公司、企业或机构工作”时，使用的介词是 `bei` + 第三格（Dativ）。句意为：“她在一家大公司工作。”",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 148
+  },
+  {
+    "type": "single",
+    "question": "Meine Schwester lernt ______ zwei Klavier.",
+    "options": [
+      {
+        "label": "A",
+        "text": "für"
+      },
+      {
+        "label": "B",
+        "text": "um"
+      },
+      {
+        "label": "C",
+        "text": "zu"
+      },
+      {
+        "label": "D",
+        "text": "seit"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "考查时间介词。`seit` + 第三格（Dativ）表示动作从过去某一时刻开始并一直延续到现在，意为“自从……以来”或“持续了……（时间）”。句意为：“我妹妹学钢琴已经两（年/个月）了。” 虽然原题干在 \"zwei\" 后面漏掉了名词（如 `Jahren`），但结合动词的现在时态（lernt）和延续性动作，正确答案毫无疑问是表示持续时间的 `seit`。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 149
+  },
+  {
+    "type": "single",
+    "question": "德语人称代词“我 (ich)”的主格(N)、宾格(A)和与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "ich, mir, mich"
+      },
+      {
+        "label": "B",
+        "text": "ich, mich, mir"
+      },
+      {
+        "label": "C",
+        "text": "mich, ich, mir"
+      },
+      {
+        "label": "D",
+        "text": "mir, mich, ich"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "“我”的主格是 ich，宾格是 mich，与格是 mir。记忆口诀：宾格 m**i**ch 对应 d**i**ch，与格 m**i**r 对应 d**i**r。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 150
+  },
+  {
+    "type": "single",
+    "question": "德语人称代词“你 (du)”的主格(N)、宾格(A)和与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "du, dich, dir"
+      },
+      {
+        "label": "B",
+        "text": "du, dir, dich"
+      },
+      {
+        "label": "C",
+        "text": "dich, du, dir"
+      },
+      {
+        "label": "D",
+        "text": "dir, dich, du"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "“你”的主格是 du，宾格是 dich，与格是 dir。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 151
+  },
+  {
+    "type": "single",
+    "question": "德语人称代词“阳性 ta (er)”、“阴性 ta (sie)”、“中性 ta (es)”的宾格(A)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "ihn, sie, es"
+      },
+      {
+        "label": "B",
+        "text": "ihm, ihr, ihm"
+      },
+      {
+        "label": "C",
+        "text": "er, sie, es"
+      },
+      {
+        "label": "D",
+        "text": "ihn, ihr, es"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "宾格下，只有阳性 er 会变成 ihn，阴性 sie 和中性 es 的宾格与主格保持一致（不变）。B 选项是这三者的与格。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 152
+  },
+  {
+    "type": "single",
+    "question": "德语人称代词“我们 (wir)”和“你们 (ihr)”的与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "uns, euch"
+      },
+      {
+        "label": "B",
+        "text": "euch, uns"
+      },
+      {
+        "label": "C",
+        "text": "wir, ihr"
+      },
+      {
+        "label": "D",
+        "text": "uns, ihnen"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "wir 的宾格和与格都是 uns；ihr 的宾格和与格都是 euch。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 153
+  },
+  {
+    "type": "single",
+    "question": "德语尊称“您/您们 (Sie)”的宾格(A)和与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie, Ihnen"
+      },
+      {
+        "label": "B",
+        "text": "sie, ihnen"
+      },
+      {
+        "label": "C",
+        "text": "Ihnen, Sie"
+      },
+      {
+        "label": "D",
+        "text": "ihnen, sie"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "尊称 Sie 的宾格还是 Sie，与格是 Ihnen。注意首字母必须大写，以区别于复数第三人称 sie。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 154
+  },
+  {
+    "type": "single",
+    "question": "否定词 kein 的中性(n.)和阳性(m.)的与格(D)形式分别是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "keinem, keinem"
+      },
+      {
+        "label": "B",
+        "text": "keinen, keinem"
+      },
+      {
+        "label": "C",
+        "text": "keinem, keinen"
+      },
+      {
+        "label": "D",
+        "text": "keinen, keinen"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "在德语变格中，中性和阳性的与格（Dativ）词尾通常是相同的，都是加 -em，所以都是 keinem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 155
+  },
+  {
+    "type": "single",
+    "question": "否定词 kein 的阴性(f.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "keine, keine, keinen"
+      },
+      {
+        "label": "B",
+        "text": "keine, keine, keiner"
+      },
+      {
+        "label": "C",
+        "text": "kein, kein, keiner"
+      },
+      {
+        "label": "D",
+        "text": "keine, keiner, keinen"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "阴性词的主格和宾格相同，都是 keine；阴性与格词尾加 -er，变成 keiner。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 156
+  },
+  {
+    "type": "single",
+    "question": "否定词 kein 的复数(pl.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "keine, keine, keinen"
+      },
+      {
+        "label": "B",
+        "text": "keine, keine, keiner"
+      },
+      {
+        "label": "C",
+        "text": "keinen, keinen, keine"
+      },
+      {
+        "label": "D",
+        "text": "keine, keinen, keinen"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "复数的主格和宾格相同，都是 keine；复数与格词尾加 -en，变成 keinen（且名词复数后通常还要加 -n）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 157
+  },
+  {
+    "type": "single",
+    "question": "否定词 kein 的阳性(m.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "kein, keinen, keinem"
+      },
+      {
+        "label": "B",
+        "text": "kein, keinem, keinen"
+      },
+      {
+        "label": "C",
+        "text": "kein, kein, keinem"
+      },
+      {
+        "label": "D",
+        "text": "keinen, kein, keinem"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "阳性主格为 kein，宾格加 -en 变为 keinen，与格加 -em 变为 keinem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 158
+  },
+  {
+    "type": "single",
+    "question": "定冠词的阳性(m.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "der, den, dem"
+      },
+      {
+        "label": "B",
+        "text": "der, dem, den"
+      },
+      {
+        "label": "C",
+        "text": "den, der, dem"
+      },
+      {
+        "label": "D",
+        "text": "dem, den, der"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "阳性定冠词变格规律：主格 der，宾格 den，与格 dem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 159
+  },
+  {
+    "type": "single",
+    "question": "定冠词的阴性(f.)和复数(pl.)的主格(N)和宾格(A)都是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "der"
+      },
+      {
+        "label": "B",
+        "text": "die"
+      },
+      {
+        "label": "C",
+        "text": "das"
+      },
+      {
+        "label": "D",
+        "text": "den"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "阴性单数和复数的第一格（主格）和第四格（宾格）共用同一个定冠词 die。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 160
+  },
+  {
+    "type": "single",
+    "question": "定冠词的中性(n.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "das, das, dem"
+      },
+      {
+        "label": "B",
+        "text": "das, dem, das"
+      },
+      {
+        "label": "C",
+        "text": "das, das, den"
+      },
+      {
+        "label": "D",
+        "text": "dem, das, das"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "中性定冠词变格规律：主格和宾格都是 das，与格和阳性一样，是 dem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 161
+  },
+  {
+    "type": "single",
+    "question": "定冠词的复数(pl.)与格(D)是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "der"
+      },
+      {
+        "label": "B",
+        "text": "die"
+      },
+      {
+        "label": "C",
+        "text": "den"
+      },
+      {
+        "label": "D",
+        "text": "dem"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "复数与格定冠词是 den（且注意其后的名词复数形式通常需要加上词尾 -n）。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 162
+  },
+  {
+    "type": "single",
+    "question": "不定冠词 ein 的阴性(f.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "eine, eine, einer"
+      },
+      {
+        "label": "B",
+        "text": "eine, einer, eine"
+      },
+      {
+        "label": "C",
+        "text": "ein, eine, einer"
+      },
+      {
+        "label": "D",
+        "text": "eine, eine, einem"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "不定冠词的阴性变位与 keine 完全一致：主格和宾格都是 eine，与格是 einer。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 163
+  },
+  {
+    "type": "single",
+    "question": "不定冠词 ein 的阳性(m.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "ein, einem, einen"
+      },
+      {
+        "label": "B",
+        "text": "ein, einen, einem"
+      },
+      {
+        "label": "C",
+        "text": "einen, ein, einem"
+      },
+      {
+        "label": "D",
+        "text": "ein, ein, einem"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "阳性主格为 ein，宾格加 -en 变为 einen，与格加 -em 变为 einem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 164
+  },
+  {
+    "type": "single",
+    "question": "不定冠词 ein 的中性(n.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "ein, ein, einem"
+      },
+      {
+        "label": "B",
+        "text": "ein, einem, ein"
+      },
+      {
+        "label": "C",
+        "text": "ein, ein, einen"
+      },
+      {
+        "label": "D",
+        "text": "einem, ein, ein"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "中性主格和宾格相同，都是 ein，与格与阳性相同，是 einem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 165
+  },
+  {
+    "type": "single",
+    "question": "物主代词 euer（你们的）在阴性(f.)和复数(Pl.)的主格(N)与宾格(A)形式是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "euer"
+      },
+      {
+        "label": "B",
+        "text": "euere"
+      },
+      {
+        "label": "C",
+        "text": "eure"
+      },
+      {
+        "label": "D",
+        "text": "euren"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "当 euer 后面需要加词尾 -e 时，词干中间的 e 必须省略，因此不能写成 euere，必须写成 eure。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 166
+  },
+  {
+    "type": "single",
+    "question": "物主代词 euer 的阳性(m.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "euer, euren, eurem"
+      },
+      {
+        "label": "B",
+        "text": "euer, eurem, euren"
+      },
+      {
+        "label": "C",
+        "text": "eure, euren, eurem"
+      },
+      {
+        "label": "D",
+        "text": "euer, euren, euer"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "阳性主格是原型 euer；宾格加 -en 时省 e 变为 euren；与格加 -em 时省 e 变为 eurem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 167
+  },
+  {
+    "type": "single",
+    "question": "物主代词 euer 的中性(n.)主格(N)、宾格(A)、与格(D)依次是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "euer, euer, euren"
+      },
+      {
+        "label": "B",
+        "text": "euer, euer, eurem"
+      },
+      {
+        "label": "C",
+        "text": "eure, euer, eurem"
+      },
+      {
+        "label": "D",
+        "text": "euer, euren, eurem"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "中性主格和宾格都是原型 euer（不需要加词尾，所以不省略 e）；与格和阳性一样，是 eurem。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 168
+  },
+  {
+    "type": "single",
+    "question": "物主代词 euer 的复数(Pl.)与格(D)是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "eurer"
+      },
+      {
+        "label": "B",
+        "text": "eurem"
+      },
+      {
+        "label": "C",
+        "text": "euren"
+      },
+      {
+        "label": "D",
+        "text": "eure"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "复数与格的词尾是 -en，所以 euer 加 -en 并在词干省 e 后，变成 euren。",
+    "subject": "德语",
+    "source": "德语选择题",
+    "id": 169
+  },
+  {
+    "type": "single",
     "question": "Modern linguistics differs from traditional grammar for it is mostly _______.",
     "options": [
       {
@@ -2627,7 +4027,7 @@
     "explanation": "现代语言学是**描写性(descriptive)**的，只客观描写语言实际使用情况，不评判对错，故选 B。A. prescriptive（规定性）是传统语法的特征，规定\"应该怎么说\"，方向相反；C. subjective（主观的）与语言学追求客观科学的性质相悖；D. Latin-based（以拉丁语为基础）指传统语法套用拉丁语框架，也是传统语法而非现代语言学的特点。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 120
+    "id": 170
   },
   {
     "type": "single",
@@ -2655,7 +4055,7 @@
     "explanation": "语言学家视语言变化为**自然(natural)**现象，是语言的固有属性，故选 C。A. abnormal（反常的）、D. unnatural（不自然的）都否定语言变化的合理性，是规定主义者的态度；B. something to be feared（应当惧怕的）同样是保守的规定性观点，与语言学家的客观立场不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 121
+    "id": 171
   },
   {
     "type": "single",
@@ -2683,7 +4083,7 @@
     "explanation": "[d] 是**浊(voiced)**齿龈塞音，发音时声带振动，故选 A。B/D 的 [t] 是清齿龈塞音，C 的 [p] 是清双唇塞音，发音时声带都不振动，均为清音(voiceless)。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 122
+    "id": 172
   },
   {
     "type": "single",
@@ -2711,7 +4111,7 @@
     "explanation": "disabled 可切分为 **dis- + able + -ed** 三个语素，故选 C。dis-（否定前缀）、able（词根）、-ed（屈折后缀），共 3 个，其余选项数目不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 123
+    "id": 173
   },
   {
     "type": "single",
@@ -2739,7 +4139,7 @@
     "explanation": "dis- 加在词根之前，是**前缀(prefix)**，故选 D。A. free morpheme（自由语素）能独立成词，而 dis- 必须附着，属黏着语素；B. suffix（后缀）加在词后，位置错误；C. infix（中缀）插入词内，英语几乎没有，也不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 124
+    "id": 174
   },
   {
     "type": "single",
@@ -2767,7 +4167,7 @@
     "explanation": "黑人英语是与特定族群相关的**族群/种族(ethnic)**变体，故选 B。A. regional（地域变体）按地区划分；C. social（社会变体）按社会阶层等划分；D. lower class（下层阶级）不是标准的变体分类术语，且以阶级定义黑人英语并不准确。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 125
+    "id": 175
   },
   {
     "type": "single",
@@ -2795,7 +4195,7 @@
     "explanation": "alive/dead 非此即彼、无中间状态、否定一方即肯定另一方，属**互补反义词(complementary antonyms)**，故选 B。A. gradable（等级反义词，如 hot/cold）有程度之分，可比较，可有中间值，不符；C. relational opposites（关系反义词，如 buy/sell）互为前提关系；D. co-hyponym（同下义词）指同属一个上义词的并列词，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 126
+    "id": 176
   },
   {
     "type": "single",
@@ -2823,7 +4223,7 @@
     "explanation": "英语、德语、法语**都**属于印欧语系(Indo-European)，故选 D。A/B/C 各自单独说都正确但不完整，本题需选涵盖全部的 D。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 127
+    "id": 177
   },
   {
     "type": "single",
@@ -2851,7 +4251,7 @@
     "explanation": "谓词分析中，论元(argument)个数决定 predication 类型。\"Kids like apples\" 含 kids、apples 两个论元，是**二位谓词结构(two-place)**，故选 A。one-place 只有一个论元（如 The baby smiled）；three-place 有三个论元（如 give）；no-place 无论元（无人称句如 It is raining），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 128
+    "id": 178
   },
   {
     "type": "single",
@@ -2879,7 +4279,7 @@
     "explanation": "主谓句(subject-predicate)整体功能不等同于其中任一直接成分，属**离心结构(exocentric)**，故选 C。D. endocentric（向心结构）中整体与中心词分布相同（如修饰语+名词）；A. subordinate（主从）、B. coordinate（并列）指分句间关系，此处是单句主谓，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 129
+    "id": 179
   },
   {
     "type": "single",
@@ -2907,7 +4307,7 @@
     "explanation": "索绪尔是**瑞士(Swiss)**语言学家，现代语言学奠基人，故选 B。其余国籍均错误。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 130
+    "id": 180
   },
   {
     "type": "single",
@@ -2935,7 +4335,7 @@
     "explanation": "[b] 是**浊双唇塞音**（声带振动+双唇闭合+完全阻塞），三特征齐全，故选 C。A. [p] 是清双唇塞音（清音）；B. [m] 是双唇鼻音（非塞音）；D. [t] 是清齿龈塞音（部位错、清音），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 131
+    "id": 181
   },
   {
     "type": "single",
@@ -2963,7 +4363,7 @@
     "explanation": "[lkbi] 的音位组合违反英语**音位配列规则(phonotactics)**，英语不允许 /lkb/ 这样的辅音串，故不可能是英语词，选 B。A/C/D 的组合均符合英语音节结构。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 132
+    "id": 182
   },
   {
     "type": "single",
@@ -2991,7 +4391,7 @@
     "explanation": "-ing、-est 表达时体、比较级等语法范畴，不改变词类，是**屈折词缀(inflectional affixes)**，故选 C。A. derivational（派生词缀）会造出新词/改变词类；B. free morphemes（自由语素）能独立成词，词缀是黏着的；D. roots（词根）是词的核心而非词缀，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 133
+    "id": 183
   },
   {
     "type": "single",
@@ -3019,7 +4419,7 @@
     "explanation": "两个分句由连接词并列连接，是**并列句(coordinate)**，故选 A。B. simple（简单句）只有一个分句；C. subordinate（从属）指主从关系，一个分句依附另一个；D. embedded（内嵌）指分句嵌入另一分句内部，均不符\"并列连接\"。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 134
+    "id": 184
   },
   {
     "type": "single",
@@ -3047,7 +4447,7 @@
     "explanation": "认为词就是事物的名称/标签，这是**命名论(naming theory)**（柏拉图提出），故选 D。A. mentalism（心灵主义）、C. conceptualism（概念论）强调意义存于心智概念；B. contextualism（语境论）强调意义由语境决定，均与\"词=名称\"不同。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 135
+    "id": 185
   },
   {
     "type": "single",
@@ -3075,7 +4475,7 @@
     "explanation": "flower（上义词）与 rose（下义词）之间的**关系**是**下义关系(hyponymy)**，故选 B。注意区分：A. hyponym（下义词）、D. superordinate（上义词）指的是\"词\"而非\"关系\"；C. co-hyponyms 指并列的同级下义词（如 rose 与 tulip）。题目问的是\"关系\"，故选表示关系的 hyponymy。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 136
+    "id": 186
   },
   {
     "type": "single",
@@ -3103,7 +4503,7 @@
     "explanation": "hand+book、high+way 由两个自由语素直接组合，是**复合词(compound words)**，故选 C。A. blending（混成，如 smog=smoke+fog）取词的部分拼合；B. back-formation（逆构，如 edit←editor）删去词缀；D. derivation（派生）靠加词缀构词，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 137
+    "id": 187
   },
   {
     "type": "single",
@@ -3131,7 +4531,7 @@
     "explanation": "语言的经典定义为\"用于人类**交际(communication)**的任意性声音符号系统\"，故选 B。A. contact（接触）、C. relation（关系）、D. community（社区）都不是该定义中的固定用词。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 138
+    "id": 188
   },
   {
     "type": "single",
@@ -3159,7 +4559,7 @@
     "explanation": "谈天气以维持social contact、并无实质信息传递，是**寒暄功能(phatic)**，故选 B。A. emotive（情感功能）表达说话人情绪；C. performative（施为功能）以言行事；D. interpersonal（人际功能）是 Halliday 体系术语，非此处 Jakobson 功能分类的答案。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 139
+    "id": 189
   },
   {
     "type": "single",
@@ -3187,7 +4587,7 @@
     "explanation": "Chomsky 区分中，规则知识的**实际运用**是**语言运用(performance)**，故选 A。B. competence（语言能力）是内在规则知识本身；C. langue / D. parole 是 Saussure 的术语（语言/言语），题干用 \"ideal language user's knowledge of rules\" 是 Chomsky 措辞，故选 performance。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 140
+    "id": 190
   },
   {
     "type": "single",
@@ -3215,7 +4615,7 @@
     "explanation": "斜线 // 内标写的是**音位(phoneme)**，故选 C。B. phone（音素）和 A. allophone（音位变体）用方括号 [ ] 标写；D. morpheme（语素）属语法层面，不用音标符号。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 141
+    "id": 191
   },
   {
     "type": "single",
@@ -3243,7 +4643,7 @@
     "explanation": "同一音位在不同环境中的不同发音变体是**音位变体(allophones)**，送气/不送气/不除阻的 p 都是 /p/ 的变体，故选 D。其余术语与\"音位变体\"无关。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 142
+    "id": 192
   },
   {
     "type": "single",
@@ -3271,7 +4671,7 @@
     "explanation": "研究语音**产生(production)**过程的是**发音语音学(articulatory phonetics)**，故选 B。A. acoustic（声学语音学）研究声波物理属性；C. auditory（听觉语音学）研究语音的感知，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 143
+    "id": 193
   },
   {
     "type": "single",
@@ -3299,7 +4699,7 @@
     "explanation": "按**发音部位**，[m][b][p] 都是**双唇音(bilabial)**，而 [n] 是**齿龈音(alveolar)**，与众不同，故选 A。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 144
+    "id": 194
   },
   {
     "type": "single",
@@ -3327,7 +4727,7 @@
     "explanation": "声带振动产生**浊音(voiced)**，故选 B。A. voiceless（清音）声带不振动；C. glottal stop（喉塞音）是声门完全闭合；D. consonant（辅音）是宽泛类别，非由\"声带振动\"定义，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 145
+    "id": 195
   },
   {
     "type": "single",
@@ -3355,7 +4755,7 @@
     "explanation": "名词、动词、形容词含实在词汇意义，是**实词(lexical words)**，故选 A。B. grammatical words = C. function words（语法词/功能词，如介词连词冠词）主要起语法作用；D. form words 是功能词的旧称，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 146
+    "id": 196
   },
   {
     "type": "single",
@@ -3383,7 +4783,7 @@
     "explanation": "表示时态、数、性、格等语法范畴的是**屈折语素(inflectional)**，故选 A。D. derivational（派生语素）改变词义或词类；B. free（自由）/C. bound（黏着）是按能否独立成词划分，与\"表语法范畴\"不是同一维度，屈折语素虽也是黏着的，但最贴切的答案是 inflectional。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 147
+    "id": 197
   },
   {
     "type": "single",
@@ -3411,7 +4811,7 @@
     "explanation": "de-nation-al-ize-ation 可切分为 **de + nation + al + ize + ation** 五个语素，故选 C。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 148
+    "id": 198
   },
   {
     "type": "single",
@@ -3439,7 +4839,7 @@
     "explanation": "-ise、-tion 加在词后，是**后缀(suffixes)**，故选 B。A. prefixes（前缀）在词前；C. infixes（中缀）在词内；D. stems（词干）是加词缀的基础，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 149
+    "id": 199
   },
   {
     "type": "single",
@@ -3467,7 +4867,7 @@
     "explanation": "靠**删减**误以为是词缀的部分来构词，是**逆构法(back-formation)**（如 editor→edit），故选 B。A. affixation（加缀法）是相反操作；C. insertion、D. addition 都是\"添加\"，与\"减去\"矛盾。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 150
+    "id": 200
   },
   {
     "type": "single",
@@ -3495,7 +4895,7 @@
     "explanation": "TB 取各词首字母、且逐字母读 /ti:bi:/，是**首字母连写/字母缩略(initialism)**，故选 C。A. acronymy（首字母缩略但拼读成词，如 NATO）；B. clipping（截短，如 phone←telephone）；D. blending（混成），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 151
+    "id": 201
   },
   {
     "type": "single",
@@ -3523,7 +4923,7 @@
     "explanation": "comsat(communication+satellite)、sitcom(situation+comedy) 取两词的一部分拼合，是**混成法(blending)**，故选 A。其余构词法均不符该拼合方式。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 152
+    "id": 202
   },
   {
     "type": "single",
@@ -3551,7 +4951,7 @@
     "explanation": "**音位(phoneme)**是最小的区别意义的语音单位，本身**不承载意义**，故选 B。A. lexeme（词位）、C. morpheme（语素，最小意义单位）、D. word（词）都是有意义的单位。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 153
+    "id": 203
   },
   {
     "type": "single",
@@ -3579,7 +4979,7 @@
     "explanation": "句法规则数量**有限(finite)**，但能生成无限的句子，故选 C。D. infinite（无限）说反了——无限的是句子而非规则；A/B（多/少）表述模糊，非专业答案。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 154
+    "id": 204
   },
   {
     "type": "single",
@@ -3607,7 +5007,7 @@
     "explanation": "不符合母语者语法知识的句子是**不合语法的(ungrammatical)**，故选 D。C. grammatical（合语法）意思相反；B. acceptable（可接受）是语用/使用层面概念，不等于合语法；A. right 非术语。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 155
+    "id": 205
   },
   {
     "type": "single",
@@ -3635,7 +5035,7 @@
     "explanation": "英语基本语序是**主-谓-宾(SVO)**，故选 B。其余语序对应其他类型语言（如日语 SOV）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 156
+    "id": 206
   },
   {
     "type": "single",
@@ -3663,7 +5063,7 @@
     "explanation": "该短语整体是名词性的，与中心词 book 分布相同，属**向心结构(endocentric)**，故选 A。B. exocentric（离心结构）整体功能不等于任一成分（如主谓句、介词短语内部）；C/D 指成分间的主从/并列关系，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 157
+    "id": 207
   },
   {
     "type": "single",
@@ -3691,7 +5091,7 @@
     "explanation": "命名论由古希腊哲学家**柏拉图(Plato)**提出，故选 A。其余人物均非命名论提出者。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 158
+    "id": 208
   },
   {
     "type": "single",
@@ -3719,7 +5119,7 @@
     "explanation": "\"借你的自行车\"以\"你有自行车\"为**前提(presupposes)**，故选 D。C. entail（蕴含）是单向的逻辑推出（真句推真句）；A. synonymous（同义）、B. inconsistent（不相容）均不符两句关系。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 159
+    "id": 209
   },
   {
     "type": "single",
@@ -3747,7 +5147,7 @@
     "explanation": "把词义分解为语义特征(semantic features)的方法是**成分分析法(componential analysis)**，故选 B。A. predication analysis（谓词分析）分析句子命题结构；C. phonemic（音位分析）、D. grammatical（语法分析）不涉及语义特征分解。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 160
+    "id": 210
   },
   {
     "type": "single",
@@ -3775,7 +5175,7 @@
     "explanation": "alive/dead 非此即彼、无程度，是**互补反义词(complementary)**，故选 C。（同 Ex1 第一组第7题）A. gradable 有程度可比较；B. relational 互为关系前提；均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 161
+    "id": 211
   },
   {
     "type": "single",
@@ -3803,7 +5203,7 @@
     "explanation": "语言符号与外部世界之间的关系是**所指/指称(reference)**，故选 A。D. sense（涵义）是词语间的内部意义关系，不涉及外部世界；B. concept（概念）在心智中；C. semantics（语义学）是整个学科，范围过大，均不符\"符号—世界\"这一关系。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 162
+    "id": 212
   },
   {
     "type": "single",
@@ -3831,7 +5231,7 @@
     "explanation": "不同意义共用同一形式是**同形/同音异义(homonymy)**，故选 C。A. polysemy（一词多义）是同一个词有多个相关义项；B. synonymy（同义）；D. hyponymy（下义），均不符。（辨析：homonymy 是不同的词恰好同形；polysemy 是一个词的多义。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 163
+    "id": 213
   },
   {
     "type": "single",
@@ -3859,7 +5259,7 @@
     "explanation": "意义相近的词是**同义词(synonyms)**，故选 D。其余各项分别指同形词、多义、下义词，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 164
+    "id": 214
   },
   {
     "type": "single",
@@ -3887,7 +5287,7 @@
     "explanation": "语义学与语用学的根本区别在于是否考虑**语境(context)**——语用学研究语境中的意义，故选 D。其余选项不是划分二者的根本标准。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 165
+    "id": 215
   },
   {
     "type": "single",
@@ -3915,7 +5315,7 @@
     "explanation": "句子是**语法(grammatical)**概念，可脱离语境孤立研究其意义，故选 B。与之相对，utterance（话语）才是语用概念、须结合语境。A. pragmatic 恰是相反的一端；C/D 非标准表述。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 166
+    "id": 216
   },
   {
     "type": "single",
@@ -3943,7 +5343,7 @@
     "explanation": "交际中实际说出的句子成为**话语(utterance)**，故选 C。A. constative（表述句）、B. directive（指令，言语行为类别）、D. expressive（表情类）都是具体的言语行为/句类，不是\"实际说出的句子\"这一总概念。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 167
+    "id": 217
   },
   {
     "type": "single",
@@ -3971,7 +5371,7 @@
     "explanation": "话语所带来的**效果/后果**是**取效行为(perlocutionary act)**，故选 C。A. locutionary（言内行为）是说出有意义话语本身；B. illocutionary（言外行为）是说话人的意图/用意；D. performative act 非三分行为术语，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 168
+    "id": 218
   },
   {
     "type": "single",
@@ -3999,7 +5399,7 @@
     "explanation": "**语素(morphemes)**是最小的**有意义**语言单位，故选 B。C. phonemes（音位）是最小语音单位但无意义；A. words（词）可再切分为语素；D. sentences（句子）是较大单位，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 169
+    "id": 219
   },
   {
     "type": "single",
@@ -4027,7 +5427,7 @@
     "explanation": "同类言语行为目的相同，区别在于其**力度/强度(strength or force)**，故选 C。（如\"建议\"与\"命令\"目的都是让人做事，但强度不同。）其余选项不是同类内部的区分依据。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 170
+    "id": 220
   },
   {
     "type": "single",
@@ -4055,7 +5455,7 @@
     "explanation": "**索绪尔(Saussure)**被誉为\"现代语言学之父\"，故选 B。Firth、Halliday 属伦敦学派/系统功能语言学；Chomsky 是转换生成语法创始人，均非该称号所指。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 171
+    "id": 221
   },
   {
     "type": "single",
@@ -4083,7 +5483,7 @@
     "explanation": "语言学是对**人类语言总体(languages in general)**的科学研究，故选 C。A/B/D 都局限于某一具体语言，而语言学研究的是语言的普遍规律。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 172
+    "id": 222
   },
   {
     "type": "single",
@@ -4111,7 +5511,7 @@
     "explanation": "[v] 是**浊、唇齿、擦音(voiced, labiodental, fricative)**，三特征全对，故选 D。A/B 的 voiceless 错（[v] 是浊音）；A/C 的 bilabial 及 stop 错（[v] 是唇齿擦音，不是双唇塞音）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 173
+    "id": 223
   },
   {
     "type": "single",
@@ -4139,7 +5539,7 @@
     "explanation": "-ed 表过去时/过去分词，是**屈折语素(inflectional morpheme)**，不改变词类，故选 C。A. derivational 会造新词/改词类；B. free / D. free form 指能独立成词，而词缀是黏着的，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 174
+    "id": 224
   },
   {
     "type": "single",
@@ -4167,7 +5567,7 @@
     "explanation": "\"将要离婚\"以\"曾是已婚\"为**前提(presupposes)**，故选 C。A. entail（蕴含）是逻辑真值推出，此处不成立；B. contradict（矛盾）、D. synonymous（同义）都不符两句关系。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 175
+    "id": 225
   },
   {
     "type": "single",
@@ -4195,7 +5595,7 @@
     "explanation": "研究**语境**如何影响句子理解的是**语用学(pragmatics)**，故选 B。A. semantics（语义学）研究脱离语境的抽象意义；C. sociolinguistics（社会语言学）研究语言与社会；D. psycholinguistics（心理语言学）研究语言的心理机制，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 176
+    "id": 226
   },
   {
     "type": "single",
@@ -4223,7 +5623,7 @@
     "explanation": "与说话人**意图**一致的是**言外行为(illocutionary act)**，也是言语行为理论的研究核心，故选 B。A. locutionary（言内，说出话语本身）；C. perlocutionary（取效，产生的效果）；D. constative act 非三分类术语，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 177
+    "id": 227
   },
   {
     "type": "single",
@@ -4251,7 +5651,7 @@
     "explanation": "取效行为(perlocutionary)是话语产生的**实际效果**——B 去关门，故选 D。A 是言内行为（字面所说）；B/C 是言外行为（说话人的用意/请求），均不是\"效果\"。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 178
+    "id": 228
   },
   {
     "type": "single",
@@ -4279,7 +5679,7 @@
     "explanation": "一个词有多个（相关）意义是**一词多义(polysemy)**，故选 A。B. antonymy（反义）、C. homophony（同音异义）、D. hyponymy（下义）均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 179
+    "id": 229
   },
   {
     "type": "single",
@@ -4307,7 +5707,7 @@
     "explanation": "表达**心理状态**（如高兴、抱歉、感谢）的是**表情类(expressives)**，故选 C。A. representatives（阐述类）陈述命题真假；B. commissives（承诺类）承诺未来行为；D. declaratives（宣告类）以言语改变现实状态，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 180
+    "id": 230
   },
   {
     "type": "single",
@@ -4335,7 +5735,7 @@
     "explanation": "vacant/occupied 非空即占、无中间态，是**互补反义词(complementary antonyms)**，故选 C。A. gradable（等级反义）可比较有程度；B. relational（关系反义）互为前提；D. synonyms（同义）方向全错。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 181
+    "id": 231
   },
   {
     "type": "single",
@@ -4363,7 +5763,7 @@
     "explanation": "能独立成词、不必附着的是**自由语素(free morphemes)**，故选 D。C. bound（黏着语素）必须附着于他词；A/B 是词缀（也是黏着的），均不符\"unattached\"。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 182
+    "id": 232
   },
   {
     "type": "single",
@@ -4391,7 +5791,7 @@
     "explanation": "词=事物名称/标签，是**命名论(naming theory)**，故选 C。（同前）其余理论强调概念、心智或语境，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 183
+    "id": 233
   },
   {
     "type": "single",
@@ -4419,7 +5819,7 @@
     "explanation": "lass 是苏格兰/英格兰北部**方言**用词，与 girl 构成**方言同义词(dialectal synonyms)**，故选 B。A. stylistic（文体同义，如 kid/child/offspring 正式度不同）；C. emotive（情感/评价色彩不同）；D. collocational（搭配不同），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 184
+    "id": 234
   },
   {
     "type": "single",
@@ -4447,7 +5847,7 @@
     "explanation": "rose 是 flower 的下义词，二者为**下义关系(hyponymy)**，故选 D。A. homonymy（同形异义）、B. antonymy（反义）、C. polysemy（一词多义）均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 185
+    "id": 235
   },
   {
     "type": "single",
@@ -4475,7 +5875,7 @@
     "explanation": "移位(movement)发生**之前**的句法表征是**深层结构(deep structure)**，故选 D。B. surface structure（表层结构）是移位之后的结果；A/C 非该对立术语。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 186
+    "id": 236
   },
   {
     "type": "single",
@@ -4503,7 +5903,7 @@
     "explanation": "Chomsky 用**运用(performance)**指规则知识在交际中的实际实现，故选 D。B. competence（能力）是内在知识本身；A. langue / C. parole 是 Saussure 术语，题干指明是 Chomsky 用语，故不选。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 187
+    "id": 237
   },
   {
     "type": "single",
@@ -4531,7 +5931,7 @@
     "explanation": "**同一个**词有多个意义是**一词多义(polysemy)**，故选 A。D. homonymy 是**不同**词恰好同形（关键区别在\"同一个词\" vs \"不同词\"）；B. hyponymy、C. antonymy 均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 188
+    "id": 238
   },
   {
     "type": "single",
@@ -4559,7 +5959,7 @@
     "explanation": "一天25小时、一周8天客观上**不可能为真**，违反**质的准则(maxim of quality)**（不说假话/无据之言），故选 A。B. quantity（量）、C. relation（关联）、D. manner（方式）针对信息量、相关性、清晰度，均不符此处\"明显失真\"的情形。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 189
+    "id": 239
   },
   {
     "type": "single",
@@ -4587,7 +5987,7 @@
     "explanation": "un-、dis- 加在词前，是**前缀(prefixes)**，故选 A。B. infixes（中缀）在词内；C. suffixes（后缀）在词后；D. grammatical words（语法词）是独立的词而非词缀，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 190
+    "id": 240
   },
   {
     "type": "single",
@@ -4615,7 +6015,7 @@
     "explanation": "乔姆斯基是**美国(American)**语言学家、转换生成语法创始人，故选 C。其余国籍均错误。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 191
+    "id": 241
   },
   {
     "type": "single",
@@ -4643,7 +6043,7 @@
     "explanation": "命名论由古希腊学者**柏拉图(Plato)**提出，故选 A。B. Ogden & Richards 提出语义三角；C. Firth 主张语境论；D. Bloomfield 代表行为主义意义观，均非命名论提出者。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 192
+    "id": 242
   },
   {
     "type": "single",
@@ -4671,7 +6071,7 @@
     "explanation": "买了玫瑰**逻辑上必然推出**买了花，是**蕴含(entailment)**，故选 A。（rose 是 flower 的下义词，下义句蕴含上义句。）B. presuppose（预设）、C. inconsistent（不相容）、D. synonymous（同义）均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 193
+    "id": 243
   },
   {
     "type": "single",
@@ -4699,7 +6099,7 @@
     "explanation": "随**时间**变化研究语言是**历时(diachronic)**研究，故选 B。与之相对，共时(synchronic)研究某一时间点。A. comparative（比较）、D. descriptive（描写）不是时间维度的对立术语；C. up-to-date 非术语。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 194
+    "id": 244
   },
   {
     "type": "fill",
@@ -4708,7 +6108,7 @@
     "explanation": "语言符号的形式与意义之间无必然逻辑联系，这一设计特征即\"任意性(arbitrariness)\"，故填 arbitrary。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 195
+    "id": 245
   },
   {
     "type": "fill",
@@ -4717,7 +6117,7 @@
     "explanation": "研究\"使用语境中\"意义的分支是语用学；若脱离语境研究抽象意义则是 semantics，此处强调 \"in the context of use\"，故填 pragmatics。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 196
+    "id": 246
   },
   {
     "type": "fill",
@@ -4726,7 +6126,7 @@
     "explanation": "随时间变化描写语言是历时研究，与共时(synchronic)相对，故填 diachronic。（题干末尾的 communication 疑为原文笔误，应为 \"diachronic study\"。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 197
+    "id": 247
   },
   {
     "type": "fill",
@@ -4735,7 +6135,7 @@
     "explanation": "Saussure 区分 langue（语言，抽象系统）与 parole（言语，实际使用）；\"actual use\" 对应 parole，故填 parole。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 198
+    "id": 248
   },
   {
     "type": "fill",
@@ -4744,7 +6144,7 @@
     "explanation": "语音学三分支为发音语音学、听觉语音学、声学语音学，故填 articulatory。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 199
+    "id": 249
   },
   {
     "type": "fill",
@@ -4753,7 +6153,7 @@
     "explanation": "最小的有意义语言单位是语素，故填 Morpheme。（注意与\"最小语音单位\"phoneme 区分。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 200
+    "id": 250
   },
   {
     "type": "fill",
@@ -4762,7 +6162,7 @@
     "explanation": "⚠️ 原答案文档给出的答案是 **Syntax**，但题干\"studies language in social contexts（研究社会语境中的语言）\"描述的其实是 **Sociolinguistics（社会语言学）**，与第19题完全重复。这是原文档的排版错误——第17题的**题干**很可能应为\"研究句子结构/句子成分组合规律\"（对应 Syntax）。**若考句法学定义**，答案为 Syntax；**若严格按印出的题干**，答案应为 Sociolinguistics。建议以老师课堂口径为准。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 201
+    "id": 251
   },
   {
     "type": "fill",
@@ -4771,7 +6171,7 @@
     "explanation": "表\"意义相反\"的术语是 antonymy，故填 Antonymy。（原题印作 \"appositeness\" 系 \"oppositeness\" 的笔误。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 202
+    "id": 252
   },
   {
     "type": "fill",
@@ -4780,7 +6180,7 @@
     "explanation": "研究社会语境中语言的分支是社会语言学，故填 Sociolinguistics。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 203
+    "id": 253
   },
   {
     "type": "fill",
@@ -4789,7 +6189,7 @@
     "explanation": "与说话人性别相关的语言变异称\"性别变体(gender varieties)\"，故填 gender。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 204
+    "id": 254
   },
   {
     "type": "fill",
@@ -4798,7 +6198,7 @@
     "explanation": "研究语言学的人称 linguist，故填 linguist。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 205
+    "id": 255
   },
   {
     "type": "fill",
@@ -4807,7 +6207,7 @@
     "explanation": "研究语素如何组合成词的分支是形态学，故填 morphology。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 206
+    "id": 256
   },
   {
     "type": "fill",
@@ -4816,7 +6216,7 @@
     "explanation": "现代语言学认为口语优先于书面语(primacy of speech)，故填 speech。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 207
+    "id": 257
   },
   {
     "type": "fill",
@@ -4825,7 +6225,7 @@
     "explanation": "辅音按\"发音部位(place)\"和\"发音方式(manner)\"两大标准分类，故填 manner。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 208
+    "id": 258
   },
   {
     "type": "fill",
@@ -4834,7 +6234,7 @@
     "explanation": "脱离语境、抽象地研究意义的分支是语义学，故填 semantics（与研究语境中意义的 pragmatics 相对）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 209
+    "id": 259
   },
   {
     "type": "fill",
@@ -4843,7 +6243,7 @@
     "explanation": "意义与声音之间无逻辑联系的设计特征即任意性，故填 Arbitrariness。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 210
+    "id": 260
   },
   {
     "type": "fill",
@@ -4852,7 +6252,7 @@
     "explanation": "研究构词与词结构的分支是形态学，故填 Morphology。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 211
+    "id": 261
   },
   {
     "type": "fill",
@@ -4861,7 +6261,7 @@
     "explanation": "⚠️ 原答案文档写作 **boy**，但所给语义特征 **+ADULT（成年）、+MALE、-MARRIED（未婚）** 实际对应的是 **bachelor（单身汉）**——boy 应为 **-ADULT（未成年）**，与题中 +ADULT 矛盾。按标准成分分析，特征 [+HUMAN, +ADULT, +MALE, -MARRIED] = **bachelor**。此处原文档特征与答案不一致，建议以老师课件为准（若特征改为 -ADULT 则答案 boy 才成立）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 212
+    "id": 262
   },
   {
     "type": "fill",
@@ -4870,7 +6270,7 @@
     "explanation": "研究语言意义的分支是语义学，故填 Semantics。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 213
+    "id": 263
   },
   {
     "type": "fill",
@@ -4879,7 +6279,7 @@
     "explanation": "取若干词首字母构成新词，原文Key 记作 acronym，故填 acronym。（严格术语中，WTO 逐字母读属 initialism，acronym 指拼读成词者如 NATO；此处按教材/答案口径填 acronym。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 214
+    "id": 264
   },
   {
     "type": "fill",
@@ -4888,7 +6288,7 @@
     "explanation": "言语行为理论由 John Austin 于 1962 年提出，故填 Austin。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 215
+    "id": 265
   },
   {
     "type": "fill",
@@ -4897,7 +6297,7 @@
     "explanation": "从整个社会角度考察语言功能是宏观社会语言学(macro-sociolinguistics)，故填 macro。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 216
+    "id": 266
   },
   {
     "type": "fill",
@@ -4906,7 +6306,7 @@
     "explanation": "个体说话人独有、融合多种变异的个人方言称 idiolect，故填 Idiolect。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 217
+    "id": 267
   },
   {
     "type": "fill",
@@ -4915,7 +6315,7 @@
     "explanation": "合作原则准则被公然违反时产生的言外之意即 Grice 的\"会话含义(conversational implicature)\"，故填 implicature。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 218
+    "id": 268
   },
   {
     "type": "fill",
@@ -4924,7 +6324,7 @@
     "explanation": "与\"使用者\"相关的语言变体是方言(dialects)；与\"使用场合/用途\"相关的则是语域(register)，故填 Dialects。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 219
+    "id": 269
   },
   {
     "type": "fill",
@@ -4933,7 +6333,7 @@
     "explanation": "对某一时间点的语言进行描写是共时研究，与历时(diachronic)相对，故填 synchronic。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 220
+    "id": 270
   },
   {
     "type": "fill",
@@ -4942,7 +6342,7 @@
     "explanation": "随语境变化的是\"话语意义(utterance meaning)\"，故填 utterance（与固定的 sentence meaning 相对）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 221
+    "id": 271
   },
   {
     "type": "fill",
@@ -4951,7 +6351,7 @@
     "explanation": "研究构词与词结构的分支是形态学，故填 morphology。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 222
+    "id": 272
   },
   {
     "type": "fill",
@@ -4960,7 +6360,7 @@
     "explanation": "话语意义建立在**句子意义(sentence meaning)**之上，是抽象句义在真实语境中的实现，故填 sentence + meaning。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 223
+    "id": 273
   },
   {
     "type": "fill",
@@ -4969,7 +6369,7 @@
     "explanation": "下义关系中意义较**概括/一般**的词是上义词(superordinate)，较具体的是下义词(hyponym)，故填 superordinate。（原文Key 印作 \"superodinate\" 为拼写笔误。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 224
+    "id": 274
   },
   {
     "type": "truefalse",
@@ -4979,7 +6379,7 @@
     "explanation": "英语是**语调语言(intonation language)**，靠句子语调区别意义；**声调语言(tone language)**（如汉语）才靠字/音节声调区别词义。英语不是声调语言，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 225
+    "id": 275
   },
   {
     "type": "truefalse",
@@ -4989,7 +6389,7 @@
     "explanation": "研究\"句型/句子结构\"的是**句法学(syntax)**；**音系学(phonology)**研究的是语言的**语音系统/音位如何组织**。定义张冠李戴，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 226
+    "id": 276
   },
   {
     "type": "truefalse",
@@ -4999,7 +6399,7 @@
     "explanation": "individual speaker 独有、综合地域/社会/文体等变异的个人方言正是 idiolect 的定义，表述正确，故为 T。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 227
+    "id": 277
   },
   {
     "type": "truefalse",
@@ -5009,7 +6409,7 @@
     "explanation": "英语史通常分为**三个**时期：古英语(Old English)、中古英语(Middle English)、现代英语(Modern English)。此处漏掉 Middle English，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 228
+    "id": 278
   },
   {
     "type": "truefalse",
@@ -5019,7 +6419,7 @@
     "explanation": "\"由说话所产生的效果/后果\"是**取效行为(perlocutionary act)**的定义；**言内行为(locutionary act)**指说出有意义话语这一行为本身。定义错配，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 229
+    "id": 279
   },
   {
     "type": "truefalse",
@@ -5029,7 +6429,7 @@
     "explanation": "谓词分析中，动词 beat 为谓词(predicate)，man 与 dog 为论元(arguments)，表述正确，故为 T。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 230
+    "id": 280
   },
   {
     "type": "truefalse",
@@ -5039,7 +6439,7 @@
     "explanation": "[f] 是**唇齿音(labiodental)**（上齿+下唇），不是**齿音(dental)**（如 [θ]，舌尖抵齿）。发音部位错误，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 231
+    "id": 281
   },
   {
     "type": "truefalse",
@@ -5049,6 +6449,6 @@
     "explanation": "字母符号**加上附加符号(diacritics)**的标音是**严式标音(narrow transcription)**；**宽式标音(broad transcription)**只用字母符号、不加附加符号。故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 232
+    "id": 282
   }
 ]

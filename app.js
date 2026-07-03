@@ -4,6 +4,7 @@
     "国际金融判断题三": "外汇市场判断题",
     "国际金融选择题三": "国际收支选择题",
     "语言学_题目解析": "Exercise 1-3",
+    "德语选择题": "德语单选题练习",
   };
   const TYPE_LABELS = { single: "单选题", truefalse: "判断题", fill: "填空题", matching: "匹配题" };
   const TYPE_ORDER = ["single", "truefalse", "fill", "matching"];

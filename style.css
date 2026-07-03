@@ -335,6 +335,28 @@ h1 {
 }
 .result-actions button { flex: 1; }
 
+/* Footer */
+.app-footer {
+  margin-top: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.app-footer p {
+  margin: 4px 0;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.app-footer a {
+  color: var(--text-dim);
+  text-decoration: underline;
+}
+.app-footer a:hover { color: var(--accent); }
+
+.app-footer .disclaimer { opacity: 0.7; }
+
 @media (max-width: 480px) {
   #app { padding: 18px 14px 30px; }
   .q-text { font-size: 17px; }

@@ -233,11 +233,107 @@ def parse_numbered_style(text):
 
 
 # ---------------------------------------------------------------------------
+# Asterisk-style parser (e.g. docs/德语/*.md): "**N. (类型) 题干**" header,
+# one option per line ("A text" or "A. text"), then "* **答案：** ..." and
+# "* **解析：** ..." lines.
+# ---------------------------------------------------------------------------
+
+ASTERISK_Q_START_RE = re.compile(r"^\*\*\d+\.\s.+\*\*", re.M)
+ASTERISK_HEADER_RE = re.compile(r"^\*\*\d+\.\s*(?:\([^)]*\)\s*)?(.+?)\*\*")
+ASTERISK_OPTION_RE = re.compile(r"^([A-D])\.?\s+(.+)$")
+ASTERISK_ANSWER_RE = re.compile(r"^\*\s*\*\*(?:正确)?答案[:：]\*\*\s*(.+?)\s*$")
+ASTERISK_EXPLANATION_RE = re.compile(r"^\*\s*\*\*解析[:：]?\*\*\s*(.+)$")
+
+
+def is_asterisk_style(text):
+    return bool(ASTERISK_Q_START_RE.search(text)) and bool(
+        re.search(r"^\*\s*\*\*(?:正确)?答案[:：]\*\*", text, re.M)
+    )
+
+
+def parse_asterisk_question_chunk(chunk):
+    lines = chunk.split("\n")
+    header_match = ASTERISK_HEADER_RE.match(lines[0].strip())
+    if not header_match:
+        return None
+    question_text = clean(header_match.group(1))
+
+    idx = 1
+    options = []
+    while idx < len(lines):
+        line = lines[idx].strip()
+        if not line:
+            idx += 1
+            continue
+        opt_match = ASTERISK_OPTION_RE.match(line)
+        if not opt_match:
+            break
+        options.append({"label": opt_match.group(1), "text": clean(opt_match.group(2))})
+        idx += 1
+
+    answer_raw = None
+    explanation = ""
+    for line in lines[idx:]:
+        line = line.strip()
+        m = ASTERISK_ANSWER_RE.match(line)
+        if m:
+            answer_raw = clean(m.group(1))
+            continue
+        m2 = ASTERISK_EXPLANATION_RE.match(line)
+        if m2:
+            explanation = clean(m2.group(1))
+
+    if answer_raw is None:
+        return None
+
+    if options:
+        letter_match = re.match(r"^([A-D])\b", answer_raw)
+        answer_letter = letter_match.group(1) if letter_match else answer_raw[:1]
+        return {
+            "type": "single", "question": question_text, "options": options,
+            "answer": answer_letter, "answerLabel": answer_raw, "explanation": explanation,
+        }
+    tf = to_truefalse(answer_raw)
+    if tf is not None:
+        return {
+            "type": "truefalse", "question": question_text,
+            "answer": tf, "answerLabel": answer_raw, "explanation": explanation,
+        }
+    return {
+        "type": "fill", "question": question_text,
+        "answerLabel": answer_raw, "explanation": explanation,
+    }
+
+
+def parse_asterisk_style(text):
+    starts = [m.start() for m in ASTERISK_Q_START_RE.finditer(text)]
+    starts.append(len(text))
+    questions = []
+    for i in range(len(starts) - 1):
+        q = parse_asterisk_question_chunk(text[starts[i]:starts[i + 1]])
+        if q:
+            questions.append(q)
+
+    # Drop exact repeats (same question + answer) introduced by copy/paste in the source.
+    seen = set()
+    deduped = []
+    for q in questions:
+        key = (q["question"], q.get("answerLabel"))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(q)
+    return deduped
+
+
+# ---------------------------------------------------------------------------
 
 def parse_file(path):
     text = path.read_text(encoding="utf-8")
     if is_finance_style(text):
         return parse_finance_style(text)
+    if is_asterisk_style(text):
+        return parse_asterisk_style(text)
     if is_numbered_style(text):
         return parse_numbered_style(text)
     return []
