@@ -239,6 +239,34 @@ h1 {
 .option.disabled { cursor: default; }
 .option.dim { opacity: 0.5; }
 
+.matching-box {
+  display: flex;
+  gap: 14px;
+}
+
+.matching-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.matching-item {
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.matching-item:hover:not(.disabled) { border-color: var(--accent); }
+.matching-item.active { border-color: var(--accent); background: var(--accent-dim); }
+.matching-item.paired { border-style: dashed; color: var(--text-dim); }
+.matching-item.correct { border-color: var(--good); background: var(--good-bg); color: var(--text); }
+.matching-item.incorrect { border-color: var(--bad); background: var(--bad-bg); color: var(--text); }
+.matching-item.disabled { cursor: default; }
+
 .recall-reveal {
   background: var(--surface);
   border: 1.5px dashed var(--border);

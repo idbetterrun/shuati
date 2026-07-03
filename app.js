@@ -3,8 +3,10 @@
     "国际金融": "国际金融（综合）",
     "国际金融判断题三": "外汇市场判断题",
     "国际金融选择题三": "国际收支选择题",
+    "语言学_题目解析": "Exercise 1-3",
   };
-  const TYPE_LABELS = { single: "单选题", truefalse: "判断题", recall: "速记题" };
+  const TYPE_LABELS = { single: "单选题", truefalse: "判断题", fill: "填空题", matching: "匹配题" };
+  const TYPE_ORDER = ["single", "truefalse", "fill", "matching"];
 
   let ALL_QUESTIONS = [];
   let queue = [];
@@ -35,22 +37,10 @@
     return escapeHtml(text).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   }
 
-  function buildSetupOptions() {
-    const sources = [...new Set(ALL_QUESTIONS.map((q) => q.source))];
-    const sourceWrap = el("source-options");
-    sourceWrap.innerHTML = sources.map((s, i) => `
-      <label class="chip">
-        <input type="checkbox" value="${s}" ${i === 0 ? "checked" : ""} checked>
-        <span>${SOURCE_LABELS[s] || s} (${ALL_QUESTIONS.filter((q) => q.source === s).length})</span>
-      </label>
-    `).join("");
-
-    [...document.querySelectorAll("#source-options input, #type-options input, #order-options input")]
-      .forEach((input) => input.addEventListener("change", updateSummary));
-
-    updateSummary();
+  function getSelectedSubject() {
+    const el = document.querySelector('input[name="subject"]:checked');
+    return el ? el.value : null;
   }
-
   function getSelectedSources() {
     return [...document.querySelectorAll("#source-options input:checked")].map((i) => i.value);
   }
@@ -61,10 +51,56 @@
     return document.querySelector('input[name="order"]:checked').value;
   }
 
+  function buildSetupOptions() {
+    const subjects = [...new Set(ALL_QUESTIONS.map((q) => q.subject))];
+    const subjectWrap = el("subject-options");
+    subjectWrap.innerHTML = subjects.map((s, i) => `
+      <label class="chip radio">
+        <input type="radio" name="subject" value="${s}" ${i === 0 ? "checked" : ""}>
+        <span>${s} (${ALL_QUESTIONS.filter((q) => q.subject === s).length})</span>
+      </label>
+    `).join("");
+
+    subjectWrap.querySelectorAll("input").forEach((input) => {
+      input.addEventListener("change", buildDependentOptions);
+    });
+
+    buildDependentOptions();
+  }
+
+  function buildDependentOptions() {
+    const subject = getSelectedSubject();
+    const inSubject = ALL_QUESTIONS.filter((q) => q.subject === subject);
+
+    const sources = [...new Set(inSubject.map((q) => q.source))];
+    el("source-options").innerHTML = sources.map((s) => `
+      <label class="chip">
+        <input type="checkbox" value="${s}" checked>
+        <span>${SOURCE_LABELS[s] || s} (${inSubject.filter((q) => q.source === s).length})</span>
+      </label>
+    `).join("");
+
+    const types = TYPE_ORDER.filter((t) => inSubject.some((q) => q.type === t));
+    el("type-options").innerHTML = types.map((t) => `
+      <label class="chip">
+        <input type="checkbox" value="${t}" checked>
+        <span>${TYPE_LABELS[t] || t} (${inSubject.filter((q) => q.type === t).length})</span>
+      </label>
+    `).join("");
+
+    [...document.querySelectorAll("#source-options input, #type-options input")]
+      .forEach((input) => input.addEventListener("change", updateSummary));
+
+    updateSummary();
+  }
+
   function filteredQuestions() {
+    const subject = getSelectedSubject();
     const sources = getSelectedSources();
     const types = getSelectedTypes();
-    return ALL_QUESTIONS.filter((q) => sources.includes(q.source) && types.includes(q.type));
+    return ALL_QUESTIONS.filter(
+      (q) => q.subject === subject && sources.includes(q.source) && types.includes(q.type)
+    );
   }
 
   function updateSummary() {
@@ -106,8 +142,8 @@
     el("progress-text").textContent = `第 ${current + 1} / ${queue.length} 题`;
     el("score-text").textContent = `答对 ${score} / 已答 ${answered}`;
 
-    el("q-source").textContent = `${SOURCE_LABELS[q.source] || q.source} · ${TYPE_LABELS[q.type]}`;
-    el("q-text").innerHTML = renderInline(q.question);
+    el("q-source").textContent = `${q.subject} · ${SOURCE_LABELS[q.source] || q.source} · ${TYPE_LABELS[q.type]}`;
+    el("q-text").innerHTML = renderInline(q.question || "");
 
     const optionsWrap = el("q-options");
     optionsWrap.innerHTML = "";
@@ -132,12 +168,14 @@
         div.addEventListener("click", () => selectTrueFalse(q, opt.v, div));
         optionsWrap.appendChild(div);
       });
-    } else if (q.type === "recall") {
+    } else if (q.type === "fill") {
       const div = document.createElement("div");
       div.className = "recall-reveal";
       div.textContent = "🤔 想好答案了吗？点击查看解析";
-      div.addEventListener("click", () => revealRecall(q, div));
+      div.addEventListener("click", () => revealFill(q, div));
       optionsWrap.appendChild(div);
+    } else if (q.type === "matching") {
+      renderMatching(q, optionsWrap);
     }
   }
 
@@ -182,7 +220,7 @@
     showFeedback(correct, q, `正确答案：${q.answer ? "对 (True)" : "错 (False)"}`);
   }
 
-  function revealRecall(q, div) {
+  function revealFill(q, div) {
     if (answeredThisQuestion) return;
     answeredThisQuestion = true;
     answered++;
@@ -190,6 +228,78 @@
     div.style.cursor = "default";
     div.textContent = "已查看解析 ↓";
     showFeedback(null, q, `参考答案：${q.answerLabel}`);
+  }
+
+  // Matching questions: click one item from the left column, then one from
+  // the right column, to connect them. Once every left item has a pick,
+  // correctness for each pair is revealed.
+  function renderMatching(q, wrap) {
+    const rightShuffled = q.right.map((text, idx) => ({ text, idx })); // idx = original right-index
+    const picks = new Array(q.left.length).fill(null); // picks[leftIdx] = rightShuffled position
+    let selectedLeft = null;
+
+    const box = document.createElement("div");
+    box.className = "matching-box";
+
+    const leftCol = document.createElement("div");
+    leftCol.className = "matching-col";
+    const rightCol = document.createElement("div");
+    rightCol.className = "matching-col";
+
+    const leftItems = q.left.map((text, i) => {
+      const item = document.createElement("div");
+      item.className = "matching-item";
+      item.textContent = `${i + 1}. ${text}`;
+      item.addEventListener("click", () => {
+        if (answeredThisQuestion) return;
+        selectedLeft = i;
+        leftItems.forEach((it) => it.classList.remove("active"));
+        item.classList.add("active");
+      });
+      leftCol.appendChild(item);
+      return item;
+    });
+
+    const rightItems = rightShuffled.map((r, pos) => {
+      const item = document.createElement("div");
+      item.className = "matching-item";
+      item.textContent = `${String.fromCharCode(65 + pos)}. ${r.text}`;
+      item.addEventListener("click", () => {
+        if (answeredThisQuestion || selectedLeft === null) return;
+        picks[selectedLeft] = pos;
+        leftItems[selectedLeft].classList.add("paired");
+        leftItems[selectedLeft].dataset.pickedLabel = String.fromCharCode(65 + pos);
+        leftItems[selectedLeft].textContent = `${selectedLeft + 1}. ${q.left[selectedLeft]} → ${String.fromCharCode(65 + pos)}`;
+        selectedLeft = null;
+        leftItems.forEach((it) => it.classList.remove("active"));
+        if (picks.every((p) => p !== null)) submitMatching();
+      });
+      rightCol.appendChild(item);
+      return item;
+    });
+
+    box.appendChild(leftCol);
+    box.appendChild(rightCol);
+    wrap.appendChild(box);
+
+    function submitMatching() {
+      if (answeredThisQuestion) return;
+      answeredThisQuestion = true;
+      answered++;
+      let allCorrect = true;
+      leftItems.forEach((item, leftIdx) => {
+        const pickedRightIdx = rightShuffled[picks[leftIdx]].idx;
+        const isRight = q.pairs[leftIdx] === pickedRightIdx;
+        item.classList.add(isRight ? "correct" : "incorrect", "disabled");
+        if (!isRight) allCorrect = false;
+      });
+      rightItems.forEach((item) => item.classList.add("disabled"));
+      if (allCorrect) score++;
+      else wrongIds.push(q.id);
+
+      const correctLines = q.left.map((text, i) => `${text} → ${q.right[q.pairs[i]]}`).join("；");
+      showFeedback(allCorrect, q, `正确匹配：${correctLines}`);
+    }
   }
 
   function showFeedback(correct, q, answerLine) {
@@ -212,7 +322,7 @@
 
   function showResult() {
     show(resultScreen);
-    const gradable = answered - (queue.filter((q) => q.type === "recall").length);
+    const gradable = answered - (queue.filter((q) => q.type === "fill").length);
     el("result-score").textContent = gradable > 0 ? `${score} / ${gradable}` : "完成复习";
     const wrongCount = wrongIds.length;
     el("result-detail").textContent = wrongCount > 0
