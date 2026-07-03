@@ -4003,6 +4003,1037 @@
   },
   {
     "type": "single",
+    "question": "In American literature, the eighteenth century was the age of the Enlightenment, ________ was the dominant spirit.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Humanism"
+      },
+      {
+        "label": "B",
+        "text": "Rationalism"
+      },
+      {
+        "label": "C",
+        "text": "Revolution"
+      },
+      {
+        "label": "D",
+        "text": "Evolution"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "受洛克、牛顿等人影响，18世纪美国启蒙时代崇尚理性、逻辑与实证精神，理性主义 (Rationalism) 取代了清教时期的宗教蒙昧，成为这一时期的主导思想，深刻影响了富兰克林、杰斐逊等启蒙思想家。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 170
+  },
+  {
+    "type": "single",
+    "question": "The ship \"________\" carried about one hundred Pilgrims and took 66 days to beat its way across the Atlantic. In December of 1620, it put the Pilgrims ashore at Plymouth, Massachusetts.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sunflower"
+      },
+      {
+        "label": "B",
+        "text": "Armada"
+      },
+      {
+        "label": "C",
+        "text": "Mayflower"
+      },
+      {
+        "label": "D",
+        "text": "Pequod"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "\"五月花号\"(Mayflower) 于1620年载着约100名清教徒移民（Pilgrims）历经66天横渡大西洋，在马萨诸塞普利茅斯登陆，船上签署的《五月花号公约》也被视为美国自治政府的雏形。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 171
+  },
+  {
+    "type": "single",
+    "question": "Which is not connected to Benjamin Franklin?",
+    "options": [
+      {
+        "label": "A",
+        "text": "He was born into a poor candle-maker family."
+      },
+      {
+        "label": "B",
+        "text": "He helped found the University of Pennsylvania."
+      },
+      {
+        "label": "C",
+        "text": "He was phrased as \"Jack of all trades\"."
+      },
+      {
+        "label": "D",
+        "text": "His work includes The Nature of True Virtue."
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "《真正的美德本质》(The Nature of True Virtue) 是清教神学家乔纳森·爱德华兹 (Jonathan Edwards) 的哲学/神学著作，与富兰克林无关；富兰克林出身贫寒蜡烛匠家庭、参与创办宾夕法尼亚大学、集科学家/外交家/作家于一身而被称为\"万事通\"，其余三项均与他直接相关。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 172
+  },
+  {
+    "type": "single",
+    "question": "It is a critical commonplace now that American literature is based on a myth, that is, ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "the ancient Greek myth of Zeus"
+      },
+      {
+        "label": "B",
+        "text": "the British myth of the Saint Grail"
+      },
+      {
+        "label": "C",
+        "text": "the Biblical myth of the Garden of Eden"
+      },
+      {
+        "label": "D",
+        "text": "the legend of the Sleepy Hollow"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "美国文学中反复出现\"新大陆即新伊甸园\"的原型主题——早期移民将美洲视为逃离旧世界罪恶、重建纯洁乐园的应许之地，这一集体想象根植于《圣经》的伊甸园神话，而非古希腊神话或英国传说。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 173
+  },
+  {
+    "type": "single",
+    "question": "Early in the ____, the English settlements in Virginia and Massachusetts started the main stream of the American national history.",
+    "options": [
+      {
+        "label": "A",
+        "text": "14th century"
+      },
+      {
+        "label": "B",
+        "text": "15th century"
+      },
+      {
+        "label": "C",
+        "text": "16th century"
+      },
+      {
+        "label": "D",
+        "text": "17th century"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "英国分别于1607年（弗吉尼亚·詹姆斯敦）和1620年（马萨诸塞·普利茅斯）建立殖民定居点，这两处17世纪初的英属殖民地构成了美国历史主流的起点。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 174
+  },
+  {
+    "type": "single",
+    "question": "Which work is written by Philip Freneau?",
+    "options": [
+      {
+        "label": "A",
+        "text": "\"The Rights of Man\""
+      },
+      {
+        "label": "B",
+        "text": "\"The Wild Honey Suckle\""
+      },
+      {
+        "label": "C",
+        "text": "\"The Way to Wealth\""
+      },
+      {
+        "label": "D",
+        "text": "\"The Day of Doom\""
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "《野金银花》(\"The Wild Honey Suckle\") 是被誉为\"美国诗歌之父\"的菲利普·弗瑞诺的代表诗作；《人权论》为潘恩所作，《致富之道》是富兰克林《穷理查年鉴》的选段，《末日》是清教诗人迈克尔·维格尔斯沃思的长诗。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 175
+  },
+  {
+    "type": "single",
+    "question": "\"God help those that help themselves\" is found in ____ work.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Paine's"
+      },
+      {
+        "label": "B",
+        "text": "Franklin's"
+      },
+      {
+        "label": "C",
+        "text": "Freneau's"
+      },
+      {
+        "label": "D",
+        "text": "Jefferson's"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "\"自助者天助\"这句格言出自富兰克林《穷理查年鉴》(Poor Richard's Almanack)，集中体现了他所提倡的勤俭、自律、自力更生的实用主义人生哲学。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 176
+  },
+  {
+    "type": "single",
+    "question": "The War of Independence lasted eight years till ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1775"
+      },
+      {
+        "label": "B",
+        "text": "1774"
+      },
+      {
+        "label": "C",
+        "text": "1783"
+      },
+      {
+        "label": "D",
+        "text": "1782"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "美国独立战争自1775年莱克星顿枪声打响，至1783年英美签署《巴黎和约》、英国正式承认美国独立为止，前后持续八年。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 177
+  },
+  {
+    "type": "single",
+    "question": "The first settlers who became the founding fathers of the American nation were quite a few of them ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quakers"
+      },
+      {
+        "label": "B",
+        "text": "Anglicans"
+      },
+      {
+        "label": "C",
+        "text": "Catholics"
+      },
+      {
+        "label": "D",
+        "text": "Puritans"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "乘\"五月花号\"抵达普利茅斯及后续建立马萨诸塞湾殖民地的早期移民中，相当一部分是为逃避英国国教迫害而远渡重洋的清教徒 (Puritans)，其宗教观念与勤勉精神深刻塑造了早期美国社会的价值取向。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 178
+  },
+  {
+    "type": "single",
+    "question": "From 1732 to 1758, Benjamin Franklin wrote and published his famous ____, an annual collection of proverbs.",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Autobiography"
+      },
+      {
+        "label": "B",
+        "text": "Common Sense"
+      },
+      {
+        "label": "C",
+        "text": "Poor Richard's Almanac"
+      },
+      {
+        "label": "D",
+        "text": "The General Magazine"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "富兰克林自1732年起以\"穷理查\"为笔名，连续二十余年编写出版年度历书《穷理查年鉴》(Poor Richard's Almanac)，收录大量脍炙人口的格言警句，是当时北美殖民地流传最广的读物之一。",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 179
+  },
+  {
+    "type": "matching",
+    "question": "连线题：将左侧与右侧的对应项匹配。",
+    "left": [
+      "Philip Freneau",
+      "Anne Bradstreet",
+      "American Puritanism",
+      "colonial literature",
+      "Thomas Paine",
+      "Benjamin Franklin",
+      "Christopher Columbus",
+      "literature during the revolutionary period",
+      "William Bradford",
+      "1776"
+    ],
+    "right": [
+      "practical idealist",
+      "Common Sense",
+      "The Tenth Muse Lately Sprung Up in America",
+      "Of Plymouth Plantation",
+      "Father of American Poetry",
+      "personal, serious and religious",
+      "the first great self-made Man in America",
+      "social reform, revolutionary agitation and philosophical declaration",
+      "the Declaration of Independence",
+      "discovery of America"
+    ],
+    "pairs": [
+      4,
+      2,
+      5,
+      0,
+      1,
+      6,
+      9,
+      7,
+      3,
+      8
+    ],
+    "answerLabel": "",
+    "explanation": "",
+    "subject": "英美文学",
+    "source": "美1",
+    "id": 180
+  },
+  {
+    "type": "single",
+    "question": "____ was the first American to achieve international literary reputation.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nathaniel Hawthorne"
+      },
+      {
+        "label": "B",
+        "text": "Washington Irving"
+      },
+      {
+        "label": "C",
+        "text": "Herman Melville"
+      },
+      {
+        "label": "D",
+        "text": "Edgar Allan Poe"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "华盛顿·欧文凭借《见闻札记》(The Sketch Book) 及其中《瑞普·凡·温克尔》(\"Rip Van Winkle\") 等短篇，成为第一位在欧洲获得广泛认可与国际声誉的美国作家，为美国文学赢得了国际地位。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 181
+  },
+  {
+    "type": "single",
+    "question": "Which of the following novels is NOT written by Nathaniel Hawthorne?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The Scarlet Letter"
+      },
+      {
+        "label": "B",
+        "text": "Twice-Told Tales"
+      },
+      {
+        "label": "C",
+        "text": "The House of the Seven Gables"
+      },
+      {
+        "label": "D",
+        "text": "Slaughterhouse Five"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "霍桑的代表作包括《红字》《重述的故事》《带有七个尖角阁的房子》，均以清教背景下的罪与罚、道德困境为主题；《五号屠场》(Slaughterhouse Five) 是20世纪作家库尔特·冯内古特描写二战德累斯顿大轰炸的黑色幽默/科幻小说，与霍桑无关。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 182
+  },
+  {
+    "type": "single",
+    "question": "The Romantic Writers would focus on all the following issues EXCEPT the ____ in the American literary history.",
+    "options": [
+      {
+        "label": "A",
+        "text": "individual feeling"
+      },
+      {
+        "label": "B",
+        "text": "survival of the fittest"
+      },
+      {
+        "label": "C",
+        "text": "strong imagination"
+      },
+      {
+        "label": "D",
+        "text": "return to nature"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "美国浪漫主义作家关注个人情感的抒发、想象力的张扬以及回归自然，这些都是浪漫主义的核心特征；\"适者生存\"(survival of the fittest) 源自达尔文进化论，是19世纪末自然主义文学（如德莱塞、杰克·伦敦）的理论基础，与浪漫主义时期无关。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 183
+  },
+  {
+    "type": "single",
+    "question": "Hawthorne generally concerns himself with such issues as ____ in his fiction.",
+    "options": [
+      {
+        "label": "A",
+        "text": "the evil in man's heart"
+      },
+      {
+        "label": "B",
+        "text": "the material pursuit"
+      },
+      {
+        "label": "C",
+        "text": "the racial conflict"
+      },
+      {
+        "label": "D",
+        "text": "the social inequality"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "受清教传统\"原罪\"观念影响，霍桑的小说反复探讨人心中隐秘的罪恶、隐藏的罪疚感及其道德后果，《红字》中海斯特与丁梅斯代尔的通奸与忏悔正是这一主题的典型呈现。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 184
+  },
+  {
+    "type": "single",
+    "question": "Edgar Allan Poe's first collection of short stories is ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tales of a Traveler"
+      },
+      {
+        "label": "B",
+        "text": "Leatherstocking Tales"
+      },
+      {
+        "label": "C",
+        "text": "The Canterbury Tales"
+      },
+      {
+        "label": "D",
+        "text": "Tales of the Grotesque and Arabesque"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "爱伦·坡1840年出版的《怪诞与阿拉伯风格故事集》(Tales of the Grotesque and Arabesque) 是他的第一部短篇小说集，收录了带有哥特恐怖与怪诞想象色彩的早期代表作。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 185
+  },
+  {
+    "type": "single",
+    "question": "Which of the following books deals with American Civil War?",
+    "options": [
+      {
+        "label": "A",
+        "text": "For Whom the Bell Tolls"
+      },
+      {
+        "label": "B",
+        "text": "The Red Badge of Courage"
+      },
+      {
+        "label": "C",
+        "text": "Slaughterhouse-Five"
+      },
+      {
+        "label": "D",
+        "text": "Catch-22"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "斯蒂芬·克莱恩的《红色英勇勋章》(The Red Badge of Courage) 以一名年轻士兵的心理成长为主线，描写美国南北战争的战场经历；其余三部分别涉及西班牙内战（海明威）、二战（冯内古特、海勒），均与美国内战无关。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 186
+  },
+  {
+    "type": "single",
+    "question": "Which ONE of the following statements is applicable to the understanding of Transcendentalism?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is strongly influenced by social Darwinism."
+      },
+      {
+        "label": "B",
+        "text": "Belief in individualism, independence of mind, and self-reliance."
+      },
+      {
+        "label": "C",
+        "text": "Man has no free-will."
+      },
+      {
+        "label": "D",
+        "text": "It holds that determinism governs everything."
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "以爱默生、梭罗为代表的超验主义 (Transcendentalism) 强调个人直觉高于经验与权威，倡导个人主义、精神独立与自力更生（爱默生《论自助》即是纲领性文本）；社会达尔文主义与决定论均与超验主义崇尚自由意志和精神自主的立场相悖。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 187
+  },
+  {
+    "type": "single",
+    "question": "____ was the father of American Literature.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Benjamin Franklin"
+      },
+      {
+        "label": "B",
+        "text": "Philip Freneau"
+      },
+      {
+        "label": "C",
+        "text": "Washington Irving"
+      },
+      {
+        "label": "D",
+        "text": "Ralph W. Emerson"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "华盛顿·欧文因首先确立了具有美国本土特色又能与欧洲文学比肩的散文与短篇小说传统，被誉为\"美国文学之父\"；弗瑞诺则常被称为\"美国诗歌之父\"，二者称谓不可混淆。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 188
+  },
+  {
+    "type": "single",
+    "question": "In consideration of the beauty of poems, ____ concludes that \"the death of a beautiful woman is unquestionably the most poetical topic in the world.\"",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mark Twain"
+      },
+      {
+        "label": "B",
+        "text": "Edgar Allan Poe"
+      },
+      {
+        "label": "C",
+        "text": "Ezra Pound"
+      },
+      {
+        "label": "D",
+        "text": "Washington Irving"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "爱伦·坡在其诗论《创作哲学》(\"The Philosophy of Composition\") 中提出，美丽女子的死亡是世界上最富诗意的题材，这一唯美而忧郁的诗歌观也体现在他的名作《乌鸦》《安娜贝尔·李》中。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 189
+  },
+  {
+    "type": "single",
+    "question": "Gothic novels/poems are mostly stories of ___, which take place in some haunted or dilapidated Middle Age castles.",
+    "options": [
+      {
+        "label": "A",
+        "text": "love and marriage"
+      },
+      {
+        "label": "B",
+        "text": "sea adventures"
+      },
+      {
+        "label": "C",
+        "text": "saints and martyrs"
+      },
+      {
+        "label": "D",
+        "text": "mystery and horror"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "哥特文学以营造神秘恐怖的气氛为核心特征，故事常设置在阴森的中世纪古堡、废墟或墓地之中，充斥超自然现象与心理恐惧，爱伦·坡的许多短篇正是这一传统在美国文学中的延续。",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 190
+  },
+  {
+    "type": "matching",
+    "question": "连线题：将左侧与右侧的对应项匹配。",
+    "left": [
+      "Nathaniel Hawthorne",
+      "Henry David Thoreau",
+      "Romantic Idealism",
+      "Washington Irving",
+      "American Romanticism",
+      "Edgar Allan Poe",
+      "Walt Whitman",
+      "Herman Melville",
+      "James Fenimore Cooper",
+      "The Treaty of Paris"
+    ],
+    "right": [
+      "Rip Van Winkle",
+      "The Raven",
+      "1783",
+      "The Scarlet Letter",
+      "New England Transcendentalism",
+      "Moby Dick",
+      "Song of Myself",
+      "The Last of the Mohicans",
+      "Walden",
+      "the most fruitful and prolific periods in American literary history"
+    ],
+    "pairs": [
+      3,
+      8,
+      4,
+      0,
+      9,
+      1,
+      6,
+      5,
+      7,
+      2
+    ],
+    "answerLabel": "",
+    "explanation": "",
+    "subject": "英美文学",
+    "source": "美2",
+    "id": 191
+  },
+  {
+    "type": "single",
+    "question": "With William Dean Howells, Henry James, and Mark Twain active on the scene, ____ became the major trend in the seventies and eighties of the nineteenth century.",
+    "options": [
+      {
+        "label": "A",
+        "text": "sentimentalism"
+      },
+      {
+        "label": "B",
+        "text": "romanticism"
+      },
+      {
+        "label": "C",
+        "text": "realism"
+      },
+      {
+        "label": "D",
+        "text": "naturalism"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "19世纪70-80年代，豪威尔斯、亨利·詹姆斯、马克·吐温等作家转向如实描写社会日常生活与人物心理的写作手法，使现实主义 (realism) 取代浪漫主义成为这一时期美国文学的主流；自然主义则要到90年代德莱塞、克莱恩等人手中才逐渐兴起。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 192
+  },
+  {
+    "type": "single",
+    "question": "____ is the sometimes exaggerated use of local language, characters and customs in regional literature.",
+    "options": [
+      {
+        "label": "A",
+        "text": "purple prose"
+      },
+      {
+        "label": "B",
+        "text": "waste-land imagery"
+      },
+      {
+        "label": "C",
+        "text": "local colorism"
+      },
+      {
+        "label": "D",
+        "text": "symbolism"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "地方色彩主义 (local colorism) 是现实主义文学的一个分支，专注于刻画特定地区的方言、风俗和人物性格（如马克·吐温笔下的密西西比河流域），有时因追求\"地方特色\"而略带夸张渲染。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 193
+  },
+  {
+    "type": "single",
+    "question": "Who was the first African American writer to win the Nobel Prize for Literature?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Langston Hughes"
+      },
+      {
+        "label": "B",
+        "text": "W.E.B. Dubois"
+      },
+      {
+        "label": "C",
+        "text": "Alice Walker"
+      },
+      {
+        "label": "D",
+        "text": "Toni Morrison"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "托尼·莫里森 (Toni Morrison) 凭借《宠儿》等描写非裔美国人历史创伤的作品，于1993年获得诺贝尔文学奖，成为首位获此殊荣的非裔美国作家；休斯、杜波依斯、沃克虽同为重要的非裔美国作家，但均未获诺贝尔奖。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 194
+  },
+  {
+    "type": "single",
+    "question": "William Faulkner's famous fictional setting for the saga of 14 novels and many stories is ___.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yoknapatawpha County"
+      },
+      {
+        "label": "B",
+        "text": "Lafayette County"
+      },
+      {
+        "label": "C",
+        "text": "Mississippi River"
+      },
+      {
+        "label": "D",
+        "text": "New York City"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "福克纳虚构了\"约克纳帕塔法县\"(Yoknapatawpha County)，以其家乡密西西比州拉法耶特县为原型（他自称是\"我自己的一方邮票般大小的故乡土地\"），作为其14部长篇小说及众多短篇故事共同的背景舞台，构建出一部南方社会的编年史。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 195
+  },
+  {
+    "type": "single",
+    "question": "Who exerts the single most important influence on literary naturalism, of which Theodore Dreiser and Jack London are among the best representative writers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Freud"
+      },
+      {
+        "label": "B",
+        "text": "Darwin"
+      },
+      {
+        "label": "C",
+        "text": "W.D. Howells"
+      },
+      {
+        "label": "D",
+        "text": "Emerson"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "达尔文的进化论（尤其是\"适者生存\"观念）为自然主义文学提供了核心哲学基础——将人视为受遗传、环境和本能驱使、难以掌控自身命运的生物，德莱塞《嘉莉妹妹》、杰克·伦敦《野性的呼唤》都体现了这种决定论色彩。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 196
+  },
+  {
+    "type": "single",
+    "question": "F. Scott Fitzgerald is not the author of ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "This Side of Paradise"
+      },
+      {
+        "label": "B",
+        "text": "Tender is the Night"
+      },
+      {
+        "label": "C",
+        "text": "The Great Gatsby"
+      },
+      {
+        "label": "D",
+        "text": "In Our Time"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "菲茨杰拉德的代表作有《人间天堂》《夜色温柔》《了不起的盖茨比》，均描绘\"爵士时代\"的浮华与幻灭；《在我们的时代》(In Our Time) 是海明威的第一部短篇小说集，两人同属\"迷惘的一代\"但作品各自独立。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 197
+  },
+  {
+    "type": "single",
+    "question": "____ championed the imagist movement.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ezra Pound"
+      },
+      {
+        "label": "B",
+        "text": "Robert Frost"
+      },
+      {
+        "label": "C",
+        "text": "T. S. Eliot"
+      },
+      {
+        "label": "D",
+        "text": "E. E. Cummings"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "埃兹拉·庞德是意象主义 (Imagism) 运动的主要发起人和理论倡导者，主张诗歌应精准呈现意象、摒弃冗余的说教与陈词，深受中国古典诗歌和日本俳句的启发，对现代主义诗歌影响深远。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 198
+  },
+  {
+    "type": "single",
+    "question": "Which ONE of the following concepts is related to the understanding of literary realism?",
+    "options": [
+      {
+        "label": "A",
+        "text": "spontaneous overflow of feelings"
+      },
+      {
+        "label": "B",
+        "text": "faith in individualism, independence of mind and self-reliance"
+      },
+      {
+        "label": "C",
+        "text": "representation of characters, human nature and social actualities in a non-idealized way"
+      },
+      {
+        "label": "D",
+        "text": "survival of the fittest"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "文学现实主义的核心主张是如实、非理想化地再现人物性格、人性和社会现实，避免浪漫主义式的美化或夸张；\"情感的自然流露\"对应浪漫主义诗观，\"个人主义与自力更生\"对应超验主义，\"适者生存\"对应自然主义，三者均非现实主义的界定标准。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 199
+  },
+  {
+    "type": "single",
+    "question": "Mark Twain wrote most of his literary works with a ____ language.",
+    "options": [
+      {
+        "label": "A",
+        "text": "grand"
+      },
+      {
+        "label": "B",
+        "text": "pompous"
+      },
+      {
+        "label": "C",
+        "text": "simple"
+      },
+      {
+        "label": "D",
+        "text": "vernacular"
+      }
+    ],
+    "answer": "D",
+    "answerLabel": "D",
+    "explanation": "马克·吐温大量采用方言、俚语等口语化的\"白话\"(vernacular) 语言进行创作，《哈克贝利·费恩历险记》即以第一人称方言叙述著称，这种质朴生动的语言风格打破了此前文学语言的雅化传统，对美国现代小说语言影响深远。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 200
+  },
+  {
+    "type": "single",
+    "question": "\"The Lost Generation\" refers to the writers who relocated to Paris in the post WWI years to reject the values of American materialism. All the following but ___ are involved in this group.",
+    "options": [
+      {
+        "label": "A",
+        "text": "F.S. Fitzgerald"
+      },
+      {
+        "label": "B",
+        "text": "Ernest Hemingway"
+      },
+      {
+        "label": "C",
+        "text": "Jack London"
+      },
+      {
+        "label": "D",
+        "text": "John Dos Passos"
+      }
+    ],
+    "answer": "C",
+    "answerLabel": "C",
+    "explanation": "\"迷惘的一代\"指一战后旅居巴黎、对美国物质主义价值观感到幻灭的一批作家，包括菲茨杰拉德、海明威、多斯·帕索斯等；杰克·伦敦早在1916年（一战结束前）便已去世，属于更早的自然主义作家，并不属于这一群体。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 201
+  },
+  {
+    "type": "single",
+    "question": "The Harlem Renaissance came about during ________ in the Harlem district of New York.",
+    "options": [
+      {
+        "label": "A",
+        "text": "the 1920s"
+      },
+      {
+        "label": "B",
+        "text": "the 1930s"
+      },
+      {
+        "label": "C",
+        "text": "the 1940s"
+      },
+      {
+        "label": "D",
+        "text": "both A and B"
+      }
+    ],
+    "answer": "A",
+    "answerLabel": "A",
+    "explanation": "\"哈莱姆文艺复兴\"是20世纪20年代在纽约哈莱姆区兴起的非裔美国文学与艺术运动，兰斯顿·休斯等诗人在此期间涌现，集中展现了非裔美国人的文化自觉与身份认同。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 202
+  },
+  {
+    "type": "single",
+    "question": "\"Grace under pressure\" is a typical sign of the ____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "frontier people"
+      },
+      {
+        "label": "B",
+        "text": "Hemingway's heroes"
+      },
+      {
+        "label": "C",
+        "text": "early immigrants"
+      },
+      {
+        "label": "D",
+        "text": "struggle for survival"
+      }
+    ],
+    "answer": "B",
+    "answerLabel": "B",
+    "explanation": "\"重压之下的优雅风度\"(grace under pressure) 是海明威本人对\"勇气\"的定义，也是其笔下\"硬汉\"式主人公（如《老人与海》中的圣地亚哥）共同的精神特质——在绝境与失败面前依然保持尊严与克制。",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 203
+  },
+  {
+    "type": "matching",
+    "question": "连线题：将左侧与右侧的对应项匹配。",
+    "left": [
+      "Jack London",
+      "Ezra Pound",
+      "Ernest Hemingway",
+      "Mark Twain",
+      "John Steinbeck",
+      "Theodore Dreiser",
+      "F. Scott Fitzgerald",
+      "Robert Frost",
+      "Henry James",
+      "William Faulkner"
+    ],
+    "right": [
+      "Local Colorism",
+      "Jazz Age",
+      "international situation",
+      "Southern Renaissance",
+      "The Grapes of Wrath",
+      "Imagism",
+      "American Naturalism",
+      "Lost Generation",
+      "bucolic poetry",
+      "The Call of the Wild"
+    ],
+    "pairs": [
+      9,
+      5,
+      7,
+      0,
+      4,
+      6,
+      1,
+      8,
+      2,
+      3
+    ],
+    "answerLabel": "",
+    "explanation": "",
+    "subject": "英美文学",
+    "source": "美3",
+    "id": 204
+  },
+  {
+    "type": "single",
     "question": "____, a typical example of old English poetry, is regarded today as the national epic of the English people.",
     "options": [
       {
@@ -4024,10 +5055,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "《贝奥武夫》(Beowulf) 是古英语诗歌的典型代表，被视为英格兰的民族史诗。",
+    "explanation": "《贝奥武夫》(Beowulf) 是现存最早、最重要的古英语英雄史诗，用头韵体写成，讲述主人公贝奥武夫先后与怪物格伦德尔、其母亲及火龙搏斗的故事，被视为英格兰的民族史诗。《坎特伯雷故事集》是中古英语时期乔叟的作品，《高文爵士与绿衣骑士》属传奇文学，二者都晚于古英语时期，不符合题意。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 170
+    "id": 205
   },
   {
     "type": "single",
@@ -4052,10 +5083,10 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "《贝奥武夫》在诗歌形式上最重要的特征是头韵法 (alliteration)，即相邻单词以相同辅音开头。",
+    "explanation": "古英语诗歌没有尾韵，而是依靠头韵 (alliteration，即相邻重读音节以相同辅音或元音开头) 来组织诗行的节奏与结构，这是《贝奥武夫》在形式上最核心的特征；隐喻、明喻、拟人虽也存在，但并非其区别于其他诗体的标志性手法。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 171
+    "id": 206
   },
   {
     "type": "single",
@@ -4080,10 +5111,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "传奇文学 (Romance) 最重要的主题是\"不列颠题材\"（the Matter of Britain），主要围绕亚瑟王和圆桌骑士的传说。",
+    "explanation": "中世纪传奇文学 (Romance) 传统上分为三大题材：不列颠题材（亚瑟王与圆桌骑士传奇）、古典题材（Matter of Rome，取材古希腊罗马）和法兰西题材（Matter of France，查理曼大帝传奇），其中以亚瑟王传说为核心的\"不列颠题材\"流传最广、影响最大，是传奇文学最重要的主题。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 172
+    "id": 207
   },
   {
     "type": "single",
@@ -4108,10 +5139,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "乔叟在意大利时期受意大利文学影响的主要作品是《特罗伊拉斯与克莱西德》(Troilus and Criseyde)。",
+    "explanation": "乔叟的创作生涯通常分为三个时期：法国时期（代表译作《玫瑰传奇》The Romaunt of the Rose）、意大利时期（受但丁、彼特拉克、薄伽丘影响，代表作正是取材薄伽丘的《特罗伊拉斯与克莱西德》Troilus and Criseyde）、英国时期（成熟期，代表作《坎特伯雷故事集》）。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 173
+    "id": 208
   },
   {
     "type": "single",
@@ -4136,10 +5167,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "诺曼征服（1066年）后，英格兰进入了封建社会。",
+    "explanation": "1066年诺曼征服后，威廉一世将欧陆的封建制度引入英格兰，土地被层层分封给贵族与骑士以换取效忠和兵役，英格兰由此进入封建社会 (feudalist society)。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 174
+    "id": 209
   },
   {
     "type": "single",
@@ -4164,10 +5195,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "乔叟在英国时期成为成熟的大师，代表作是《坎特伯雷故事集》。",
+    "explanation": "在乔叟创作的三个阶段中，\"英国时期\"是他摆脱法国、意大利文学的直接模仿、真正走向成熟的阶段，代表作《坎特伯雷故事集》标志着他作为中古英语文学大师的地位。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 175
+    "id": 210
   },
   {
     "type": "single",
@@ -4192,10 +5223,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "在传奇文学 (Romance) 中，英雄通常是骑士，擅长使用武器。",
+    "explanation": "传奇文学 (Romance) 是中世纪流行的骑士文学，主人公通常是精通武艺、恪守骑士精神（忠诚、荣誉、爱情）的骑士，这与民谣（多写民间传说与悲欢离合）、戏剧、散文的题材特征不同。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 176
+    "id": 211
   },
   {
     "type": "single",
@@ -4220,10 +5251,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "《坎特伯雷故事集》开篇描写人们在春天（四月）渴望去朝圣。",
+    "explanation": "《坎特伯雷故事集》总引开篇即描写四月春雨滋润大地、万物复苏，人们由此渴望外出朝圣，这也是全书叙事的开端设定。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 177
+    "id": 212
   },
   {
     "type": "single",
@@ -4248,10 +5279,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "罗马人统治不列颠大约 400 年（公元 43 年至约 410 年）。",
+    "explanation": "罗马人自公元43年入侵不列颠，至公元410年左右因罗马帝国自身衰落而撤军，统治时间前后约400年。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 178
+    "id": 213
   },
   {
     "type": "single",
@@ -4276,10 +5307,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "在罗马征服期间，基督教被传入不列颠。",
+    "explanation": "罗马统治时期，基督教随罗马帝国的国教化传入不列颠，为后来盎格鲁-撒克逊时期基督教在英格兰的传播奠定了基础。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 179
+    "id": 214
   },
   {
     "type": "single",
@@ -4304,10 +5335,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "四月朝圣象征着重生和新生命 (rebirth and new life)，与春天的复苏相呼应。",
+    "explanation": "四月正值万物复苏的春季，朝圣行为在此语境下象征着重生与新生命 (rebirth and new life)，与寒冬的死寂形成对照，呼应基督教复活的意象。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 180
+    "id": 215
   },
   {
     "type": "single",
@@ -4332,10 +5363,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "玫瑰战争（1455-1485年）发生在较晚时期，黑死病、劳工法令和百年战争才是14世纪使农民生活困苦的主要原因。",
+    "explanation": "黑死病（大量减少劳动力）、劳工法令（压低工资、限制人口流动）、百年战争（沉重赋税与兵役）都是14世纪直接加重农民苦难的因素；玫瑰战争 (1455-1485) 是15世纪中后期兰开斯特与约克两大贵族家族争夺王位的内战，时间更晚，且主要冲击贵族阶层，与农民生活的直接关联最弱。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 181
+    "id": 216
   },
   {
     "type": "single",
@@ -4360,10 +5391,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "1066年后约两百年间，三种语言并存：法语（贵族）、拉丁语（教会/学术）、英语（平民）。",
+    "explanation": "诺曼征服后约两百年间，英格兰社会中法语（诺曼贵族与宫廷用语）、拉丁语（教会与学术用语）、英语（平民口语）三种语言并存，直至中古英语逐渐融合三者词汇后重新成为主导语言。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 182
+    "id": 217
   },
   {
     "type": "single",
@@ -4388,10 +5419,10 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "这里的\"sick\"与基督教的原罪、亚当和夏娃的故事相关，\"撒旦的故事\"并非直接关联。",
+    "explanation": "这行诗（出自《坎特伯雷故事集·总引》对教区长/Parson 的描写）中\"患病\"背后的深层含义与基督教教义中\"原罪\"（人类因亚当和夏娃偷食禁果而背负罪与苦难，患病即是苦难的一种）直接相关；而\"撒旦的故事\"讲的是撒旦本身的堕落与诱惑，并非\"患病\"意象的直接来源，故不属于同一关联链条。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 183
+    "id": 218
   },
   {
     "type": "single",
@@ -4416,10 +5447,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "诺曼人于1066年才侵入英国，而盎格鲁人、撒克逊人和朱特人是在5世纪初（约410年后）入侵的日耳曼部落。",
+    "explanation": "公元410年前后罗马撤军后，来自欧陆的盎格鲁人、撒克逊人、朱特人相继入侵并定居不列颠，形成盎格鲁-撒克逊英格兰；诺曼人则迟至1066年才在威廉公爵率领下征服英格兰，时间上相差六百余年。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 184
+    "id": 219
   },
   {
     "type": "single",
@@ -4444,10 +5475,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "传奇文学是为贵族阶级创作的，描写骑士的冒险和爱情。",
+    "explanation": "传奇文学以骑士的冒险、爱情与荣誉为题材，主要为贵族阶层的娱乐和道德教化服务，反映的是骑士制度与宫廷爱情理想，而非平民或中产阶级的生活。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 185
+    "id": 220
   },
   {
     "type": "single",
@@ -4472,10 +5503,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "乔叟用中古英语 (Middle English) 写作，他是中古英语文学的代表人物。",
+    "explanation": "乔叟活跃于14世纪，使用的是中古英语 (Middle English)，他也因此被称为中古英语文学的集大成者；\"古英语/盎格鲁-撒克逊语\"指诺曼征服前的英语阶段，与乔叟所处时代不符。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 186
+    "id": 221
   },
   {
     "type": "single",
@@ -4500,10 +5531,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "说法语的诺曼人在威廉公爵率领下于1066年来到不列颠。",
+    "explanation": "1066年，说法语的诺曼底公爵威廉率军在黑斯廷斯战役中击败英格兰军队，即\"诺曼征服\"，法语自此成为英格兰宫廷与贵族阶层长期使用的语言。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 187
+    "id": 222
   },
   {
     "type": "single",
@@ -4528,10 +5559,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "乔叟被誉为\"英国诗歌之父\" (Father of English poetry)。",
+    "explanation": "乔叟凭借《坎特伯雷故事集》等作品奠定了英语诗歌的叙事传统与格律基础，被公认为\"英国诗歌之父\"(Father of English poetry)。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 188
+    "id": 223
   },
   {
     "type": "single",
@@ -4556,10 +5587,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "到7世纪，盎格鲁-撒克逊七国（Heptarchy）确立，英格兰作为一个国家实体逐渐形成。",
+    "explanation": "5世纪盎格鲁人、撒克逊人、朱特人陆续入侵并建立起若干小王国，到7世纪逐渐形成七国并立的格局（Heptarchy），英格兰作为一个相对统一的政治/文化实体的雏形至此基本确立。",
     "subject": "英美文学",
     "source": "英1",
-    "id": 189
+    "id": 224
   },
   {
     "type": "single",
@@ -4584,10 +5615,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "文艺复兴时期最重要的思想运动是人文主义 (humanism)，强调人的价值和能力。",
+    "explanation": "文艺复兴时期最重要的思想运动是人文主义 (humanism)，其核心是重新肯定人的价值、能力与尘世生活的意义，取代中世纪以神为中心的世界观；宗教改革与地理大发现虽是同时代的重要事件，但并非\"以人的能力和文化成就为中心\"的思想运动本身。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 190
+    "id": 225
   },
   {
     "type": "single",
@@ -4612,10 +5643,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "莎士比亚四大悲剧是《哈姆雷特》《奥赛罗》《李尔王》《麦克白》，《罗密欧与朱丽叶》虽为悲剧但不属于四大悲剧。",
+    "explanation": "莎士比亚\"四大悲剧\"通常指《哈姆雷特》《奥赛罗》《李尔王》《麦克白》，均创作于其艺术成熟期，主题聚焦人性与命运的深刻冲突；《罗密欧与朱丽叶》虽也是悲剧，但写于早期，风格偏重爱情抒情，传统上不列入四大悲剧之内。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 191
+    "id": 226
   },
   {
     "type": "single",
@@ -4640,10 +5671,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "莎士比亚四大喜剧通常指《仲夏夜之梦》《威尼斯商人》《皆大欢喜》《第十二夜》，《错误的喜剧》不在其中。",
+    "explanation": "莎士比亚的代表喜剧通常指《仲夏夜之梦》《威尼斯商人》《皆大欢喜》《第十二夜》等成熟期作品；《错误的喜剧》(The Comedy of Errors) 是他早期模仿古罗马喜剧的作品，风格较为稚嫩，一般不算作代表喜剧。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 192
+    "id": 227
   },
   {
     "type": "single",
@@ -4668,10 +5699,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "《利西达斯》(Lycidas) 是约翰·弥尔顿的作品，不是马洛的作品。",
+    "explanation": "马洛的代表作包括《帖木儿大帝》(Tamburlaine)、《马耳他岛的犹太人》(The Jew of Malta)、《浮士德博士》(Doctor Faustus)，均塑造了追求权力、财富或知识而走向毁灭的\"巨人式\"主人公；《利西达斯》(Lycidas) 是约翰·弥尔顿为悼念溺水同窗所作的挽歌诗，与马洛无关。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 193
+    "id": 228
   },
   {
     "type": "single",
@@ -4696,10 +5727,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "莎士比亚戏剧的主要诗歌形式是无韵诗 (blank verse)，即不押韵的五步抑扬格。",
+    "explanation": "莎士比亚戏剧的主体是无韵诗 (blank verse，即不押尾韵的五步抑扬格诗行)，这种形式既保留诗歌的节奏感，又贴近自然的口语表达，是他剧作台词的主要载体；十四行诗则是他另一类独立的抒情诗体裁。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 194
+    "id": 229
   },
   {
     "type": "single",
@@ -4724,10 +5755,10 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "《鞋匠的节日》(The Shoemaker's Holiday) 是托马斯·德克 (Thomas Dekker) 的作品。",
+    "explanation": "本·琼森的代表剧作包括《个性各异的人》(Every Man in His Humor)、《狐狸》(Volpone)、《炼金术士》(The Alchemist)，以讽刺喜剧和\"气质喜剧\"著称；《鞋匠的节日》(The Shoemaker's Holiday) 是托马斯·德克 (Thomas Dekker) 的作品。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 195
+    "id": 230
   },
   {
     "type": "single",
@@ -4752,10 +5783,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "这句名言出自弗朗西斯·培根的散文《论读书》(Of Studies)。",
+    "explanation": "这句以\"品尝—吞咽—咀嚼消化\"比喻不同读书方法的名言，出自弗朗西斯·培根的散文《论读书》(Of Studies)，是其格言式散文风格的典型代表。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 196
+    "id": 231
   },
   {
     "type": "single",
@@ -4780,10 +5811,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "培根以他的散文 (essays) 闻名，对英国散文这一文学形式的发展产生了重大影响。",
+    "explanation": "培根被誉为英国散文之父，他的《随笔集》(Essays) 以简洁凝练、格言警句式的文风开创了英语散文这一文体，对后世影响深远。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 197
+    "id": 232
   },
   {
     "type": "single",
@@ -4808,10 +5839,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "《失乐园》的故事取自《旧约圣经》，讲述撒旦反叛以及亚当和夏娃被逐出伊甸园的故事。",
+    "explanation": "弥尔顿的《失乐园》取材于《圣经·旧约》中的《创世记》，讲述撒旦反叛上帝并诱使亚当和夏娃偷食禁果，最终被逐出伊甸园的故事。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 198
+    "id": 233
   },
   {
     "type": "single",
@@ -4836,55 +5867,55 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "《仙后》(The Faerie Queene) 是埃德蒙·斯宾塞的代表作。",
+    "explanation": "《仙后》(The Faerie Queene) 是埃德蒙·斯宾塞为歌颂伊丽莎白一世而作的寓言体史诗，融合骑士传奇与道德寓意，是英国文艺复兴时期诗歌的巅峰之作，斯宾塞也因此被称为\"诗人的诗人\"。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 199
+    "id": 234
   },
   {
     "type": "fill",
     "question": "In ____ the English navy defeated the Spanish Armada.",
     "answerLabel": "1588",
-    "explanation": "1588年，英国海军击败了西班牙无敌舰队。",
+    "explanation": "1588年，英国海军在伊丽莎白一世统治下击败了西班牙\"无敌舰队\"，这一胜利终结了西班牙的海上霸权，为英国日后建立海上强国和海外殖民扩张奠定了基础。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 200
+    "id": 235
   },
   {
     "type": "fill",
     "question": "Absolute monarchy in England reached its summit during the reign of ____ because he carried out the ________.",
     "answerLabel": "Henry VIII; English Reformation",
-    "explanation": "亨利八世推行宗教改革，使英国君主专制达到顶峰。",
+    "explanation": "亨利八世为解决离婚问题及巩固王权，推行\"英国宗教改革\"，脱离罗马天主教会、建立英国国教（安立甘宗），将教会置于王权之下，使英国君主专制统治达到顶峰。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 201
+    "id": 236
   },
   {
     "type": "fill",
     "question": "The ________ in 1688 established the ________ monarchy.",
     "answerLabel": "Glorious Revolution; constitutional",
-    "explanation": "1688年的光荣革命 (Glorious Revolution) 确立了君主立宪制 (constitutional monarchy)。",
+    "explanation": "1688年\"光荣革命\"以不流血的方式推翻詹姆斯二世，迎立威廉与玛丽，次年颁布《权利法案》，限制王权、确立议会至上原则，英国自此从君主专制转向君主立宪制 (constitutional monarchy)。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 202
+    "id": 237
   },
   {
     "type": "fill",
     "question": "Paradise Lost tells how ____ rebelled against God and how ____ and Eve were driven out of Eden.",
     "answerLabel": "Satan; Adam",
-    "explanation": "《失乐园》讲述撒旦反叛上帝以及亚当和夏娃被逐出伊甸园的故事。",
+    "explanation": "《失乐园》讲述撒旦率天使反叛上帝失败被打入地狱，转而化身蛇诱使亚当和夏娃偷食禁果，二人因此被逐出伊甸园，人类由此背负\"原罪\"。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 203
+    "id": 238
   },
   {
     "type": "fill",
     "question": "________ was the religious doctrine of the revolutionary bourgeoisie during the English Revolution.",
     "answerLabel": "Puritanism",
-    "explanation": "清教主义 (Puritanism) 是英国革命时期革命资产阶级的宗教信条。",
+    "explanation": "清教主义 (Puritanism) 主张勤俭、自律、反对国教繁复的仪式，是17世纪英国资产阶级革命（英国内战）中新兴资产阶级和新贵族的思想旗帜，克伦威尔即是清教徒的代表人物。",
     "subject": "英美文学",
     "source": "英2",
-    "id": 204
+    "id": 239
   },
   {
     "type": "matching",
@@ -4929,52 +5960,52 @@
     "explanation": "",
     "subject": "英美文学",
     "source": "英2",
-    "id": 205
+    "id": 240
   },
   {
     "type": "fill",
     "question": "In the 18th century, social life developed rapidly, ________, each as a social centre, sprang up in London, and became the most striking feature of London life.",
     "answerLabel": "coffee houses",
-    "explanation": "18世纪伦敦兴起了许多咖啡馆 (coffee houses)，成为社交中心和伦敦生活最显著的特征。",
+    "explanation": "18世纪伦敦的咖啡馆 (coffee houses) 迅速兴起，成为士绅阶层聚会、交流新闻与议论时政的社交中心，也是《闲话报》《旁观者》等期刊文章的重要传播场所，是当时伦敦社会生活最显著的特征。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 206
+    "id": 241
   },
   {
     "type": "fill",
     "question": "The 18th century is known as \"the Age of ____\".",
     "answerLabel": "Enlightenment / Reason",
-    "explanation": "18世纪被称为\"启蒙时代\" (the Age of Enlightenment) 或\"理性的时代\"。",
+    "explanation": "18世纪西欧思想界普遍崇尚理性、科学与进步，反对蒙昧与教条，因此这一时期被称为\"启蒙时代\"或\"理性时代\"(the Age of Enlightenment / Reason)。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 207
+    "id": 242
   },
   {
     "type": "fill",
     "question": "The founder of the English realistic school is ________.",
     "answerLabel": "Daniel Defoe",
-    "explanation": "丹尼尔·笛福被认为是英国现实主义流派的奠基人。",
+    "explanation": "丹尼尔·笛福被公认为英国现实主义小说的奠基人，其代表作《鲁滨逊漂流记》(1719) 以第一人称写实笔法描写普通人的冒险经历，通常被视为英国第一部现代意义上的小说。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 208
+    "id": 243
   },
   {
     "type": "fill",
     "question": "Such beautiful and enduring lines as \"And I will luve thee still, my dear, Till a' the seas gang dry\" were written by ________ in his famous love poem ________.",
     "answerLabel": "Robert Burns; \"A Red, Red Rose\"",
-    "explanation": "这些诗句出自罗伯特·彭斯的名诗《一朵红红的玫瑰》。",
+    "explanation": "这两句诗出自苏格兰\"农民诗人\"罗伯特·彭斯的爱情名篇《一朵红红的玫瑰》(\"A Red, Red Rose\")，诗中用苏格兰方言和民歌韵律表达真挚炽热的爱情，是他最广为传诵的作品之一。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 209
+    "id": 244
   },
   {
     "type": "fill",
     "question": "Daniel Defoe describes ____ as a typical English middle-class man of the eighteenth century, the very prototype of the empire builder or the pioneer colonist.",
     "answerLabel": "Robinson Crusoe",
-    "explanation": "笛福将鲁滨逊·克鲁索塑造为18世纪典型的英国中产阶级人物，殖民开拓者的原型。",
+    "explanation": "笛福笔下的鲁滨逊·克鲁索白手起家、勤劳务实、擅长经营与开拓，被视为18世纪英国中产阶级精神的典型化身，也象征着殖民扩张时期\"帝国建造者\"和拓荒者的原型形象。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 210
+    "id": 245
   },
   {
     "type": "single",
@@ -4999,10 +6030,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "启蒙运动 (Enlightenment) 是18世纪西欧的一场进步思想运动。",
+    "explanation": "启蒙运动 (Enlightenment) 兴起于18世纪西欧，提倡理性、科学和人权，反对封建专制与宗教蒙昧，是这一时期最重要的进步思想运动；文艺复兴与宗教改革发生更早（14-16世纪），宪章运动则晚至19世纪。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 211
+    "id": 246
   },
   {
     "type": "single",
@@ -5027,10 +6058,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "亚历山大·蒲柏 (Alexander Pope) 是英国新古典主义最杰出的代表诗人。",
+    "explanation": "亚历山大·蒲柏以严谨的英雄双韵体 (heroic couplet) 和讽刺才华著称，代表作《批评论》《夺发记》体现了新古典主义崇尚理性、格律与古典规范的美学追求，是新古典主义诗歌当之无愧的代表人物。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 212
+    "id": 247
   },
   {
     "type": "single",
@@ -5055,10 +6086,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "威廉·布莱克 (William Blake) 是18世纪浪漫主义诗人中最独立、最具独创性的一位。",
+    "explanation": "威廉·布莱克是前浪漫主义时期极具神秘色彩与预言气质的诗人，其想象奇特、独树一帜，几乎不受同时代诗歌传统影响，因而被认为是18世纪浪漫派诗人中最独立、最有独创性的一位。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 213
+    "id": 248
   },
   {
     "type": "single",
@@ -5083,10 +6114,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "布莱克的《经验之歌》以忧郁的笔调描绘了一个充满苦难、贫穷、疾病、战争和压迫的世界。",
+    "explanation": "布莱克将《天真之歌》与《经验之歌》设计为对照集：前者描绘童真与田园牧歌式的美好，后者则以忧郁笔调揭露成人世界中的苦难、贫穷、疾病、战争与压迫，两者共同构成\"人类灵魂的两种对立状态\"。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 214
+    "id": 249
   },
   {
     "type": "single",
@@ -5111,10 +6142,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "罗伯特·彭斯是前浪漫主义 (Pre-Romanticism) 的代表人物。",
+    "explanation": "罗伯特·彭斯与威廉·布莱克、托马斯·格雷等诗人一起，被视为\"前浪漫主义\"(Pre-Romanticism) 的代表——他们已表现出重视自然、情感与民间传统的浪漫主义倾向，但活动时间早于1798年《抒情歌谣集》出版所标志的正式浪漫主义时期。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 215
+    "id": 250
   },
   {
     "type": "single",
@@ -5139,10 +6170,10 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "鲁滨逊·克鲁索集自立、殖民精神和冒险精神于一身。",
+    "explanation": "鲁滨逊在荒岛上自力更生、开垦经营，体现\"自立\"；他驯化\"星期五\"、建立小型秩序，带有殖民统治意识；同时他远航冒险的经历本身也充满冒险精神——三种特质在这一人物身上兼而有之，故选\"以上皆是\"。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 216
+    "id": 251
   },
   {
     "type": "single",
@@ -5167,10 +6198,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "英国启蒙文学主要面向中产阶级读者。",
+    "explanation": "随着18世纪英国中产阶级的壮大和识字率提高，小说这一新兴文学形式（笛福、理查逊、菲尔丁等人的作品）主要面向中产阶级读者，反映他们的道德关切与生活趣味，这也是\"小说\"取代传奇成为主流文体的社会基础。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 217
+    "id": 252
   },
   {
     "type": "single",
@@ -5195,10 +6226,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "18世纪英国文学最显著的成就是小说 (novel) 的兴起与发展。",
+    "explanation": "18世纪见证了英国小说 (novel) 从萌芽到成熟的过程：笛福、理查逊、菲尔丁、斯特恩等人相继创作出具有现实主义品格的长篇叙事作品，\"小说\"由此成为这一时期最具代表性、影响最深远的文学成就。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 218
+    "id": 253
   },
   {
     "type": "single",
@@ -5223,10 +6254,10 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "这句名言出自乔纳森·斯威夫特 (Jonathan Swift)，他是英国散文的大师。",
+    "explanation": "乔纳森·斯威夫特以简洁精确、逻辑严密的散文风格著称（代表作《格列佛游记》《一个温和的建议》），这句强调\"用恰当的词放在恰当的位置\"的名言正体现了他对文风精准性的追求，他也因此被视为英国散文大师之一。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 219
+    "id": 254
   },
   {
     "type": "single",
@@ -5251,10 +6282,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "《主要用苏格兰方言写的诗集》(Poems, Chiefly in the Scottish Dialect) 是罗伯特·彭斯的作品，不是布莱克的。",
+    "explanation": "《主要用苏格兰方言写的诗集》(Poems, Chiefly in the Scottish Dialect, 1786，即\"基尔马诺克版\") 是罗伯特·彭斯的诗集，并非布莱克的作品；布莱克的代表作是《天真之歌》《经验之歌》和早期的《诗的素描》(Poetical Sketches)。",
     "subject": "英美文学",
     "source": "英3",
-    "id": 220
+    "id": 255
   },
   {
     "type": "matching",
@@ -5299,52 +6330,52 @@
     "explanation": "",
     "subject": "英美文学",
     "source": "英3",
-    "id": 221
+    "id": 256
   },
   {
     "type": "fill",
     "question": "Romanticism in literature was exclusively motivated by both the ____ and the ____.",
     "answerLabel": "French Revolution; Industrial Revolution",
-    "explanation": "文学上的浪漫主义受到法国大革命和工业革命的双重推动。",
+    "explanation": "法国大革命以\"自由、平等、博爱\"激发了对个人情感与个性解放的推崇，工业革命带来的城市化、机械化和贫富分化则激起了对自然与田园生活的向往，二者共同构成浪漫主义兴起的社会与思想动因。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 222
+    "id": 257
   },
   {
     "type": "fill",
     "question": "The publication of ____ marked the beginning of Romanticism.",
     "answerLabel": "Lyrical Ballads",
-    "explanation": "《抒情歌谣集》(Lyrical Ballads, 1798) 的出版标志着浪漫主义的开始。",
+    "explanation": "1798年，华兹华斯与柯勒律治合著出版《抒情歌谣集》(Lyrical Ballads)，以日常语言描写普通人与自然的诗歌宣言取代了新古典主义的雅化诗风，这一年通常被定为英国浪漫主义运动正式开始的标志。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 223
+    "id": 258
   },
   {
     "type": "fill",
     "question": "The death of ____ marked the ending of Romanticism.",
     "answerLabel": "Sir Walter Scott",
-    "explanation": "1832年司各特 (Sir Walter Scott) 的去世标志着英国浪漫主义时期的结束。",
+    "explanation": "1832年司各特去世，与同年颁布的《改革法案》大致同期，传统上被视为英国浪漫主义时期落幕的标志性节点，此后英国文学逐渐转向维多利亚时期的现实主义。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 224
+    "id": 259
   },
   {
     "type": "fill",
     "question": "Jane Austen's novels are about ____ and ____.",
     "answerLabel": "love; marriage",
-    "explanation": "简·奥斯汀的小说主题围绕爱情和婚姻展开。",
+    "explanation": "奥斯汀的小说始终围绕英国乡绅阶层的恋爱与婚姻展开，以细腻反讽的笔法揭示当时婚姻背后的财产、地位与人性考量，《傲慢与偏见》即是其中的代表。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 225
+    "id": 260
   },
   {
     "type": "fill",
     "question": "Owing to difference in political attitudes, the romanticists split into two schools: ____ romanticists and ____ romanticists.",
     "answerLabel": "active / revolutionary; passive / conservative",
-    "explanation": "由于政治态度不同，浪漫主义者分为积极（革命）浪漫主义者和消极（保守）浪漫主义者两派。",
+    "explanation": "拜伦、雪莱等人始终同情革命、抨击专制，属于\"积极/革命浪漫主义\"；华兹华斯、柯勒律治等人早年支持法国大革命，后期却转向保守、退居田园冥想，属于\"消极/保守浪漫主义\"，二者反映了浪漫派内部政治立场的分化。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 226
+    "id": 261
   },
   {
     "type": "single",
@@ -5369,10 +6400,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "华兹华斯主张使用普通人的日常语言，反对华丽的措辞和夸张的修辞手法。",
+    "explanation": "华兹华斯在《抒情歌谣集·序言》中明确主张用\"人们真正使用的语言\"描写\"卑微淳朴的乡村生活\"，抒发强烈的主观情感，反对新古典主义那种雕琢华丽、堆砌辞藻的诗风，因此\"华丽措辞和夸张的修辞\"正是他所反对的。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 227
+    "id": 262
   },
   {
     "type": "single",
@@ -5397,10 +6428,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "\"冬天来了，春天还会远吗？\"出自雪莱的《西风颂》(Ode to the West Wind)。",
+    "explanation": "这句广为传诵的诗行出自雪莱《西风颂》(Ode to the West Wind) 的结尾，诗人以西风象征摧枯拉朽又孕育新生的革命力量，表达对变革与希望的坚定信念。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 228
+    "id": 263
   },
   {
     "type": "single",
@@ -5425,10 +6456,10 @@
     ],
     "answer": "D",
     "answerLabel": "D",
-    "explanation": "司各特 (Walter Scott) 是历史小说家，不是散文家；兰姆、哈兹里特和德·昆西都是浪漫主义时期著名的散文家。",
+    "explanation": "兰姆、哈兹里特、德·昆西是浪漫主义时期公认的三大散文家，分别以温情随笔、犀利评论、自传体奇幻散文见长；司各特则是历史小说的开创者（如《艾凡赫》），以叙事小说而非散文著称。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 229
+    "id": 264
   },
   {
     "type": "single",
@@ -5453,10 +6484,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "华兹华斯在《抒情歌谣集·序言》中提出\"一切好诗都是强烈情感的自然流露\"。",
+    "explanation": "华兹华斯在为《抒情歌谣集》第二版所作的《序言》中系统阐述了他的诗歌主张，提出\"一切好诗都是强烈情感的自然流露\"，这也成为浪漫主义诗歌理论的纲领性表述。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 230
+    "id": 265
   },
   {
     "type": "single",
@@ -5481,10 +6512,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "《西风颂》是雪莱的作品，济慈1819年的五大颂歌包括《夜莺颂》《秋颂》《怠惰颂》《希腊古瓮颂》《忧郁颂》。",
+    "explanation": "济慈1819年创作的\"五大颂\"包括《夜莺颂》《希腊古瓮颂》《秋颂》《忧郁颂》《怠惰颂》；《西风颂》(Ode to the West Wind) 则是雪莱同年创作的名篇，二者常被混淆但作者并不相同。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 231
+    "id": 266
   },
   {
     "type": "single",
@@ -5509,10 +6540,10 @@
     ],
     "answer": "C",
     "answerLabel": "C",
-    "explanation": "《古舟子咏》(The Rime of the Ancient Mariner) 是柯勒律治的代表作。",
+    "explanation": "《古舟子咏》(The Rime of the Ancient Mariner) 是柯勒律治想象力与超自然叙事才华的集大成之作，也是《抒情歌谣集》的开篇之作，被视为其代表作；《序曲》是华兹华斯的长诗，《丁登寺》同属华兹华斯名篇。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 232
+    "id": 267
   },
   {
     "type": "single",
@@ -5537,10 +6568,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "《谢利》(Shirley) 是夏洛蒂·勃朗特的小说，不是简·奥斯汀的作品。",
+    "explanation": "奥斯汀的六部长篇小说为《理智与情感》《傲慢与偏见》《曼斯菲尔德庄园》《爱玛》《诺桑觉寺》《劝导》；《谢利》(Shirley) 是夏洛蒂·勃朗特的作品，与奥斯汀无关。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 233
+    "id": 268
   },
   {
     "type": "single",
@@ -5565,10 +6596,10 @@
     ],
     "answer": "B",
     "answerLabel": "B",
-    "explanation": "在《傲慢与偏见》开头，达西和伊丽莎白彼此反感 (mutual repulsion)，分别体现为傲慢与偏见。",
+    "explanation": "小说开篇达西因傲慢的举止得罪了伊丽莎白，伊丽莎白也因此对他心生偏见，两人彼此产生反感/排斥 (mutual repulsion)，这正是书名\"傲慢与偏见\"的由来，二人的态度随情节发展才逐渐转变为爱慕。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 234
+    "id": 269
   },
   {
     "type": "single",
@@ -5593,10 +6624,10 @@
     ],
     "answer": "A",
     "answerLabel": "A",
-    "explanation": "浪漫主义运动对工业化及资产阶级崛起所带来的社会和政治现状持消极 (negative) 态度。",
+    "explanation": "浪漫主义作家普遍对工业化带来的机械理性、城市贫困以及资产阶级实利主义持批判态度，转而歌颂自然、想象与个体情感，这种对现实社会秩序的疏离与不满即体现为\"消极/否定\"的态度。",
     "subject": "英美文学",
     "source": "英4",
-    "id": 235
+    "id": 270
   },
   {
     "type": "matching",
@@ -5632,7 +6663,7 @@
     "explanation": "",
     "subject": "英美文学",
     "source": "英4",
-    "id": 236
+    "id": 271
   },
   {
     "type": "single",
@@ -5660,7 +6691,7 @@
     "explanation": "现代语言学是**描写性(descriptive)**的，只客观描写语言实际使用情况，不评判对错，故选 B。A. prescriptive（规定性）是传统语法的特征，规定\"应该怎么说\"，方向相反；C. subjective（主观的）与语言学追求客观科学的性质相悖；D. Latin-based（以拉丁语为基础）指传统语法套用拉丁语框架，也是传统语法而非现代语言学的特点。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 237
+    "id": 272
   },
   {
     "type": "single",
@@ -5688,7 +6719,7 @@
     "explanation": "语言学家视语言变化为**自然(natural)**现象，是语言的固有属性，故选 C。A. abnormal（反常的）、D. unnatural（不自然的）都否定语言变化的合理性，是规定主义者的态度；B. something to be feared（应当惧怕的）同样是保守的规定性观点，与语言学家的客观立场不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 238
+    "id": 273
   },
   {
     "type": "single",
@@ -5716,7 +6747,7 @@
     "explanation": "[d] 是**浊(voiced)**齿龈塞音，发音时声带振动，故选 A。B/D 的 [t] 是清齿龈塞音，C 的 [p] 是清双唇塞音，发音时声带都不振动，均为清音(voiceless)。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 239
+    "id": 274
   },
   {
     "type": "single",
@@ -5744,7 +6775,7 @@
     "explanation": "disabled 可切分为 **dis- + able + -ed** 三个语素，故选 C。dis-（否定前缀）、able（词根）、-ed（屈折后缀），共 3 个，其余选项数目不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 240
+    "id": 275
   },
   {
     "type": "single",
@@ -5772,7 +6803,7 @@
     "explanation": "dis- 加在词根之前，是**前缀(prefix)**，故选 D。A. free morpheme（自由语素）能独立成词，而 dis- 必须附着，属黏着语素；B. suffix（后缀）加在词后，位置错误；C. infix（中缀）插入词内，英语几乎没有，也不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 241
+    "id": 276
   },
   {
     "type": "single",
@@ -5800,7 +6831,7 @@
     "explanation": "黑人英语是与特定族群相关的**族群/种族(ethnic)**变体，故选 B。A. regional（地域变体）按地区划分；C. social（社会变体）按社会阶层等划分；D. lower class（下层阶级）不是标准的变体分类术语，且以阶级定义黑人英语并不准确。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 242
+    "id": 277
   },
   {
     "type": "single",
@@ -5828,7 +6859,7 @@
     "explanation": "alive/dead 非此即彼、无中间状态、否定一方即肯定另一方，属**互补反义词(complementary antonyms)**，故选 B。A. gradable（等级反义词，如 hot/cold）有程度之分，可比较，可有中间值，不符；C. relational opposites（关系反义词，如 buy/sell）互为前提关系；D. co-hyponym（同下义词）指同属一个上义词的并列词，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 243
+    "id": 278
   },
   {
     "type": "single",
@@ -5856,7 +6887,7 @@
     "explanation": "英语、德语、法语**都**属于印欧语系(Indo-European)，故选 D。A/B/C 各自单独说都正确但不完整，本题需选涵盖全部的 D。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 244
+    "id": 279
   },
   {
     "type": "single",
@@ -5884,7 +6915,7 @@
     "explanation": "谓词分析中，论元(argument)个数决定 predication 类型。\"Kids like apples\" 含 kids、apples 两个论元，是**二位谓词结构(two-place)**，故选 A。one-place 只有一个论元（如 The baby smiled）；three-place 有三个论元（如 give）；no-place 无论元（无人称句如 It is raining），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 245
+    "id": 280
   },
   {
     "type": "single",
@@ -5912,7 +6943,7 @@
     "explanation": "主谓句(subject-predicate)整体功能不等同于其中任一直接成分，属**离心结构(exocentric)**，故选 C。D. endocentric（向心结构）中整体与中心词分布相同（如修饰语+名词）；A. subordinate（主从）、B. coordinate（并列）指分句间关系，此处是单句主谓，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 246
+    "id": 281
   },
   {
     "type": "single",
@@ -5940,7 +6971,7 @@
     "explanation": "索绪尔是**瑞士(Swiss)**语言学家，现代语言学奠基人，故选 B。其余国籍均错误。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 247
+    "id": 282
   },
   {
     "type": "single",
@@ -5968,7 +6999,7 @@
     "explanation": "[b] 是**浊双唇塞音**（声带振动+双唇闭合+完全阻塞），三特征齐全，故选 C。A. [p] 是清双唇塞音（清音）；B. [m] 是双唇鼻音（非塞音）；D. [t] 是清齿龈塞音（部位错、清音），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 248
+    "id": 283
   },
   {
     "type": "single",
@@ -5996,7 +7027,7 @@
     "explanation": "[lkbi] 的音位组合违反英语**音位配列规则(phonotactics)**，英语不允许 /lkb/ 这样的辅音串，故不可能是英语词，选 B。A/C/D 的组合均符合英语音节结构。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 249
+    "id": 284
   },
   {
     "type": "single",
@@ -6024,7 +7055,7 @@
     "explanation": "-ing、-est 表达时体、比较级等语法范畴，不改变词类，是**屈折词缀(inflectional affixes)**，故选 C。A. derivational（派生词缀）会造出新词/改变词类；B. free morphemes（自由语素）能独立成词，词缀是黏着的；D. roots（词根）是词的核心而非词缀，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 250
+    "id": 285
   },
   {
     "type": "single",
@@ -6052,7 +7083,7 @@
     "explanation": "两个分句由连接词并列连接，是**并列句(coordinate)**，故选 A。B. simple（简单句）只有一个分句；C. subordinate（从属）指主从关系，一个分句依附另一个；D. embedded（内嵌）指分句嵌入另一分句内部，均不符\"并列连接\"。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 251
+    "id": 286
   },
   {
     "type": "single",
@@ -6080,7 +7111,7 @@
     "explanation": "认为词就是事物的名称/标签，这是**命名论(naming theory)**（柏拉图提出），故选 D。A. mentalism（心灵主义）、C. conceptualism（概念论）强调意义存于心智概念；B. contextualism（语境论）强调意义由语境决定，均与\"词=名称\"不同。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 252
+    "id": 287
   },
   {
     "type": "single",
@@ -6108,7 +7139,7 @@
     "explanation": "flower（上义词）与 rose（下义词）之间的**关系**是**下义关系(hyponymy)**，故选 B。注意区分：A. hyponym（下义词）、D. superordinate（上义词）指的是\"词\"而非\"关系\"；C. co-hyponyms 指并列的同级下义词（如 rose 与 tulip）。题目问的是\"关系\"，故选表示关系的 hyponymy。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 253
+    "id": 288
   },
   {
     "type": "single",
@@ -6136,7 +7167,7 @@
     "explanation": "hand+book、high+way 由两个自由语素直接组合，是**复合词(compound words)**，故选 C。A. blending（混成，如 smog=smoke+fog）取词的部分拼合；B. back-formation（逆构，如 edit←editor）删去词缀；D. derivation（派生）靠加词缀构词，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 254
+    "id": 289
   },
   {
     "type": "single",
@@ -6164,7 +7195,7 @@
     "explanation": "语言的经典定义为\"用于人类**交际(communication)**的任意性声音符号系统\"，故选 B。A. contact（接触）、C. relation（关系）、D. community（社区）都不是该定义中的固定用词。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 255
+    "id": 290
   },
   {
     "type": "single",
@@ -6192,7 +7223,7 @@
     "explanation": "谈天气以维持social contact、并无实质信息传递，是**寒暄功能(phatic)**，故选 B。A. emotive（情感功能）表达说话人情绪；C. performative（施为功能）以言行事；D. interpersonal（人际功能）是 Halliday 体系术语，非此处 Jakobson 功能分类的答案。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 256
+    "id": 291
   },
   {
     "type": "single",
@@ -6220,7 +7251,7 @@
     "explanation": "Chomsky 区分中，规则知识的**实际运用**是**语言运用(performance)**，故选 A。B. competence（语言能力）是内在规则知识本身；C. langue / D. parole 是 Saussure 的术语（语言/言语），题干用 \"ideal language user's knowledge of rules\" 是 Chomsky 措辞，故选 performance。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 257
+    "id": 292
   },
   {
     "type": "single",
@@ -6248,7 +7279,7 @@
     "explanation": "斜线 // 内标写的是**音位(phoneme)**，故选 C。B. phone（音素）和 A. allophone（音位变体）用方括号 [ ] 标写；D. morpheme（语素）属语法层面，不用音标符号。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 258
+    "id": 293
   },
   {
     "type": "single",
@@ -6276,7 +7307,7 @@
     "explanation": "同一音位在不同环境中的不同发音变体是**音位变体(allophones)**，送气/不送气/不除阻的 p 都是 /p/ 的变体，故选 D。其余术语与\"音位变体\"无关。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 259
+    "id": 294
   },
   {
     "type": "single",
@@ -6304,7 +7335,7 @@
     "explanation": "研究语音**产生(production)**过程的是**发音语音学(articulatory phonetics)**，故选 B。A. acoustic（声学语音学）研究声波物理属性；C. auditory（听觉语音学）研究语音的感知，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 260
+    "id": 295
   },
   {
     "type": "single",
@@ -6332,7 +7363,7 @@
     "explanation": "按**发音部位**，[m][b][p] 都是**双唇音(bilabial)**，而 [n] 是**齿龈音(alveolar)**，与众不同，故选 A。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 261
+    "id": 296
   },
   {
     "type": "single",
@@ -6360,7 +7391,7 @@
     "explanation": "声带振动产生**浊音(voiced)**，故选 B。A. voiceless（清音）声带不振动；C. glottal stop（喉塞音）是声门完全闭合；D. consonant（辅音）是宽泛类别，非由\"声带振动\"定义，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 262
+    "id": 297
   },
   {
     "type": "single",
@@ -6388,7 +7419,7 @@
     "explanation": "名词、动词、形容词含实在词汇意义，是**实词(lexical words)**，故选 A。B. grammatical words = C. function words（语法词/功能词，如介词连词冠词）主要起语法作用；D. form words 是功能词的旧称，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 263
+    "id": 298
   },
   {
     "type": "single",
@@ -6416,7 +7447,7 @@
     "explanation": "表示时态、数、性、格等语法范畴的是**屈折语素(inflectional)**，故选 A。D. derivational（派生语素）改变词义或词类；B. free（自由）/C. bound（黏着）是按能否独立成词划分，与\"表语法范畴\"不是同一维度，屈折语素虽也是黏着的，但最贴切的答案是 inflectional。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 264
+    "id": 299
   },
   {
     "type": "single",
@@ -6444,7 +7475,7 @@
     "explanation": "de-nation-al-ize-ation 可切分为 **de + nation + al + ize + ation** 五个语素，故选 C。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 265
+    "id": 300
   },
   {
     "type": "single",
@@ -6472,7 +7503,7 @@
     "explanation": "-ise、-tion 加在词后，是**后缀(suffixes)**，故选 B。A. prefixes（前缀）在词前；C. infixes（中缀）在词内；D. stems（词干）是加词缀的基础，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 266
+    "id": 301
   },
   {
     "type": "single",
@@ -6500,7 +7531,7 @@
     "explanation": "靠**删减**误以为是词缀的部分来构词，是**逆构法(back-formation)**（如 editor→edit），故选 B。A. affixation（加缀法）是相反操作；C. insertion、D. addition 都是\"添加\"，与\"减去\"矛盾。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 267
+    "id": 302
   },
   {
     "type": "single",
@@ -6528,7 +7559,7 @@
     "explanation": "TB 取各词首字母、且逐字母读 /ti:bi:/，是**首字母连写/字母缩略(initialism)**，故选 C。A. acronymy（首字母缩略但拼读成词，如 NATO）；B. clipping（截短，如 phone←telephone）；D. blending（混成），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 268
+    "id": 303
   },
   {
     "type": "single",
@@ -6556,7 +7587,7 @@
     "explanation": "comsat(communication+satellite)、sitcom(situation+comedy) 取两词的一部分拼合，是**混成法(blending)**，故选 A。其余构词法均不符该拼合方式。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 269
+    "id": 304
   },
   {
     "type": "single",
@@ -6584,7 +7615,7 @@
     "explanation": "**音位(phoneme)**是最小的区别意义的语音单位，本身**不承载意义**，故选 B。A. lexeme（词位）、C. morpheme（语素，最小意义单位）、D. word（词）都是有意义的单位。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 270
+    "id": 305
   },
   {
     "type": "single",
@@ -6612,7 +7643,7 @@
     "explanation": "句法规则数量**有限(finite)**，但能生成无限的句子，故选 C。D. infinite（无限）说反了——无限的是句子而非规则；A/B（多/少）表述模糊，非专业答案。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 271
+    "id": 306
   },
   {
     "type": "single",
@@ -6640,7 +7671,7 @@
     "explanation": "不符合母语者语法知识的句子是**不合语法的(ungrammatical)**，故选 D。C. grammatical（合语法）意思相反；B. acceptable（可接受）是语用/使用层面概念，不等于合语法；A. right 非术语。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 272
+    "id": 307
   },
   {
     "type": "single",
@@ -6668,7 +7699,7 @@
     "explanation": "英语基本语序是**主-谓-宾(SVO)**，故选 B。其余语序对应其他类型语言（如日语 SOV）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 273
+    "id": 308
   },
   {
     "type": "single",
@@ -6696,7 +7727,7 @@
     "explanation": "该短语整体是名词性的，与中心词 book 分布相同，属**向心结构(endocentric)**，故选 A。B. exocentric（离心结构）整体功能不等于任一成分（如主谓句、介词短语内部）；C/D 指成分间的主从/并列关系，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 274
+    "id": 309
   },
   {
     "type": "single",
@@ -6724,7 +7755,7 @@
     "explanation": "命名论由古希腊哲学家**柏拉图(Plato)**提出，故选 A。其余人物均非命名论提出者。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 275
+    "id": 310
   },
   {
     "type": "single",
@@ -6752,7 +7783,7 @@
     "explanation": "\"借你的自行车\"以\"你有自行车\"为**前提(presupposes)**，故选 D。C. entail（蕴含）是单向的逻辑推出（真句推真句）；A. synonymous（同义）、B. inconsistent（不相容）均不符两句关系。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 276
+    "id": 311
   },
   {
     "type": "single",
@@ -6780,7 +7811,7 @@
     "explanation": "把词义分解为语义特征(semantic features)的方法是**成分分析法(componential analysis)**，故选 B。A. predication analysis（谓词分析）分析句子命题结构；C. phonemic（音位分析）、D. grammatical（语法分析）不涉及语义特征分解。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 277
+    "id": 312
   },
   {
     "type": "single",
@@ -6808,7 +7839,7 @@
     "explanation": "alive/dead 非此即彼、无程度，是**互补反义词(complementary)**，故选 C。（同 Ex1 第一组第7题）A. gradable 有程度可比较；B. relational 互为关系前提；均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 278
+    "id": 313
   },
   {
     "type": "single",
@@ -6836,7 +7867,7 @@
     "explanation": "语言符号与外部世界之间的关系是**所指/指称(reference)**，故选 A。D. sense（涵义）是词语间的内部意义关系，不涉及外部世界；B. concept（概念）在心智中；C. semantics（语义学）是整个学科，范围过大，均不符\"符号—世界\"这一关系。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 279
+    "id": 314
   },
   {
     "type": "single",
@@ -6864,7 +7895,7 @@
     "explanation": "不同意义共用同一形式是**同形/同音异义(homonymy)**，故选 C。A. polysemy（一词多义）是同一个词有多个相关义项；B. synonymy（同义）；D. hyponymy（下义），均不符。（辨析：homonymy 是不同的词恰好同形；polysemy 是一个词的多义。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 280
+    "id": 315
   },
   {
     "type": "single",
@@ -6892,7 +7923,7 @@
     "explanation": "意义相近的词是**同义词(synonyms)**，故选 D。其余各项分别指同形词、多义、下义词，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 281
+    "id": 316
   },
   {
     "type": "single",
@@ -6920,7 +7951,7 @@
     "explanation": "语义学与语用学的根本区别在于是否考虑**语境(context)**——语用学研究语境中的意义，故选 D。其余选项不是划分二者的根本标准。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 282
+    "id": 317
   },
   {
     "type": "single",
@@ -6948,7 +7979,7 @@
     "explanation": "句子是**语法(grammatical)**概念，可脱离语境孤立研究其意义，故选 B。与之相对，utterance（话语）才是语用概念、须结合语境。A. pragmatic 恰是相反的一端；C/D 非标准表述。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 283
+    "id": 318
   },
   {
     "type": "single",
@@ -6976,7 +8007,7 @@
     "explanation": "交际中实际说出的句子成为**话语(utterance)**，故选 C。A. constative（表述句）、B. directive（指令，言语行为类别）、D. expressive（表情类）都是具体的言语行为/句类，不是\"实际说出的句子\"这一总概念。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 284
+    "id": 319
   },
   {
     "type": "single",
@@ -7004,7 +8035,7 @@
     "explanation": "话语所带来的**效果/后果**是**取效行为(perlocutionary act)**，故选 C。A. locutionary（言内行为）是说出有意义话语本身；B. illocutionary（言外行为）是说话人的意图/用意；D. performative act 非三分行为术语，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 285
+    "id": 320
   },
   {
     "type": "single",
@@ -7032,7 +8063,7 @@
     "explanation": "**语素(morphemes)**是最小的**有意义**语言单位，故选 B。C. phonemes（音位）是最小语音单位但无意义；A. words（词）可再切分为语素；D. sentences（句子）是较大单位，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 286
+    "id": 321
   },
   {
     "type": "single",
@@ -7060,7 +8091,7 @@
     "explanation": "同类言语行为目的相同，区别在于其**力度/强度(strength or force)**，故选 C。（如\"建议\"与\"命令\"目的都是让人做事，但强度不同。）其余选项不是同类内部的区分依据。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 287
+    "id": 322
   },
   {
     "type": "single",
@@ -7088,7 +8119,7 @@
     "explanation": "**索绪尔(Saussure)**被誉为\"现代语言学之父\"，故选 B。Firth、Halliday 属伦敦学派/系统功能语言学；Chomsky 是转换生成语法创始人，均非该称号所指。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 288
+    "id": 323
   },
   {
     "type": "single",
@@ -7116,7 +8147,7 @@
     "explanation": "语言学是对**人类语言总体(languages in general)**的科学研究，故选 C。A/B/D 都局限于某一具体语言，而语言学研究的是语言的普遍规律。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 289
+    "id": 324
   },
   {
     "type": "single",
@@ -7144,7 +8175,7 @@
     "explanation": "[v] 是**浊、唇齿、擦音(voiced, labiodental, fricative)**，三特征全对，故选 D。A/B 的 voiceless 错（[v] 是浊音）；A/C 的 bilabial 及 stop 错（[v] 是唇齿擦音，不是双唇塞音）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 290
+    "id": 325
   },
   {
     "type": "single",
@@ -7172,7 +8203,7 @@
     "explanation": "-ed 表过去时/过去分词，是**屈折语素(inflectional morpheme)**，不改变词类，故选 C。A. derivational 会造新词/改词类；B. free / D. free form 指能独立成词，而词缀是黏着的，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 291
+    "id": 326
   },
   {
     "type": "single",
@@ -7200,7 +8231,7 @@
     "explanation": "\"将要离婚\"以\"曾是已婚\"为**前提(presupposes)**，故选 C。A. entail（蕴含）是逻辑真值推出，此处不成立；B. contradict（矛盾）、D. synonymous（同义）都不符两句关系。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 292
+    "id": 327
   },
   {
     "type": "single",
@@ -7228,7 +8259,7 @@
     "explanation": "研究**语境**如何影响句子理解的是**语用学(pragmatics)**，故选 B。A. semantics（语义学）研究脱离语境的抽象意义；C. sociolinguistics（社会语言学）研究语言与社会；D. psycholinguistics（心理语言学）研究语言的心理机制，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 293
+    "id": 328
   },
   {
     "type": "single",
@@ -7256,7 +8287,7 @@
     "explanation": "与说话人**意图**一致的是**言外行为(illocutionary act)**，也是言语行为理论的研究核心，故选 B。A. locutionary（言内，说出话语本身）；C. perlocutionary（取效，产生的效果）；D. constative act 非三分类术语，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 294
+    "id": 329
   },
   {
     "type": "single",
@@ -7284,7 +8315,7 @@
     "explanation": "取效行为(perlocutionary)是话语产生的**实际效果**——B 去关门，故选 D。A 是言内行为（字面所说）；B/C 是言外行为（说话人的用意/请求），均不是\"效果\"。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 295
+    "id": 330
   },
   {
     "type": "single",
@@ -7312,7 +8343,7 @@
     "explanation": "一个词有多个（相关）意义是**一词多义(polysemy)**，故选 A。B. antonymy（反义）、C. homophony（同音异义）、D. hyponymy（下义）均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 296
+    "id": 331
   },
   {
     "type": "single",
@@ -7340,7 +8371,7 @@
     "explanation": "表达**心理状态**（如高兴、抱歉、感谢）的是**表情类(expressives)**，故选 C。A. representatives（阐述类）陈述命题真假；B. commissives（承诺类）承诺未来行为；D. declaratives（宣告类）以言语改变现实状态，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 297
+    "id": 332
   },
   {
     "type": "single",
@@ -7368,7 +8399,7 @@
     "explanation": "vacant/occupied 非空即占、无中间态，是**互补反义词(complementary antonyms)**，故选 C。A. gradable（等级反义）可比较有程度；B. relational（关系反义）互为前提；D. synonyms（同义）方向全错。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 298
+    "id": 333
   },
   {
     "type": "single",
@@ -7396,7 +8427,7 @@
     "explanation": "能独立成词、不必附着的是**自由语素(free morphemes)**，故选 D。C. bound（黏着语素）必须附着于他词；A/B 是词缀（也是黏着的），均不符\"unattached\"。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 299
+    "id": 334
   },
   {
     "type": "single",
@@ -7424,7 +8455,7 @@
     "explanation": "词=事物名称/标签，是**命名论(naming theory)**，故选 C。（同前）其余理论强调概念、心智或语境，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 300
+    "id": 335
   },
   {
     "type": "single",
@@ -7452,7 +8483,7 @@
     "explanation": "lass 是苏格兰/英格兰北部**方言**用词，与 girl 构成**方言同义词(dialectal synonyms)**，故选 B。A. stylistic（文体同义，如 kid/child/offspring 正式度不同）；C. emotive（情感/评价色彩不同）；D. collocational（搭配不同），均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 301
+    "id": 336
   },
   {
     "type": "single",
@@ -7480,7 +8511,7 @@
     "explanation": "rose 是 flower 的下义词，二者为**下义关系(hyponymy)**，故选 D。A. homonymy（同形异义）、B. antonymy（反义）、C. polysemy（一词多义）均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 302
+    "id": 337
   },
   {
     "type": "single",
@@ -7508,7 +8539,7 @@
     "explanation": "移位(movement)发生**之前**的句法表征是**深层结构(deep structure)**，故选 D。B. surface structure（表层结构）是移位之后的结果；A/C 非该对立术语。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 303
+    "id": 338
   },
   {
     "type": "single",
@@ -7536,7 +8567,7 @@
     "explanation": "Chomsky 用**运用(performance)**指规则知识在交际中的实际实现，故选 D。B. competence（能力）是内在知识本身；A. langue / C. parole 是 Saussure 术语，题干指明是 Chomsky 用语，故不选。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 304
+    "id": 339
   },
   {
     "type": "single",
@@ -7564,7 +8595,7 @@
     "explanation": "**同一个**词有多个意义是**一词多义(polysemy)**，故选 A。D. homonymy 是**不同**词恰好同形（关键区别在\"同一个词\" vs \"不同词\"）；B. hyponymy、C. antonymy 均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 305
+    "id": 340
   },
   {
     "type": "single",
@@ -7592,7 +8623,7 @@
     "explanation": "一天25小时、一周8天客观上**不可能为真**，违反**质的准则(maxim of quality)**（不说假话/无据之言），故选 A。B. quantity（量）、C. relation（关联）、D. manner（方式）针对信息量、相关性、清晰度，均不符此处\"明显失真\"的情形。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 306
+    "id": 341
   },
   {
     "type": "single",
@@ -7620,7 +8651,7 @@
     "explanation": "un-、dis- 加在词前，是**前缀(prefixes)**，故选 A。B. infixes（中缀）在词内；C. suffixes（后缀）在词后；D. grammatical words（语法词）是独立的词而非词缀，均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 307
+    "id": 342
   },
   {
     "type": "single",
@@ -7648,7 +8679,7 @@
     "explanation": "乔姆斯基是**美国(American)**语言学家、转换生成语法创始人，故选 C。其余国籍均错误。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 308
+    "id": 343
   },
   {
     "type": "single",
@@ -7676,7 +8707,7 @@
     "explanation": "命名论由古希腊学者**柏拉图(Plato)**提出，故选 A。B. Ogden & Richards 提出语义三角；C. Firth 主张语境论；D. Bloomfield 代表行为主义意义观，均非命名论提出者。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 309
+    "id": 344
   },
   {
     "type": "single",
@@ -7704,7 +8735,7 @@
     "explanation": "买了玫瑰**逻辑上必然推出**买了花，是**蕴含(entailment)**，故选 A。（rose 是 flower 的下义词，下义句蕴含上义句。）B. presuppose（预设）、C. inconsistent（不相容）、D. synonymous（同义）均不符。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 310
+    "id": 345
   },
   {
     "type": "single",
@@ -7732,7 +8763,7 @@
     "explanation": "随**时间**变化研究语言是**历时(diachronic)**研究，故选 B。与之相对，共时(synchronic)研究某一时间点。A. comparative（比较）、D. descriptive（描写）不是时间维度的对立术语；C. up-to-date 非术语。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 311
+    "id": 346
   },
   {
     "type": "fill",
@@ -7741,7 +8772,7 @@
     "explanation": "语言符号的形式与意义之间无必然逻辑联系，这一设计特征即\"任意性(arbitrariness)\"，故填 arbitrary。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 312
+    "id": 347
   },
   {
     "type": "fill",
@@ -7750,7 +8781,7 @@
     "explanation": "研究\"使用语境中\"意义的分支是语用学；若脱离语境研究抽象意义则是 semantics，此处强调 \"in the context of use\"，故填 pragmatics。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 313
+    "id": 348
   },
   {
     "type": "fill",
@@ -7759,7 +8790,7 @@
     "explanation": "随时间变化描写语言是历时研究，与共时(synchronic)相对，故填 diachronic。（题干末尾的 communication 疑为原文笔误，应为 \"diachronic study\"。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 314
+    "id": 349
   },
   {
     "type": "fill",
@@ -7768,7 +8799,7 @@
     "explanation": "Saussure 区分 langue（语言，抽象系统）与 parole（言语，实际使用）；\"actual use\" 对应 parole，故填 parole。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 315
+    "id": 350
   },
   {
     "type": "fill",
@@ -7777,7 +8808,7 @@
     "explanation": "语音学三分支为发音语音学、听觉语音学、声学语音学，故填 articulatory。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 316
+    "id": 351
   },
   {
     "type": "fill",
@@ -7786,7 +8817,7 @@
     "explanation": "最小的有意义语言单位是语素，故填 Morpheme。（注意与\"最小语音单位\"phoneme 区分。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 317
+    "id": 352
   },
   {
     "type": "fill",
@@ -7795,7 +8826,7 @@
     "explanation": "⚠️ 原答案文档给出的答案是 **Syntax**，但题干\"studies language in social contexts（研究社会语境中的语言）\"描述的其实是 **Sociolinguistics（社会语言学）**，与第19题完全重复。这是原文档的排版错误——第17题的**题干**很可能应为\"研究句子结构/句子成分组合规律\"（对应 Syntax）。**若考句法学定义**，答案为 Syntax；**若严格按印出的题干**，答案应为 Sociolinguistics。建议以老师课堂口径为准。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 318
+    "id": 353
   },
   {
     "type": "fill",
@@ -7804,7 +8835,7 @@
     "explanation": "表\"意义相反\"的术语是 antonymy，故填 Antonymy。（原题印作 \"appositeness\" 系 \"oppositeness\" 的笔误。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 319
+    "id": 354
   },
   {
     "type": "fill",
@@ -7813,7 +8844,7 @@
     "explanation": "研究社会语境中语言的分支是社会语言学，故填 Sociolinguistics。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 320
+    "id": 355
   },
   {
     "type": "fill",
@@ -7822,7 +8853,7 @@
     "explanation": "与说话人性别相关的语言变异称\"性别变体(gender varieties)\"，故填 gender。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 321
+    "id": 356
   },
   {
     "type": "fill",
@@ -7831,7 +8862,7 @@
     "explanation": "研究语言学的人称 linguist，故填 linguist。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 322
+    "id": 357
   },
   {
     "type": "fill",
@@ -7840,7 +8871,7 @@
     "explanation": "研究语素如何组合成词的分支是形态学，故填 morphology。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 323
+    "id": 358
   },
   {
     "type": "fill",
@@ -7849,7 +8880,7 @@
     "explanation": "现代语言学认为口语优先于书面语(primacy of speech)，故填 speech。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 324
+    "id": 359
   },
   {
     "type": "fill",
@@ -7858,7 +8889,7 @@
     "explanation": "辅音按\"发音部位(place)\"和\"发音方式(manner)\"两大标准分类，故填 manner。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 325
+    "id": 360
   },
   {
     "type": "fill",
@@ -7867,7 +8898,7 @@
     "explanation": "脱离语境、抽象地研究意义的分支是语义学，故填 semantics（与研究语境中意义的 pragmatics 相对）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 326
+    "id": 361
   },
   {
     "type": "fill",
@@ -7876,7 +8907,7 @@
     "explanation": "意义与声音之间无逻辑联系的设计特征即任意性，故填 Arbitrariness。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 327
+    "id": 362
   },
   {
     "type": "fill",
@@ -7885,7 +8916,7 @@
     "explanation": "研究构词与词结构的分支是形态学，故填 Morphology。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 328
+    "id": 363
   },
   {
     "type": "fill",
@@ -7894,7 +8925,7 @@
     "explanation": "⚠️ 原答案文档写作 **boy**，但所给语义特征 **+ADULT（成年）、+MALE、-MARRIED（未婚）** 实际对应的是 **bachelor（单身汉）**——boy 应为 **-ADULT（未成年）**，与题中 +ADULT 矛盾。按标准成分分析，特征 [+HUMAN, +ADULT, +MALE, -MARRIED] = **bachelor**。此处原文档特征与答案不一致，建议以老师课件为准（若特征改为 -ADULT 则答案 boy 才成立）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 329
+    "id": 364
   },
   {
     "type": "fill",
@@ -7903,7 +8934,7 @@
     "explanation": "研究语言意义的分支是语义学，故填 Semantics。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 330
+    "id": 365
   },
   {
     "type": "fill",
@@ -7912,7 +8943,7 @@
     "explanation": "取若干词首字母构成新词，原文Key 记作 acronym，故填 acronym。（严格术语中，WTO 逐字母读属 initialism，acronym 指拼读成词者如 NATO；此处按教材/答案口径填 acronym。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 331
+    "id": 366
   },
   {
     "type": "fill",
@@ -7921,7 +8952,7 @@
     "explanation": "言语行为理论由 John Austin 于 1962 年提出，故填 Austin。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 332
+    "id": 367
   },
   {
     "type": "fill",
@@ -7930,7 +8961,7 @@
     "explanation": "从整个社会角度考察语言功能是宏观社会语言学(macro-sociolinguistics)，故填 macro。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 333
+    "id": 368
   },
   {
     "type": "fill",
@@ -7939,7 +8970,7 @@
     "explanation": "个体说话人独有、融合多种变异的个人方言称 idiolect，故填 Idiolect。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 334
+    "id": 369
   },
   {
     "type": "fill",
@@ -7948,7 +8979,7 @@
     "explanation": "合作原则准则被公然违反时产生的言外之意即 Grice 的\"会话含义(conversational implicature)\"，故填 implicature。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 335
+    "id": 370
   },
   {
     "type": "fill",
@@ -7957,7 +8988,7 @@
     "explanation": "与\"使用者\"相关的语言变体是方言(dialects)；与\"使用场合/用途\"相关的则是语域(register)，故填 Dialects。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 336
+    "id": 371
   },
   {
     "type": "fill",
@@ -7966,7 +8997,7 @@
     "explanation": "对某一时间点的语言进行描写是共时研究，与历时(diachronic)相对，故填 synchronic。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 337
+    "id": 372
   },
   {
     "type": "fill",
@@ -7975,7 +9006,7 @@
     "explanation": "随语境变化的是\"话语意义(utterance meaning)\"，故填 utterance（与固定的 sentence meaning 相对）。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 338
+    "id": 373
   },
   {
     "type": "fill",
@@ -7984,7 +9015,7 @@
     "explanation": "研究构词与词结构的分支是形态学，故填 morphology。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 339
+    "id": 374
   },
   {
     "type": "fill",
@@ -7993,7 +9024,7 @@
     "explanation": "话语意义建立在**句子意义(sentence meaning)**之上，是抽象句义在真实语境中的实现，故填 sentence + meaning。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 340
+    "id": 375
   },
   {
     "type": "fill",
@@ -8002,7 +9033,7 @@
     "explanation": "下义关系中意义较**概括/一般**的词是上义词(superordinate)，较具体的是下义词(hyponym)，故填 superordinate。（原文Key 印作 \"superodinate\" 为拼写笔误。）",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 341
+    "id": 376
   },
   {
     "type": "truefalse",
@@ -8012,7 +9043,7 @@
     "explanation": "英语是**语调语言(intonation language)**，靠句子语调区别意义；**声调语言(tone language)**（如汉语）才靠字/音节声调区别词义。英语不是声调语言，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 342
+    "id": 377
   },
   {
     "type": "truefalse",
@@ -8022,7 +9053,7 @@
     "explanation": "研究\"句型/句子结构\"的是**句法学(syntax)**；**音系学(phonology)**研究的是语言的**语音系统/音位如何组织**。定义张冠李戴，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 343
+    "id": 378
   },
   {
     "type": "truefalse",
@@ -8032,7 +9063,7 @@
     "explanation": "individual speaker 独有、综合地域/社会/文体等变异的个人方言正是 idiolect 的定义，表述正确，故为 T。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 344
+    "id": 379
   },
   {
     "type": "truefalse",
@@ -8042,7 +9073,7 @@
     "explanation": "英语史通常分为**三个**时期：古英语(Old English)、中古英语(Middle English)、现代英语(Modern English)。此处漏掉 Middle English，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 345
+    "id": 380
   },
   {
     "type": "truefalse",
@@ -8052,7 +9083,7 @@
     "explanation": "\"由说话所产生的效果/后果\"是**取效行为(perlocutionary act)**的定义；**言内行为(locutionary act)**指说出有意义话语这一行为本身。定义错配，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 346
+    "id": 381
   },
   {
     "type": "truefalse",
@@ -8062,7 +9093,7 @@
     "explanation": "谓词分析中，动词 beat 为谓词(predicate)，man 与 dog 为论元(arguments)，表述正确，故为 T。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 347
+    "id": 382
   },
   {
     "type": "truefalse",
@@ -8072,7 +9103,7 @@
     "explanation": "[f] 是**唇齿音(labiodental)**（上齿+下唇），不是**齿音(dental)**（如 [θ]，舌尖抵齿）。发音部位错误，故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 348
+    "id": 383
   },
   {
     "type": "truefalse",
@@ -8082,6 +9113,6 @@
     "explanation": "字母符号**加上附加符号(diacritics)**的标音是**严式标音(narrow transcription)**；**宽式标音(broad transcription)**只用字母符号、不加附加符号。故为 F。",
     "subject": "语言学",
     "source": "语言学_题目解析",
-    "id": 349
+    "id": 384
   }
 ]

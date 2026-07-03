@@ -9,6 +9,9 @@
     "英2": "英国文学 · 文艺复兴至新古典主义",
     "英3": "英国文学 · 启蒙运动时期",
     "英4": "英国文学 · 浪漫主义时期",
+    "美1": "美国文学 · 殖民地至独立革命时期",
+    "美2": "美国文学 · 浪漫主义时期",
+    "美3": "美国文学 · 现实主义至现代主义时期",
   };
   const TYPE_LABELS = { single: "单选题", truefalse: "判断题", fill: "填空题", matching: "匹配题" };
   const TYPE_ORDER = ["single", "truefalse", "fill", "matching"];
