@@ -327,16 +327,76 @@ def parse_asterisk_style(text):
 
 
 # ---------------------------------------------------------------------------
+# Matching tables: two-column markdown tables ("| left | LETTER. right |")
+# used for 连线题-style questions, e.g. docs/英美文学/*.md.
+# ---------------------------------------------------------------------------
+
+RIGHT_LETTER_RE = re.compile(r"^([A-Za-z])\.\s*(.+)$")
+
+
+def is_separator_row(line):
+    cells = [c.strip() for c in line.strip().strip("|").split("|")]
+    return bool(cells) and all(re.fullmatch(r"-+", c) for c in cells)
+
+
+def parse_matching_tables(text):
+    lines = text.split("\n")
+    blocks = []
+    i, n = 0, len(lines)
+    while i < n:
+        if lines[i].strip().startswith("|") and lines[i].strip().endswith("|"):
+            block = []
+            while i < n and lines[i].strip().startswith("|") and lines[i].strip().endswith("|"):
+                block.append(lines[i])
+                i += 1
+            blocks.append(block)
+        else:
+            i += 1
+
+    questions = []
+    for block in blocks:
+        if len(block) < 3 or not is_separator_row(block[1]):
+            continue
+        left_texts, row_letters, pairs_by_letter = [], [], {}
+        for row in block[2:]:
+            cells = [c.strip() for c in row.strip().strip("|").split("|")]
+            if len(cells) < 2:
+                continue
+            m = RIGHT_LETTER_RE.match(cells[1])
+            if not m:
+                continue
+            letter = m.group(1).upper()
+            left_texts.append(clean(cells[0]))
+            row_letters.append(letter)
+            pairs_by_letter[letter] = clean(m.group(2))
+        if not left_texts:
+            continue
+        sorted_letters = sorted(pairs_by_letter.keys())
+        right_texts = [pairs_by_letter[l] for l in sorted_letters]
+        letter_to_idx = {l: idx for idx, l in enumerate(sorted_letters)}
+        questions.append({
+            "type": "matching",
+            "question": "连线题：将左侧与右侧的对应项匹配。",
+            "left": left_texts, "right": right_texts,
+            "pairs": [letter_to_idx[l] for l in row_letters],
+            "answerLabel": "", "explanation": "",
+        })
+    return questions
+
+
+# ---------------------------------------------------------------------------
 
 def parse_file(path):
     text = path.read_text(encoding="utf-8")
     if is_finance_style(text):
-        return parse_finance_style(text)
-    if is_asterisk_style(text):
-        return parse_asterisk_style(text)
-    if is_numbered_style(text):
-        return parse_numbered_style(text)
-    return []
+        questions = parse_finance_style(text)
+    elif is_asterisk_style(text):
+        questions = parse_asterisk_style(text)
+    elif is_numbered_style(text):
+        questions = parse_numbered_style(text)
+    else:
+        questions = []
+    return questions + parse_matching_tables(text)
 
 
 def main():

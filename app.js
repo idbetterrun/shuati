@@ -5,6 +5,10 @@
     "国际金融选择题三": "国际收支选择题",
     "语言学_题目解析": "Exercise 1-3",
     "德语选择题": "德语单选题练习",
+    "英1": "英国文学 · 中古英语时期",
+    "英2": "英国文学 · 文艺复兴至新古典主义",
+    "英3": "英国文学 · 启蒙运动时期",
+    "英4": "英国文学 · 浪漫主义时期",
   };
   const TYPE_LABELS = { single: "单选题", truefalse: "判断题", fill: "填空题", matching: "匹配题" };
   const TYPE_ORDER = ["single", "truefalse", "fill", "matching"];
