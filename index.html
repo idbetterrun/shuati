@@ -107,6 +107,20 @@
 
   </main>
 
+  <!-- 隐藏题库解锁弹窗 -->
+  <div id="secret-modal" class="secret-modal hidden">
+    <div class="secret-dialog">
+      <div class="secret-emoji">🥘</div>
+      <p class="secret-hint">输入暗号解锁隐藏题库</p>
+      <input id="secret-input" class="secret-input" type="text" autocomplete="off" spellcheck="false">
+      <p id="secret-error" class="secret-error hidden">暗号不对，再想想？</p>
+      <div class="secret-actions">
+        <button id="secret-cancel-btn" class="secondary-btn">取消</button>
+        <button id="secret-confirm-btn" class="primary-btn">确认</button>
+      </div>
+    </div>
+  </div>
+
   <footer class="app-footer">
     <p>作者：idbetterrun · <a href="https://tanqinghua.asia" target="_blank" rel="noopener">tanqinghua.asia</a></p>
     <p>© 2026 tanqinghua. 保留所有权利。<span class="warn">免费分享，禁止二次转卖盈利。</span></p>

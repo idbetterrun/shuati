@@ -531,6 +531,75 @@ html, body {
 }
 .result-actions button { flex: 1; }
 
+/* Secret unlock modal */
+.secret-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(51, 41, 30, 0.42);
+  backdrop-filter: blur(2px);
+}
+
+.secret-dialog {
+  width: 100%;
+  max-width: 340px;
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 48px -16px rgba(51, 41, 30, 0.35);
+  padding: 28px 24px 24px;
+  text-align: center;
+  animation: secret-pop 0.18s ease;
+}
+
+@keyframes secret-pop {
+  from { transform: scale(0.94); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.secret-emoji {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.secret-hint {
+  margin: 0 0 16px;
+  font-size: 13.5px;
+  color: var(--ink-dim);
+}
+
+.secret-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-size: 15px;
+  text-align: center;
+  color: var(--ink);
+  background: var(--surface-2);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+.secret-input:focus { border-color: var(--accent); }
+
+.secret-error {
+  margin: 10px 0 0;
+  font-size: 12.5px;
+  color: var(--bad);
+}
+
+.secret-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+.secret-actions button { flex: 1; padding: 12px 16px; font-size: 14px; }
+
 /* Footer */
 .app-footer {
   position: relative;

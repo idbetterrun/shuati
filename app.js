@@ -12,6 +12,7 @@
     "美1": "美国文学 · 殖民地至独立革命时期",
     "美2": "美国文学 · 浪漫主义时期",
     "美3": "美国文学 · 现实主义至现代主义时期",
+    "吃点": "吃点",
   };
   const TYPE_LABELS = { single: "单选题", truefalse: "判断题", fill: "填空题", matching: "匹配题" };
   const TYPE_ORDER = ["single", "truefalse", "fill", "matching"];
@@ -21,6 +22,31 @@
     "英美文学": "📖",
     "语言学": "🗣️",
   };
+
+  // Hidden question bank: only revealed once the secret phrase is entered
+  // via the easter-egg dialog triggered from the 德语 breadcrumb.
+  const SECRET_SOURCE = "吃点";
+  const SECRET_PHRASE = "胖婆捆鸭";
+  const UNLOCK_STORAGE_KEY = "shua-unlocked-sources";
+
+  function getUnlockedSources() {
+    try {
+      return new Set(JSON.parse(localStorage.getItem(UNLOCK_STORAGE_KEY) || "[]"));
+    } catch {
+      return new Set();
+    }
+  }
+  function unlockSource(source) {
+    const unlocked = getUnlockedSources();
+    unlocked.add(source);
+    localStorage.setItem(UNLOCK_STORAGE_KEY, JSON.stringify([...unlocked]));
+  }
+  function isSourceUnlocked(source) {
+    return source !== SECRET_SOURCE || getUnlockedSources().has(SECRET_SOURCE);
+  }
+  function visibleQuestions() {
+    return ALL_QUESTIONS.filter((q) => isSourceUnlocked(q.source));
+  }
 
   let ALL_QUESTIONS = [];
   let queue = [];
@@ -76,10 +102,11 @@
   }
 
   function buildHomeList() {
-    const subjects = [...new Set(ALL_QUESTIONS.map((q) => q.subject))];
+    const visible = visibleQuestions();
+    const subjects = [...new Set(visible.map((q) => q.subject))];
     const listWrap = el("subject-list");
     listWrap.innerHTML = subjects.map((s) => {
-      const count = ALL_QUESTIONS.filter((q) => q.subject === s).length;
+      const count = visible.filter((q) => q.subject === s).length;
       return `
         <button class="subject-item" role="listitem" data-subject="${s}">
           <span class="subject-icon">${SUBJECT_ICONS[s] || "📚"}</span>
@@ -99,16 +126,20 @@
 
   function openSubject(subject) {
     currentSubject = subject;
-    const count = ALL_QUESTIONS.filter((q) => q.subject === subject).length;
     el("subject-title").textContent = subject;
-    el("subject-count").textContent = `共 ${count} 题`;
+    refreshSubjectCount();
     buildDependentOptions();
     show(subjectScreen);
   }
 
+  function refreshSubjectCount() {
+    const count = visibleQuestions().filter((q) => q.subject === currentSubject).length;
+    el("subject-count").textContent = `共 ${count} 题`;
+  }
+
   function buildDependentOptions() {
     const subject = getSelectedSubject();
-    const inSubject = ALL_QUESTIONS.filter((q) => q.subject === subject);
+    const inSubject = visibleQuestions().filter((q) => q.subject === subject);
 
     const sources = [...new Set(inSubject.map((q) => q.source))];
     el("source-options").innerHTML = sources.map((s) => `
@@ -136,7 +167,7 @@
     const subject = getSelectedSubject();
     const sources = getSelectedSources();
     const types = getSelectedTypes();
-    return ALL_QUESTIONS.filter(
+    return visibleQuestions().filter(
       (q) => q.subject === subject && sources.includes(q.source) && types.includes(q.type)
     );
   }
@@ -410,6 +441,55 @@
     el("back-to-home-btn").addEventListener("click", () => show(homeScreen));
 
     el("brand-home-link").addEventListener("click", () => show(homeScreen));
+
+    initSecretModal();
+  }
+
+  function initSecretModal() {
+    const modal = el("secret-modal");
+    const input = el("secret-input");
+    const errorMsg = el("secret-error");
+
+    function openModal() {
+      errorMsg.classList.add("hidden");
+      input.value = "";
+      modal.classList.remove("hidden");
+      setTimeout(() => input.focus(), 30);
+    }
+    function closeModal() {
+      modal.classList.add("hidden");
+    }
+    function attemptUnlock() {
+      if (input.value.trim() === SECRET_PHRASE) {
+        unlockSource(SECRET_SOURCE);
+        closeModal();
+        if (currentSubject === "德语") {
+          refreshSubjectCount();
+          buildDependentOptions();
+        }
+        buildHomeList();
+      } else {
+        errorMsg.classList.remove("hidden");
+        input.value = "";
+        input.focus();
+      }
+    }
+
+    el("crumb").addEventListener("click", () => {
+      if (!subjectScreen.classList.contains("hidden") && currentSubject === "德语") {
+        openModal();
+      }
+    });
+
+    el("secret-cancel-btn").addEventListener("click", closeModal);
+    el("secret-confirm-btn").addEventListener("click", attemptUnlock);
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) closeModal();
+    });
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") attemptUnlock();
+      if (e.key === "Escape") closeModal();
+    });
   }
 
   init();
